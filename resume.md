@@ -30,8 +30,6 @@ _B.S. Integrated Digital Media_
 
 May 2019
 
-<br>
-
 -----------------------------
 ## Work Experience
 **Improove Inc.** \| New York, NY \| Jul 2019 - Jul 2021
@@ -68,15 +66,11 @@ _Digital Marketing Intern_
 
 • Assisted with product tests of handheld i-STAT blood analyzers and cartridges, supporting early release of products.
 
-<br>
-
 -----------------------------
 ## Technical Skills
 **Programming Languages:** Python, SQL, R
 
 **Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office, LaTeX
-
-<br>
 
 -----------------------------
 ## Additional
