@@ -10,3 +10,7 @@ A collection of personal projects to familiarize myself with everyday tasks of d
 <br>
 
 • [Python pandas Challenge](https://xyjiang970.github.io/portfolio_site/projects/pandas_project_challenge/pandas.html)
+
+<br>
+
+![projects_img](/projects_img.png)
