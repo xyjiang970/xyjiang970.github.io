@@ -7,4 +7,6 @@ permalink: /projects/
 # Projects
 A collection of personal projects to familiarize myself with everyday tasks of data analysts.
 
+<br>
+
 • [Python pandas Challenge](https://xyjiang970.github.io/portfolio_site/projects/pandas_project_challenge/pandas.html)
