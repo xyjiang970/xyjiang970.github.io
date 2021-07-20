@@ -17,4 +17,4 @@ These are a series of mini-projects allowing me to grow my skills in using the p
 
 <br>
 
-
+![pandas_img](../../projects/pandas_project_challenge/pandas_img.png)
