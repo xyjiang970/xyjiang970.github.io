@@ -11,11 +11,11 @@ Link to PDF version **[available here](/jason_resume.pdf){:target="_blank"}**.
 
 <br>
 
-Jump to section: [Education](##Education) \| [Work Experience](##Work Experience) \| [Technical Skills](##Technical Skills) \| [Additional Information](##Additional Information)
+Jump to section: [Education](#education) \| [Work Experience](#work-experience)
 
 <br>
 
-## Education
+## [Education](#education)
 **Zicklin School of Business \| Baruch College**
 
 New York, NY
@@ -35,7 +35,7 @@ _B.S. Integrated Digital Media_
 May 2019
 
 -----------------------------
-## Work Experience
+## [Work Experience](#work-experience)
 **Improove Inc.** \| New York, NY \| Jul 2019 - Jul 2021
 
 _Junior Project Associate_
