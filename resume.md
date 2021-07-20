@@ -25,6 +25,9 @@ Brooklyn, NY
 _B.S. Integrated Digital Media_
 
 May 2019
+
+<br>
+
 -----------------------------
 ## Work Experience
 
