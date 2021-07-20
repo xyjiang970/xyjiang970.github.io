@@ -33,5 +33,9 @@ These are a series of mini-projects allowing me to grow my skills in using the p
 
 <br>
 
+[<--- Back](https://xyjiang970.github.io/portfolio/projects/) to projects page
+
+<br>
+
 ![pandas_logo](../../projects/pandas_project_challenge/pandas_logo.png)
 
