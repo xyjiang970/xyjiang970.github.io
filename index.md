@@ -12,3 +12,7 @@ Hi I'm XinYu (Jason) Jiang, an aspiring data analyst that prepares, processes, a
 <br>
 
 [Projects](/projects/projects_home.md)
+
+<br>
+
+![homepage_image](https://banner2.cleanpng.com/20180530/clg/kisspng-data-science-business-analytics-big-data-network-data-5b0f12a177f504.8544074915277144654914.jpg)
