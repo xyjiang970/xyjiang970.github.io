@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 **[Home](https://xyjiang970.github.io/portfolio_site/)** >> Projects
 # Projects

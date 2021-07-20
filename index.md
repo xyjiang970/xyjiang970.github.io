@@ -13,7 +13,7 @@ Hi I'm XinYu (Jason) Jiang, an aspiring data analyst that prepares, processes, a
 
 [Resume (PDF)](/jason_resume.pdf){:target="_blank"}
 
-
+------------------------------------------------
 ## Education
 **Zicklin School of Business \| Baruch College**
 
