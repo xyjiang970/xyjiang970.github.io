@@ -1,3 +1,6 @@
+---
+layout: page
+---
 **[Home](https://xyjiang970.github.io/portfolio_site/)** >> **[Projects](https://xyjiang970.github.io/portfolio_site/projects/projects_home.html)** >> Python pandas Challenge
 
 # Python pandas Challenge
