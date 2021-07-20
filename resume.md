@@ -11,9 +11,9 @@ Link to PDF version **[available here](/jason_resume.pdf){:target="_blank"}**.
 
 <br>
 
-Jump to section: [Education](#education) \| [Work Experience](#work-experience) \| [Technical Skills](#technical-skills) \| [Additional Info](#additional)
+Jump to section: [Education](#education) \| [Work Experience](#work-experience) \| [Technical Skills](#technical-skills) \| [Additional Info](#additional-information)
 
-For projects please refer to the [projects page here](/portfolio/projects/).
+For projects please refer to the **[projects page here](/portfolio/projects/)**.
 
 <br>
 
@@ -79,7 +79,7 @@ _Digital Marketing Intern_
 **Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office, LaTeX
 
 -----------------------------
-## [Additional Information](#additional)
+## [Additional Information](#additional-information)
 **Languages:** English, Conversational Mandarin
 
 **Interest & Hobbies:** Powerlifting, Photography
