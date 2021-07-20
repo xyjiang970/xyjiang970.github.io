@@ -11,6 +11,8 @@ A collection of personal projects to familiarize myself with everyday tasks of d
 
 • [Python pandas Challenge](https://xyjiang970.github.io/portfolio/projects/pandas_project_challenge/pandas.html)
 
+• [Google Data Analytics Capstone](#)
+
 <br>
 
 <!-- ![projects_image](../projects/projects_image.png) -->
