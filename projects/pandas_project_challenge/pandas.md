@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-**[Home](https://xyjiang970.github.io/portfolio_site/)** >> **[Projects](https://xyjiang970.github.io/portfolio_site/projects/projects_home.md)** >> Python pandas Challenge
+**[Home](https://xyjiang970.github.io/portfolio_site/)** >> **[Projects](https://xyjiang970.github.io/portfolio_site/projects/)** >> Python pandas Challenge
 
 # Python pandas Challenge
 
