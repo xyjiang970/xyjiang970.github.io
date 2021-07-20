@@ -11,6 +11,10 @@ Link to PDF version **[available here](/jason_resume.pdf){:target="_blank"}**.
 
 <br>
 
+Jump to section: [Education](## Education) | [Work Experience](## Work Experience) | [Technical Skills](## Technical Skills) | [Additional Information](## Additional Information)
+
+<br>
+
 ## Education
 **Zicklin School of Business \| Baruch College**
 
