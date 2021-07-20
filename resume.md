@@ -12,6 +12,7 @@ Link to PDF version **[available here](/jason_resume.pdf){:target="_blank"}**.
 <br>
 
 Jump to section: [Education](#education) \| [Work Experience](#work-experience) \| [Technical Skills](#technical-skills) \| [Additional Info](##additional-info)
+
 For projects please refer to the [projects page here](/projects_home.md).
 
 <br>
