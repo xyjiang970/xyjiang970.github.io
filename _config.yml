@@ -13,7 +13,7 @@ show_excerpts: true # set to true to show excerpts on the homepage
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
-  skin: dark
+  skin: classic
 
   # generate social links in footer
   social_links:
@@ -23,7 +23,7 @@ minima:
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
-    # instagram: jekyll
+    instagram: xy_jason.j
     linkedin: xyjiang
     # pinterest: jekyll
     # youtube: jekyll
@@ -51,8 +51,8 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
   # - about.md
-  - /jason_resume.
-  - /projects/projects_home.md
+  /jason_resume.
+  /projects/projects_home.md
 
 # Build settings
 theme: minima

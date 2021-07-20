@@ -17,9 +17,8 @@ Hi I'm XinYu (Jason) Jiang, an aspiring data analyst that prepares, processes, a
 
 [LinkedIn](https://www.linkedin.com/in/xyjiang/){:target="_blank"} \| Reach me at: [xyjiang970@gmail.com](mailto:xyjiang970@gmail.com)
 
-------------------------------------------------------------------
-
 ## Education
+--------------------
 **Zicklin School of Business \| Baruch College**
 
 New York, NY
