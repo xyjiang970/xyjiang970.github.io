@@ -11,4 +11,4 @@ Hi I'm XinYu (Jason) Jiang, an aspiring data analyst that prepares, processes, a
 
 <br>
 
-![homepage_image](/homepage_image.png)
+![homepage_image](/homepage_img2.png)
