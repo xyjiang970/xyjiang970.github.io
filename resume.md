@@ -16,6 +16,7 @@ _M.S. Information Systems, Data Analytics_
 
 Expected Graduation: 2023
 
+<br>
 
 **NYU Tandon School of Engineering**
 
