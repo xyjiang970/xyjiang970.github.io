@@ -11,7 +11,8 @@ Link to PDF version **[available here](/jason_resume.pdf){:target="_blank"}**.
 
 <br>
 
-Jump to section: [Education](#education) \| [Work Experience](#work-experience)
+Jump to section: [Education](#education) \| [Work Experience](#work-experience) \| [Technical Skills](#technical-skills) \| [Additional Info](##additional-info)
+For projects please refer to the [projects page here](/projects_home.md).
 
 <br>
 
@@ -71,13 +72,13 @@ _Digital Marketing Intern_
 • Assisted with product tests of handheld i-STAT blood analyzers and cartridges, supporting early release of products.
 
 -----------------------------
-## Technical Skills
+## [Technical Skills](#technical-skills)
 **Programming Languages:** Python, SQL, R
 
 **Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office, LaTeX
 
 -----------------------------
-## Additional Information
+## [Additional Information](##additional-info)
 **Languages:** English, Conversational Mandarin
 
 **Interest & Hobbies:** Powerlifting, Photography
