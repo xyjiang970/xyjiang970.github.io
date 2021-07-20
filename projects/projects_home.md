@@ -14,4 +14,4 @@ A collection of personal projects to familiarize myself with everyday tasks of d
 <br>
 
 <!-- ![projects_image](../projects/projects_image.png) -->
-<img src="../projects/projects_image.png" alt="projects_image" width=350 align=center>
+<img src="../projects/projects_image.png" alt="projects_image" width=400 align=center>
