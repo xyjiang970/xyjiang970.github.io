@@ -77,3 +77,7 @@ _Digital Marketing Intern_
 **Languages:** English, Conversational Mandarin
 
 **Interest & Hobbies:** Powerlifting, Photography
+
+<br>
+
+<img src="/portfolio/pretty.png" alt="pretty" align=center>
