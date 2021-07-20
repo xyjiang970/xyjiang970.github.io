@@ -7,7 +7,7 @@ permalink: /resume/
 
 <br>
 
-Link to PDF version [available here](/jason_resume.pdf){:target="_blank"}.
+Link to PDF version **[available here](/jason_resume.pdf){:target="_blank"}**.
 
 <br>
 
