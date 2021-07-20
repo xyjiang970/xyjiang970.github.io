@@ -64,9 +64,11 @@ main {
  * Images
  */
 img {
+  display: block;
   max-width: 100%;
 //   vertical-align: middle;
-  align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
