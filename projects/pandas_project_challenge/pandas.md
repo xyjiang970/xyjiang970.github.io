@@ -33,7 +33,7 @@ These are a series of mini-projects allowing me to grow my skills in using the p
 
 <br>
 
-[<--- Back](https://xyjiang970.github.io/portfolio/projects/) to projects page
+**[<--- Back](https://xyjiang970.github.io/portfolio/projects/)** to projects page
 
 <br>
 
