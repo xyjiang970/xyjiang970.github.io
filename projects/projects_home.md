@@ -13,4 +13,4 @@ A collection of personal projects to familiarize myself with everyday tasks of d
 
 <br>
 
-![projects_img](../projects_img.png)
+![projects_img](/projects/projects_img.png)
