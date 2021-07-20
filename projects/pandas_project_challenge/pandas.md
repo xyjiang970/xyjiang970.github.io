@@ -14,3 +14,5 @@ These are a series of mini-projects allowing me to grow my skills in using the p
 • [Data Cleaning - Tidying Up Messy Datasets (Movies Dataset)](#)
 
 • [Merging, Cleaning, and Transforming Data (Movies Dataset)](#)
+
+![pandas_img](../projects/pandas_project_challenge/pandas_img.png)
