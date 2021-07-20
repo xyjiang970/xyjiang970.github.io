@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Projects
+permalink: /projects/
 ---
 **[Home](https://xyjiang970.github.io/portfolio_site/)** >> Projects
 # Projects
