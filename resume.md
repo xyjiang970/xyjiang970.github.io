@@ -73,7 +73,7 @@ _Digital Marketing Intern_
 **Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office, LaTeX
 
 -----------------------------
-## Additional
+## Additional Information
 **Languages:** English, Conversational Mandarin
 
 **Interest & Hobbies:** Powerlifting, Photography
