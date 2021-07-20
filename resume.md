@@ -72,13 +72,14 @@ _Digital Marketing Intern_
 
 -----------------------------
 ## Technical Skills
-Programming Languages: Python, SQL, R
+**Programming Languages:** Python, SQL, R
 
-Software: Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office, LaTeX
+**Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office, LaTeX
 
 <br>
 
 -----------------------------
 ## Additional
-Languages: English, Conversational Mandarin
-Interest & Hobbies: Powerlifting, Photography
+**Languages:** English, Conversational Mandarin
+
+**Interest & Hobbies:** Powerlifting, Photography
