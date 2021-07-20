@@ -7,6 +7,8 @@ permalink: /resume/
 
 Link to PDF version of resume [available here](/jason_resume.pdf){:target="_blank"}.
 
+<br>
+
 ## Education
 **Zicklin School of Business \| Baruch College**
 
