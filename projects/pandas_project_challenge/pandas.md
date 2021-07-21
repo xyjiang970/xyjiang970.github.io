@@ -5,7 +5,7 @@ layout: default
 
 # Python pandas Challenge
 
-These are a series of mini-projects allowing me to grow my skills in using the pandas software library. Every week I challenged myself with one data handling task (whether it be web scraping, cleaning, visualizing, etc) to sharpen my proficiency in that area.
+These are a series of mini-projects allowing me to grow my skills in using the pandas software library. Every week, I challenged myself with one data handling task (whether it be web scraping, cleaning, visualizing, etc) to sharpen my proficiency in that area.
 
 <br>
 
