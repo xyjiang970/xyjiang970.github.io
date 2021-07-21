@@ -3,7 +3,6 @@ layout: default
 title: Resume
 permalink: /resume/
 description: My experiences and resume, 'nuff said.
-robots: noindex, noarchive
 ---
 **[Home](https://xyjiang970.github.io)** >> Resume
 
