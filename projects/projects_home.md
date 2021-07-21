@@ -9,7 +9,7 @@ A collection of personal projects to familiarize myself with everyday tasks of d
 
 <br>
 
-• [Python pandas Challenge](https://xyjiang970.github.io/projects/pandas_project_challenge/pandas.html)
+• [Python pandas Challenge](https://xyjiang970.github.io/projects/python-pandas-challenge/)
 
 • [Google Data Analytics Capstone](#)
 
