@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Python pandas
 permalink: python-pandas-challenge
 ---
 **[Home](https://xyjiang970.github.io)** >> **[Projects](https://xyjiang970.github.io/projects/)** >> Python pandas Challenge
