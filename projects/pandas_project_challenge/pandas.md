@@ -37,5 +37,4 @@ These are a series of mini-projects allowing me to grow my skills in using the p
 
 <br>
 
-![pandas_logo](../../pandas_project_challenge/pandas_logo.png)
-
+<img src="https://github.com/xyjiang970/xyjiang970.github.io/blob/projects/pandas_project_challenge/pandas_logo.png" alt="pandas_logo">
