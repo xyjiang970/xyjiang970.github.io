@@ -8,7 +8,7 @@ description: My experiences and resume, 'nuff said.
 
 <br>
 
-Link to PDF version **[available here](/jason_resume.pdf){:target="_blank"}**.
+Link to PDF version **[available here](/resume/jason_resume.pdf){:target="_blank"}**.
 
 <br>
 
@@ -87,4 +87,4 @@ _Digital Marketing Intern_
 
 <br>
 
-<img src="/images/pretty.png" alt="pretty">
+<img src="/pretty.png" alt="pretty">
