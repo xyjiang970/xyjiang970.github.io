@@ -7,4 +7,6 @@ Hi I'm XinYu (Jason) Jiang, an aspiring data analyst that prepares, processes, a
 
 <br>
 
+<br>
+
 <img src="/images/homepage_img.png" alt="homepage_img">
