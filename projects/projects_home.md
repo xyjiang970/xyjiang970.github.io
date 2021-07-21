@@ -3,13 +3,13 @@ layout: default
 title: Projects
 permalink: /projects/
 ---
-**[Home](https://xyjiang970.github.io/portfolio/)** >> Projects
+**[Home](https://xyjiang970.github.io/)** >> Projects
 # Projects
 A collection of personal projects to familiarize myself with everyday tasks of data analysts.
 
 <br>
 
-• [Python pandas Challenge](https://xyjiang970.github.io/portfolio/projects/pandas_project_challenge/pandas.html)
+• [Python pandas Challenge](https://xyjiang970.github.io/projects/pandas_project_challenge/pandas.html)
 
 • [Google Data Analytics Capstone](#)
 
