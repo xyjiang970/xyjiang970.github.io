@@ -16,4 +16,4 @@ A collection of personal projects to familiarize myself with everyday tasks of d
 <br>
 
 
-<img src="/projects_page_image.png" alt="projects_page_image">
+<img src="/projects/projects_page_image.png" alt="projects_page_image">
