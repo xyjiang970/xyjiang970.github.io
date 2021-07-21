@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /projects/python-pandas-challenge/
+title: Python pandas
+description: A series of mini-projects allowing me to grow my skills in using the pandas software library.
 ---
 **[Home](https://xyjiang970.github.io)** >> **[Projects](https://xyjiang970.github.io/projects/)** >> Python pandas Challenge
 
