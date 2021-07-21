@@ -87,4 +87,4 @@ _Digital Marketing Intern_
 
 <br>
 
-<img src="/pretty.png" alt="pretty">
+<img src="/images/pretty.png" alt="pretty">
