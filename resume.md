@@ -3,7 +3,7 @@ layout: default
 title: Resume
 permalink: /resume/
 ---
-**[Home](https://xyjiang970.github.io/portfolio/)** >> Resume
+**[Home](https://xyjiang970.github.io)** >> Resume
 
 <br>
 
@@ -13,7 +13,7 @@ Link to PDF version **[available here](/jason_resume.pdf){:target="_blank"}**.
 
 Jump to section: [Education](#education) \| [Work Experience](#work-experience) \| [Technical Skills](#technical-skills) \| [Additional Info](#additional-information)
 
-For projects please refer to the **[projects page here](/portfolio/projects/)**.
+For projects please refer to the **[projects page here](/projects/)**.
 
 <br>
 
