@@ -45,7 +45,7 @@ _Junior Project Associate_
 
 • Advised on technical audits of client sites, improving average page speed of each site by at least 10%.
 
-• Assisted in building automated page speed measurement in Google Sheets, reducing time spent on manual work by 40.
+• Assisted in building page speed measurement tool in Google Sheets, tracking Google Core Web Vitals automatically.
 
 • Built real-time reports in Google Data Studio with Account Managers, decreasing time spent on monthly reports.
 
