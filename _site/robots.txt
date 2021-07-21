@@ -1,0 +1,21 @@
+User-agent: Bingbot
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: *
+Disallow: /resume
+Disallow: /*.pdf$
+
+User-agent: Googlebot-Image
+Disallow: /
