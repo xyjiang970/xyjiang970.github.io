@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-**[Home](https://xyjiang970.github.io/portfolio/)** >> **[Projects](https://xyjiang970.github.io/portfolio/projects/)** >> Python pandas Challenge
+**[Home](https://xyjiang970.github.io)** >> **[Projects](https://xyjiang970.github.io/portfolio/projects/)** >> Python pandas Challenge
 
 # Python pandas Challenge
 
@@ -37,5 +37,5 @@ These are a series of mini-projects allowing me to grow my skills in using the p
 
 <br>
 
-![pandas_logo](../../projects/pandas_project_challenge/pandas_logo.png)
+![pandas_logo](../../pandas_project_challenge/pandas_logo.png)
 
