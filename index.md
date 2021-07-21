@@ -5,6 +5,8 @@ description: Welcome to my portfolio website!
 ---
 Hi I'm XinYu (Jason) Jiang, an aspiring data analyst that prepares, processes, and analyzes data to help inform business decisions and save costs. I work to effectively turn business questions into data analysis, and provide meaningful recommendations on strategy.
 
+Check out what I'm working on **[here](/projects/)**.
+
 <br>
 
 <br>
