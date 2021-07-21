@@ -49,9 +49,10 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - /jason_resume.pdf
-# - /projects/projects_home.html
+header_pages:
+  - /projects/
+  - /resume/
+
 # - about.md
 
 # Build settings
