@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /resume/
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
