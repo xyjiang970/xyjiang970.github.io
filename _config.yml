@@ -73,3 +73,18 @@ defaults:
       path:            "assets/**/*.pdf"
     values:
       sitemap:         false
+  -
+    scope:
+      path:            "assets/"
+    values:
+      sitemap:         false
+  -
+    scope:
+      path:            "404.html"
+    values:
+      sitemap:         false
+  -
+      scope:
+        path:          "assets/**/*.xml"
+      values:
+        sitemap:       false
