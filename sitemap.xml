@@ -31,7 +31,6 @@ sitemap:
   {% endfor %}
   {% for page in site.pages %}
     {% unless page.sitemap.exclude == "yes" or site.url == ".xml" %}
-      {% unless site.url == "/assets" %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
