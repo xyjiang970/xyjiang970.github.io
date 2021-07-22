@@ -9,4 +9,4 @@ Check out what I'm working on **[here](/projects/)**.
 
 <br>
 
-<img src="/images/homepage_img.png" alt="homepage_img">
+<img src="/images/homepage_img.png" alt="homepage_img" width="550">

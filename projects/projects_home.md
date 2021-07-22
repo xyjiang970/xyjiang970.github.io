@@ -4,13 +4,13 @@ title: Projects
 permalink: /projects/
 description: A collection of personal projects to familiarize myself with everyday tasks of data analysts.
 ---
-**[Home](https://xyjiang970.github.io/)** >> Projects
+**[Home](../)** >> Projects
 # Projects
 A collection of personal projects to familiarize myself with everyday tasks of data analysts.
 
 <br>
 
-• [Python pandas Challenge](https://xyjiang970.github.io/projects/python-pandas-challenge/)
+• [Python pandas Challenge](/projects/python-pandas-challenge/)
 
 • [Google Data Analytics Capstone](#)
 

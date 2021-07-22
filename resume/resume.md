@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 description: My experiences and resume, 'nuff said.
 ---
-**[Home](https://xyjiang970.github.io)** >> Resume
+**[Home](../)** >> Resume
 
 <br>
 

@@ -4,7 +4,7 @@ permalink: /projects/python-pandas-challenge/
 title: Python pandas
 description: A series of mini-projects allowing me to grow my skills in using the pandas software library.
 ---
-**[Home](https://xyjiang970.github.io)** >> **[Projects](https://xyjiang970.github.io/projects/)** >> Python pandas Challenge
+**[Home](../../)** >> **[Projects](/projects/)** >> Python pandas Challenge
 
 # Python pandas Challenge
 
@@ -36,7 +36,7 @@ These are a series of mini-projects allowing me to grow my skills in using the p
 
 <br>
 
-**[<--- Back](https://xyjiang970.github.io/projects/)** to projects page
+**[↩ Back](../../)** to projects page
 
 <br>
 
