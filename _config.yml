@@ -65,10 +65,9 @@ plugins:
 # https://mijingo.com/blog/building-a-sitemap-with-jekyll
 url: "https://xyjiang970.github.io" # the base hostname & protocol for your site
 
-
-# defaults:
-#   -
-#     scope:
-#       path:            "assets/**/*.pdf"
-#     values:
-#       sitemap:         false
+defaults:
+  -
+    scope:
+      path:            "assets/**/*.pdf"
+    values:
+      sitemap:         false
