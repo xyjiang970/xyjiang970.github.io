@@ -60,14 +60,14 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
-url: "https://example.com" # the base hostname & protocol for your site
+url: "https://example.com/" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
 
 defaults:
   -
     scope:
-      path:            "assets/**/*.pdf"
+      path:            ".pdf"
     values:
       sitemap:         false
   -
