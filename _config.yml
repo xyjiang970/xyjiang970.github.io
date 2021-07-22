@@ -60,7 +60,7 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
-url: "https://example.com/" # the base hostname & protocol for your site
+url: page.url #"https://example.com" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
 
