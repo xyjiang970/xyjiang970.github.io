@@ -60,6 +60,8 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
+############# Sitemap #############
+# https://mijingo.com/blog/building-a-sitemap-with-jekyll
 url: "https://xyjiang970.github.io" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
