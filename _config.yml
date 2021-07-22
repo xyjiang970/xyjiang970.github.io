@@ -60,18 +60,31 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
-url: "https://xyjiang970.github.io/" # the base hostname & protocol for your site
+url: "https://xyjiang970.github.io" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
 
-defaults:
-  -
-    scope:
-      path:            ".pdf"
-    values:
-      sitemap:         false
-  -
-    scope:
-      path:            "/assets/"
-    values:
-      sitemap:         false
+# defaults:
+#   -
+#     scope:
+#       path:            "*.pdf"
+#     values:
+#       sitemap:         false
+#   -
+#     scope:
+#       path:            "/assets/"
+#     values:
+#       sitemap:         false
+
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+        - "/assets"
+        - "*.pdf"
+#     include_posts:
+#         - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
