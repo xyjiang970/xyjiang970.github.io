@@ -60,15 +60,7 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
- - jekyll-last-modified-at
 
 ############# Sitemap #############
-# https://mijingo.com/blog/building-a-sitemap-with-jekyll
 url: "https://xyjiang970.github.io" # the base hostname & protocol for your site
 
-defaults:
-  -
-    scope:
-      path:            "assets/**/*.pdf"
-    values:
-      sitemap:         false
