@@ -29,6 +29,7 @@ sitemap:
     </url>
     {% endunless %}
   {% endfor %}
+  
   {% for page in site.pages %}
     {% if page.sitemap != null and page.sitemap != empty %}
     <url>
