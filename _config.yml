@@ -60,6 +60,7 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
+ - jekyll-last-modified-at
 
 ############# Sitemap #############
 # https://mijingo.com/blog/building-a-sitemap-with-jekyll
