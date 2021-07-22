@@ -68,11 +68,6 @@ url: "https://xyjiang970.github.io" # the base hostname & protocol for your site
 #   - jekyll-sitemap
 #
 defaults:
-  # -
-  #   scope:
-  #     path:            "/assets"
-  #   values:
-  #     sitemap:         false
   -
     scope:
       path:            "assets/**/*.pdf"
