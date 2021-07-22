@@ -74,7 +74,7 @@ defaults:
       sitemap:         false
   -
     scope:
-      path:            "/assets/"
+      path:            "/assets"
     values:
       sitemap:         false
 
