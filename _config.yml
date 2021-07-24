@@ -52,7 +52,6 @@ minima:
 header_pages:
  - projects/projects_home.md
  - resume/resume.md
- - blog/blog.html
 
 # Build settings
 theme: minima
