@@ -67,7 +67,7 @@ _Digital Marketing Intern_
 
 **Abbott Labs** \| Princeton, NJ \| Jun 2017 - Sept 2017
 
-_Digital Marketing Intern_
+_Project Support Intern_
 
 • Worked in a small team to improve user interface of internal employee timesheets, increasing efficiency of platform.
 
