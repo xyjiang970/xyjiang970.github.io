@@ -1,4 +1,4 @@
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: https://xyjiang970.github.io/sitemap.xml
 
 User-agent: Bingbot
 Disallow: /
