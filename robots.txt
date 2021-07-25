@@ -1,5 +1,3 @@
-Sitemap: https://xyjiang970.github.io/sitemap.xml
-
 User-agent: Bingbot
 Disallow: /
 
@@ -21,3 +19,5 @@ Disallow: /*.pdf$
 
 User-agent: Googlebot-Image
 Disallow: /
+
+Sitemap: https://xyjiang970.github.io/sitemap.xml
