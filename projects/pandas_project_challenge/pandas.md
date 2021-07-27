@@ -36,7 +36,7 @@ These are a series of mini-projects allowing me to grow my skills in using the p
 
 <br>
 
-**[↩ Back](../../)** to projects page
+**[↩ Back](../)** to projects page
 
 <br>
 
