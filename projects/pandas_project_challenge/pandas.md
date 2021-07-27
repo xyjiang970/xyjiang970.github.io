@@ -40,4 +40,4 @@ These are a series of mini-projects allowing me to grow my skills in using the p
 
 <br>
 
-<img src="/projects/pandas_project_challenge/pandas_logo.png" alt="pandas_logo">
+<img src="/projects/pandas_project_challenge/pandas_logo.png" alt="pandas_logo" style="filter: brightness(2.5);">
