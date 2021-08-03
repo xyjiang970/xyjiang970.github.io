@@ -81,7 +81,7 @@ _Project Support Intern_
 ## [Technical Skills](#technical-skills)
 **Programming Languages:** Python, SQL, R
 
-**Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office, LaTeX
+**Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office
 
 -----------------------------
 ## [Additional Information](#additional-information)
