@@ -54,6 +54,8 @@ _Junior Project Associate_
 • Performed keyword research and analysis, improving client site content and Domain Authority.
 
 <br>
+<p align="center">. . . </p>
+<br>
 
 **Marco Media** \| Brooklyn, NY \| Sept 2018 - Jul 2019
 
@@ -63,6 +65,8 @@ _Digital Marketing Intern_
 
 • Increased web traffic to clients using SEO strategies that focused on content optimization and content consolidation.
 
+<br>
+<p align="center">. . . </p>
 <br>
 
 **Abbott Labs** \| Princeton, NJ \| Jun 2017 - Sept 2017
