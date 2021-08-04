@@ -27,7 +27,19 @@ _M.S. Information Systems, Data Analytics_
 
 Expected Graduation: 2023
 
-<br>
+<p align="center"><u>Relevant Coursework:</u></p>
+<ul>
+  <li>Data Warehousing and Analytics</li>
+  <li>Data Mining for Business Analytics</li>
+  <li>Big Data Technologies</li>
+  <li>Data Visualization</li>
+  <li>Applied Natural Language Processing</li>
+  <li>Principles of Database Management Systems</li>
+  <li>Managerial Statistics</li>
+  <li>Information Technology Strategy</li>
+</ul>
+
+<p align="center">. . . . . . . . . . . . . . . . </p>
 
 **NYU Tandon School of Engineering**
 
@@ -36,6 +48,14 @@ Brooklyn, NY
 _B.S. Integrated Digital Media_
 
 May 2019
+
+<p align="center"><u>Relevant Coursework:</u></p>
+<ul>
+  <li>Intro to Programming (Python)</li>
+  <li>Creative Coding (JavaScript)</li>
+  <li>Intro to Web Development (J.S., HTML, CSS)</li>
+  <li>UX Design (Figma, Adobe XD, Sketch, Invision, Axure RP)</li>
+</ul>
 
 -----------------------------
 ## [Work Experience](#work-experience)
@@ -54,7 +74,7 @@ _Junior Project Associate_
 • Performed keyword research and analysis, improving client site content and Domain Authority.
 
 <br>
-<p align="center">. . . </p>
+<p align="center">. . . . . . . . . . . . . . . . </p>
 <br>
 
 **Marco Media** \| Brooklyn, NY \| Sept 2018 - Jul 2019
@@ -66,7 +86,7 @@ _Digital Marketing Intern_
 • Increased web traffic to clients using SEO strategies that focused on content optimization and content consolidation.
 
 <br>
-<p align="center">. . . </p>
+<p align="center">. . . . . . . . . . . . . . . . </p>
 <br>
 
 **Abbott Labs** \| Princeton, NJ \| Jun 2017 - Sept 2017
