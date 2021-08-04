@@ -12,7 +12,9 @@ A collection of personal projects to familiarize myself with everyday tasks of d
 
 • [Python pandas Challenge](/projects/python-pandas-challenge/)
 
-• [Google Data Analytics Capstone](#)
+• [Project 2](#)
+
+• [Project 3](#)
 
 <br>
 
