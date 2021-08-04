@@ -8,7 +8,9 @@ description: Welcome to my portfolio website!
 
 <br>
 
-Hi I'm XinYu (Jason) Jiang, an aspiring data analyst that prepares, processes, and analyzes data to help inform business decisions and save costs. I work to effectively turn business questions into data analysis, and provide meaningful recommendations on strategy.
+Hi I'm XinYu (Jason) Jiang! I collect, manage, and convert raw data into usable information that informs business decisions and save costs. By transforming data into formats that can be easily analyzed, and implementing methods to improve data reliability and quality - I work to effectively turn business questions into data analysis, helping teams provide meaningful recommendations on strategy.
+
+<br>
 
 Check out what I'm working on **[here](/projects/)**.
 
