@@ -98,7 +98,6 @@ _Project Support Intern_
       <li><i>NumPy</i></li>
       <li><i>Matplotlib</i></li>
     </ul>
-    </li>
   <li>SQL</li>
 </ul>
 
