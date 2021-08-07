@@ -92,6 +92,7 @@ _Project Support Intern_
 **Programming Languages:** 
 <ul>
   <li>Python</li>
+  Packages
     <ul>
     Packages:
     <li>Pandas</li>
