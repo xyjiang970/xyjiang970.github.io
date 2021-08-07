@@ -81,7 +81,7 @@ _Junior Project Associate_
 
 • Assisted with building page speed measurement tool in Google Sheets, tracking Google Core Web Vitals automatically.
 
-• Set up Google Data Studio dashboards with Account Managers, decreasing time spent on monthly reports.
+• Set up Google Data Studio dashboards with Account Managers, decreasing time spent on monthly reports to clients.
 
 • Responsible for data collection from Google Search Console and Google Analytics in preparation for strategy meetings.
 
