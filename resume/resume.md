@@ -89,7 +89,10 @@ _Project Support Intern_
 
 -----------------------------
 ## [TECHNICAL SKILLS](#technical-skills)
-**Programming Languages:** Python (Packages: _Pandas, NumPy, Matplotlib_), SQL
+**Programming Languages:** 
+-Python 
+  - (Packages: _Pandas, NumPy, Matplotlib_) 
+-SQL
 
 **Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office
 
