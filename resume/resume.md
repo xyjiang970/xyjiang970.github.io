@@ -47,14 +47,6 @@ _B.S. Integrated Digital Media_
 
 May 2019
 
-<p align="center"><u>Relevant Coursework:</u></p>
-<ul>
-  <li>Intro to Programming (Python)</li>
-  <li>Creative Coding (JavaScript)</li>
-  <li>Intro to Web Development (J.S., HTML, CSS)</li>
-  <li>UX Design (Figma, Adobe XD, Sketch, Invision, Axure RP)</li>
-</ul>
-
 -----------------------------
 ## [WORK EXPERIENCE](#work-experience)
 **Improove Inc.** \| New York, NY \| Jul 2019 - Jul 2021
