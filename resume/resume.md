@@ -12,13 +12,27 @@ Link to PDF version **[available here](/resume/jason_resume.pdf){:target="_blank
 
 <br>
 
-Jump to section: **[Education](#education)** \| **[Work Experience](#work-experience)** \| **[Technical Skills](#technical-skills)** \| **[Additional Info](#additional-information)**
+Jump to section: **[DATA ANALYST SKILLS](#data-analyst-skills)** \| **[EDUCATION](#education)** \| **[WORK EXPERIENCE](#work-experience)** \| **[ADDITIONAL INFO.](#additional-information)**
 
 For projects please refer to the **[projects page here](/projects/)**.
 
 <br>
 
-## [Education](#education)
+## [DATA ANALYST SKILLS](#data-analyst-skills)
+<ul>
+  <li>Tackle various data sources and make sense of unclean data to convert into actionable insights.</li>
+  <li>Understand how to make data visually appealing and simple to both navigate and comprehend.</li>
+  <li>Interpret data, analyze results using statistical techniques and provide ongoing analysis.</li>
+  <li>Identify patterns and trends in data to create reports or dashboards for various teams.</li>
+  <li>Strong analytical and problem-solving skills paired with the ability to develop creative and efficient solutions.</li>
+</ul>
+
+**Programming Languages:** Python (Packages: Pandas, NumPy, Matplotlib), SQL
+
+**Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office
+
+-----------------------------
+## [EDUCATION](#education)
 **Zicklin School of Business \| Baruch College**
 
 New York, NY
@@ -58,7 +72,7 @@ May 2019
 </ul>
 
 -----------------------------
-## [Work Experience](#work-experience)
+## [WORK EXPERIENCE](#work-experience)
 **Improove Inc.** \| New York, NY \| Jul 2019 - Jul 2021
 
 _Junior Project Associate_
@@ -67,7 +81,7 @@ _Junior Project Associate_
 
 • Assisted with building page speed measurement tool in Google Sheets, tracking Google Core Web Vitals automatically.
 
-• Built real-time reports in Google Data Studio with Account Managers, decreasing time spent on monthly reports.
+• Set up Google Data Studio dashboards with Account Managers, decreasing time spent on monthly reports.
 
 • Responsible for data collection from Google Search Console and Google Analytics in preparation for strategy meetings.
 
@@ -98,13 +112,7 @@ _Project Support Intern_
 • Assisted with product tests of handheld i-STAT blood analyzers and cartridges, supporting early release of products.
 
 -----------------------------
-## [Technical Skills](#technical-skills)
-**Programming Languages:** Python, SQL, R
-
-**Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office
-
------------------------------
-## [Additional Information](#additional-information)
+## [ADDITIONAL INFORMATION](#additional-information)
 **Languages:** English, Conversational Mandarin
 
 **Interest & Hobbies:** Powerlifting, Photography
