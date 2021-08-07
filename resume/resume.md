@@ -92,11 +92,11 @@ _Project Support Intern_
 **Programming Languages:** 
 <ul>
   <li>Python</li>
-  <i>Packages</i>
+  <u>Packages</u>
     <ul>
-    <li>Pandas</li>
-    <li>NumPy</li>
-    <li>Matplotlib</li>
+      <li><i>Pandas</i></li>
+      <li><i>NumPy</i></li>
+      <li><i>Matplotlib</i></li>
     </ul>
     </li>
   <li>SQL</li>
