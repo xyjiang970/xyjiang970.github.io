@@ -12,26 +12,10 @@ Link to PDF version **[available here](/resume/jason_resume.pdf){:target="_blank
 
 <br>
 
-Jump to section: **[DATA ANALYST SKILLS](#data-analyst-skills)** \| **[EDUCATION](#education)** \| **[WORK EXPERIENCE](#work-experience)** \| **[ADDITIONAL INFO.](#additional-information)**
-
 For projects please refer to the **[projects page here](/projects/)**.
 
 <br>
 
-## [DATA ANALYST SKILLS](#data-analyst-skills)
-<ul>
-  <li>Tackle various data sources and make sense of unclean data to convert into actionable insights.</li>
-  <li>Understand how to make data visually appealing and simple to both navigate and comprehend.</li>
-  <li>Interpret data, analyze results using statistical techniques and provide ongoing analysis.</li>
-  <li>Identify patterns and trends in data to create reports or dashboards for various teams.</li>
-  <li>Strong analytical and problem-solving skills paired with the ability to develop creative and efficient solutions.</li>
-</ul>
-
-**Programming Languages:** Python (Packages: Pandas, NumPy, Matplotlib), SQL
-
-**Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office
-
------------------------------
 ## [EDUCATION](#education)
 **Zicklin School of Business \| Baruch College**
 
@@ -112,10 +96,10 @@ _Project Support Intern_
 • Assisted with product tests of handheld i-STAT blood analyzers and cartridges, supporting early release of products.
 
 -----------------------------
-## [ADDITIONAL INFORMATION](#additional-information)
-**Languages:** English, Conversational Mandarin
+## [TECHNICAL SKILLS](#technical-skills)
+**Programming Languages:** Python (Packages: _Pandas, NumPy, Matplotlib_), SQL
 
-**Interest & Hobbies:** Powerlifting, Photography
+**Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office
 
 <br>
 
