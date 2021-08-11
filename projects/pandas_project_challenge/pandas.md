@@ -12,7 +12,7 @@ These are a series of mini-projects allowing me to grow my skills in using the p
 
 <br>
 
-Focus: Importing, merging, and cleaning data in preparation for data analysis and storage (using SQL database in project #4).
+<u>Focus:</u> Importing, merging, and cleaning data in preparation for data analysis and storage (using SQL database in project #4).
 
 • 1. [Data Importing - Working with APIs and JSON (Movies Dataset)](#)
 
@@ -23,19 +23,19 @@ Focus: Importing, merging, and cleaning data in preparation for data analysis an
 • 4. [Working with pandas and SQL Databases (Movies Dataset)](#)
 
 -------
-Focus: Importing and merging data. Visualize data in project #6.
+<u>Focus:</u> Importing and merging data. Visualize data in project #6.
 
 • 5. [Importing & Concatenating Many Files (Baby Names Dataset)](#)
 
 • 6. [Data Analysis & Data Visualization (Baby Names Dataset)](#)
 
 -------
-Focus: Exploring data preprocessing, training + testing machine learning model using Scikit-learn, and analyze results.
+<u>Focus:</u> Exploring data preprocessing, training + testing machine learning model using Scikit-learn, and analyze results.
 
 • 7. [Machine Learning: Data Preprocessing & Feature Engineering](#)
 
 -------
-Focus: Importing and cleaning (working with finance/ investment data). Exploring time series data.
+<u>Focus:</u> Importing and cleaning (working with finance/ investment data). Exploring time series data.
 
 • 8. [US Stocks: Data Import & Web Scraping](#)
 
@@ -44,7 +44,7 @@ Focus: Importing and cleaning (working with finance/ investment data). Exploring
 • 10. [US Stocks: Index Tracking & Forward Testing](#)
 
 -------
-Focus: Case study covering data merges, data analysis, and advanced visualization with Seaborn.
+<u>Focus:</u> Case study covering data merges, data analysis, and advanced visualization with Seaborn.
 
 • 11. [Data Analysis & Data Visualization of Olympic Games](#)
 
