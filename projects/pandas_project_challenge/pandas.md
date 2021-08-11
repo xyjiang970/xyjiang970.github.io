@@ -8,31 +8,45 @@ description: A series of mini-projects allowing me to grow my skills in using th
 
 # Python pandas Challenge
 
-These are a series of mini-projects allowing me to grow my skills in using the pandas software library. Every week, I challenged myself with one data handling task (whether it be web scraping, cleaning, visualizing, etc) to sharpen my proficiency in that area.
+These are a series of mini-projects allowing me to grow my skills in using the pandas software library in parallel with some SQL.
 
 <br>
 
-• [Data Importing - Working with APIs and JSON (Movies Dataset)](#)
+Focus: Importing, merging, and cleaning data in preparation for data analysis and storage (using SQL database in project #4).
 
-• [Data Cleaning - Tidying Up Messy Datasets (Movies Dataset)](#)
+• 1. [Data Importing - Working with APIs and JSON (Movies Dataset)](#)
 
-• [Merging, Cleaning, and Transforming Data (Movies Dataset)](#)
+• 2. [Data Cleaning - Tidying Up Messy Datasets (Movies Dataset)](#)
 
-• [Working with pandas and SQL Databases (Movies Dataset)](#)
+• 3. [Merging, Cleaning, and Transforming Data (Movies Dataset)](#)
 
-• [Importing & Concatenating Many Files (Baby Names Dataset)](#)
+• 4. [Working with pandas and SQL Databases (Movies Dataset)](#)
 
-• [Data Analysis & Data Visualization (Baby Names Dataset)](#)
+-------
+Focus: Importing and merging data. Visualize data in project #6.
 
-• [Machine Learning: Data Preprocessing & Feature Engineering](#)
+• 5. [Importing & Concatenating Many Files (Baby Names Dataset)](#)
 
-• [US Stocks: Data Import & Web Scraping](#)
+• 6. [Data Analysis & Data Visualization (Baby Names Dataset)](#)
 
-• [US Stocks: Backtesting Investment Strategies](#)
+-------
+Focus: Exploring data preprocessing, training + testing machine learning model using Scikit-learn, and analyze results.
 
-• [US Stocks: Index Tracking & Forward Testing](#)
+• 7. [Machine Learning: Data Preprocessing & Feature Engineering](#)
 
-• [Data Analysis & Data Visualization of Olympic Games](#)
+-------
+Focus: Importing and cleaning (working with finance/ investment data). Exploring time series data.
+
+• 8. [US Stocks: Data Import & Web Scraping](#)
+
+• 9. [US Stocks: Backtesting Investment Strategies](#)
+
+• 10. [US Stocks: Index Tracking & Forward Testing](#)
+
+-------
+Focus: Case study covering data merges, data analysis, and advanced visualization with Seaborn.
+
+• 11. [Data Analysis & Data Visualization of Olympic Games](#)
 
 <br>
 
