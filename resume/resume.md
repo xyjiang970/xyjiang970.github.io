@@ -21,7 +21,7 @@ For projects please refer to the **[projects page here](/projects/)**.
 
 New York, NY
 
-_M.S. Information Systems, Data Analytics_
+_M.S. Information Systems; concentration in Data Analytics_
 
 Expected Graduation: 2023
 
@@ -53,15 +53,13 @@ May 2019
 
 _Junior Project Associate_
 
-• Advised on technical audits of client sites, improving average page speed of each site by at least 10%.
+• Advised on technical audits of client sites, improved average page speed of each site by at least 10%.
 
-• Assisted with building page speed measurement tool in Google Sheets, tracking Google Core Web Vitals automatically.
+• Assisted with building page speed measurement tool in Google Sheets, tracked Google Core Web Vitals automatically.
 
-• Set up Google Data Studio dashboards with Account Managers, decreasing time spent on monthly reports to clients.
+• Set up Google Data Studio dashboards with Account Managers, decreased time spent on monthly reports to clients.
 
 • Responsible for data collection from Google Search Console and Google Analytics in preparation for strategy meetings.
-
-• Performed keyword research and analysis, improving client site content and Domain Authority.
 
 <br>
 <p align="center">. . . . . . . . . . . . . . . . </p>
@@ -83,9 +81,9 @@ _Digital Marketing Intern_
 
 _Project Support Intern_
 
-• Worked in a small team to improve user interface of internal employee timesheets, increasing efficiency of platform.
+• Worked in a small team to improve user interface of internal employee timesheets, increased efficiency of platform.
 
-• Assisted with product tests of handheld i-STAT blood analyzers and cartridges, supporting early release of products.
+• Assisted with product tests of handheld i-STAT blood analyzers and cartridges, supported early release of products.
 
 -----------------------------
 ## [TECHNICAL SKILLS](#technical-skills)
@@ -97,6 +95,7 @@ _Project Support Intern_
       <li><i>Pandas</i></li>
       <li><i>NumPy</i></li>
       <li><i>Matplotlib</i></li>
+      <li><i>Seaborn</i></li>
     </ul>
   <li>SQL</li>
 </ul>
