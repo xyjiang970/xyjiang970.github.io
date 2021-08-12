@@ -21,7 +21,7 @@ For projects please refer to the **[projects page here](/projects/)**.
 
 New York, NY
 
-_M.S. Information Systems; concentration in Data Analytics_
+_M.Sc. Information Systems; concentration in Data Analytics_
 
 Expected Graduation: 2023
 
@@ -43,7 +43,7 @@ Expected Graduation: 2023
 
 Brooklyn, NY
 
-_B.S. Integrated Digital Media_
+_B.Sc. Integrated Digital Media_
 
 May 2019
 
