@@ -30,7 +30,7 @@ These are a series of mini-projects allowing me to grow my skills in using the p
 • 6. [Data Analysis & Data Visualization (Baby Names Dataset)](#)
 
 -------
-<u>Focus:</u> Exploring data preprocessing, training + testing machine learning model using Scikit-learn, and analyze results.
+<u>Focus:</u> Exploring data preprocessing, training + testing machine learning model using Scikit-learn, and analyzing results.
 
 • 7. [Machine Learning: Data Preprocessing & Feature Engineering](#)
 
