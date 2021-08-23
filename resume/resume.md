@@ -2,7 +2,7 @@
 layout: default
 title: Resume
 permalink: /resume/
-description: My experiences and resume, 'nuff said.
+description: My experiences and resume.
 ---
 **[Home](../)** >> Resume
 
