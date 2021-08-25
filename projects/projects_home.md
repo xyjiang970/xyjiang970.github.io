@@ -11,7 +11,7 @@ A collection of projects to help familiarizing myself with everyday tasks of dat
 
 <br>
 
-• [Python pandas Exploratory Projects](/projects/python-pandas-challenge/)
+• [Python pandas Exploratory Data Analysis](/projects/pandas-exploratory/)
 
 • [Project 2](#)
 
