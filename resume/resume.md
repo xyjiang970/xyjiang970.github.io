@@ -88,10 +88,10 @@ _Project Support Intern_
   <li>Python</li>
   <u>Packages:</u>
     <ul>
-      <li><i>Pandas</i></li>
-      <li><i>NumPy</i></li>
-      <li><i>Matplotlib</i></li>
-      <li><i>Seaborn</i></li>
+      <li><i>pandas</i></li>
+      <li><i>numPy</i></li>
+      <li><i>matplotlib</i></li>
+      <li><i>seaborn</i></li>
     </ul>
   <li>SQL</li>
 </ul>
