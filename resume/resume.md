@@ -27,11 +27,7 @@ Expected Graduation: 2023
 
 <p align="center"><u>Relevant Coursework:</u></p>
 <ul>
-  <li>Data Warehousing and Analytics</li>
-  <li>Data Mining for Business Analytics</li>
-  <li>Big Data Technologies</li>
-  <li>Data Visualization</li>
-  <li>Applied Natural Language Processing</li>
+  <li>Programming for Analytics</li>
   <li>Principles of Database Management Systems</li>
   <li>Managerial Statistics</li>
   <li>Information Technology Strategy</li>
