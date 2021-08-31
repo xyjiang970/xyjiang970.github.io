@@ -24,7 +24,7 @@ In the future I look to gain more experience with:
 <table>
   <thead>
     <tr>
-      <th align="center">Database Platforms</th>
+      <th align="center">Database Platforms/ Frameworks</th>
       <th align="center">Cloud Infrastructures</th>
       <th align="center">ETL/ Data Movement</th>
     </tr>
@@ -32,17 +32,17 @@ In the future I look to gain more experience with:
   <tbody>
     <tr>
       <td>Hadoop</td>
-      <td>AWS</td>
+      <td>Amazon Web Services</td>
       <td>Talend</td>
     </tr>
     <tr>
-      <td>PostgreSQL</td>
-      <td>GCP</td>
+      <td>MySQL</td>
+      <td>Microsot Azure</td>
       <td>Pentaho</td>
     </tr>
     <tr>
       <td>MongoDB</td>
-      <td>Azure</td>
+      <td>Google Cloud Platform</td>
       <td>Kafka</td>
     </tr>
   </tbody>
