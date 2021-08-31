@@ -94,9 +94,10 @@ _Project Support Intern_
       <li><i>seaborn</i></li>
     </ul>
   <li>SQL</li>
+  PostgreSQL
 </ul>
 
-**Software:** Jupyter, PyCharm, Tableau, Google Workspace (G Suite), Microsoft Office
+**Software:** Jupyter Notebook, Tableau, Google Workspace (G Suite), Microsoft Access
 
 <br>
 
