@@ -93,7 +93,7 @@ _Project Support Intern_
       <li><i>matplotlib</i></li>
       <li><i>seaborn</i></li>
     </ul>
-  
+  <br></br>
   <li>SQL</li>
   <ul>
     <li>PostgreSQL</li>
