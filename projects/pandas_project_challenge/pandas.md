@@ -4,11 +4,11 @@ permalink: /projects/pandas-exploratory/
 title: Exploratory Data Analysis
 description: A series of mini-projects allowing me to grow my skills in using the pandas software library.
 ---
-**[Home](../../)** >> **[Projects](/projects/)** >> Exploratory Data Analysis with pandas
+**[Home](../../)** >> **[Projects](/projects/)** >> Exploratory Data Analysis
 
-# Exploratory Data Analysis with pandas
+# Exploratory Data Analysis
 
-These are a series of mini-projects allowing me to grow my skills in using the pandas software library in parallel with some SQL.
+These are a series of mini-projects allowing me to grow my skills in using the Python software library, pandas, in parallel with some SQL.
 
 <br>
 
