@@ -11,7 +11,7 @@ A collection of projects to help familiarizing myself with everyday tasks of dat
 
 <br>
 
-• [Exploratory Data Analysis](/projects/pandas-exploratory/)
+• [Exploratory Data Analysis](/projects/exploratory-data-analysis/)
 
 • [Project 2](#)
 
