@@ -1,12 +1,12 @@
 ---
 layout: default
 permalink: /projects/pandas-exploratory/
-title: Python pandas Exploratory Data Analysis
+title: Exploratory Data Analysis
 description: A series of mini-projects allowing me to grow my skills in using the pandas software library.
 ---
-**[Home](../../)** >> **[Projects](/projects/)** >> Python pandas Challenge
+**[Home](../../)** >> **[Projects](/projects/)** >> Exploratory Data Analysis with pandas
 
-# Python pandas Exploratory Data Analysis
+# Exploratory Data Analysis with pandas
 
 These are a series of mini-projects allowing me to grow my skills in using the pandas software library in parallel with some SQL.
 
