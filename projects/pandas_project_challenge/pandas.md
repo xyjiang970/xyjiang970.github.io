@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /projects/pandas-exploratory/
+permalink: /projects/exploratory-data-analysis/
 title: Exploratory Data Analysis
 description: A series of mini-projects allowing me to grow my skills in using the pandas software library.
 ---
