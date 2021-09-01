@@ -6,7 +6,7 @@ description: A series of mini-projects allowing me to grow my skills in using th
 ---
 **[Home](../../)** >> **[Projects](/projects/)** >> Python pandas Challenge
 
-# Python pandas Challenge
+# Python pandas Exploratory Data Analysis
 
 These are a series of mini-projects allowing me to grow my skills in using the pandas software library in parallel with some SQL.
 
