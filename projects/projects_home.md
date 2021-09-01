@@ -7,7 +7,7 @@ description: A collection of personal projects to familiarize myself with everyd
 **[Home](../)** >> Projects
 # Projects
 
-A collection of projects to help familiarizing myself with everyday tasks of data analysts. In these projects I look to further develop my skills and knowledge in the industry using tools, softwares, and programming languages that include (but are not limited to): SQL, Python, Jupyter Notebook, Tableau, Excel, and more.
+A collection of projects to help familiarizing myself with everyday tasks of data analysts.
 
 <br>
 
