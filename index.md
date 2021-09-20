@@ -18,5 +18,3 @@ Hi, I’m XinYu (Jason) Jiang. I collect, manage, and convert raw data into usab
 <br>
 
 Check out what I'm working on **[here](/projects/)**.
-
-<br>
