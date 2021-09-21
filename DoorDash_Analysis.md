@@ -1,5 +1,3 @@
-# DoorDash Analysis of Orders in the Past Year
-
 This quick project is to familiarize myself with pandas, matplotlib, and numpy. I decided to take a look into my doordash orders in the past year to see how much I've spent and which stores I tend to order from.
 
 
