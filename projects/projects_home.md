@@ -11,7 +11,7 @@ A collection of projects to help familiarizing myself with everyday tasks of dat
 
 <br>
 
-• [Project 1](../anomaly_detection_gaussian_demo.md)
+• [Project 1](../DoorDash_Analysis.md)
 
 • [Project 2](#)
 
