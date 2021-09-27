@@ -11,9 +11,9 @@ A collection of projects to help familiarizing myself with everyday tasks of dat
 
 <br>
 
-• [Covid Analysis](../DoorDash_Analysis.md)
+• [COVID-19 Analysis](../DoorDash_Analysis.md)
 
-• [Project 2](#)
+• [Where it Pays to Attend College](#)
 
 • [Project 3](#)
 
