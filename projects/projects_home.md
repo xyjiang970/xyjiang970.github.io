@@ -15,8 +15,6 @@ A collection of projects to help familiarizing myself with everyday tasks of dat
 
 • [Where it Pays to Attend College](#)
 
-• [Project 3](#)
-
 <br>
 
 <img src="/projects/projects_page_image.png" alt="projects_page_image" width="400">
