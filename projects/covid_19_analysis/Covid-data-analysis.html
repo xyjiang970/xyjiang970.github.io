@@ -14259,7 +14259,7 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Purpose of this project is to look into some covid statistics.</p>
+<h1 id="COVID-19-Analysis">COVID-19 Analysis<a class="anchor-link" href="#COVID-19-Analysis">&#182;</a></h1><p>Purpose of this project is to look into some covid statistics. We will see what the correlation between human development index (HDI) and mortality rate (total deaths attributed to COVID-19).</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14777,9 +14777,9 @@ memory usage: 55.9+ MB
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s see what that looks like (only looking into the first 10 rows):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s see what that looks like (only looking into the first 5 rows):</span>
 
-<span class="n">countries_of_interest</span>
+<span class="n">countries_of_interest</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14962,321 +14962,9 @@ memory usage: 55.9+ MB
       <td>0.663</td>
       <td>NaN</td>
     </tr>
-    <tr>
-      <th>46511</th>
-      <td>HTI</td>
-      <td>North America</td>
-      <td>Haiti</td>
-      <td>2021-08-30</td>
-      <td>20850.0</td>
-      <td>17.0</td>
-      <td>18.714</td>
-      <td>584.0</td>
-      <td>0.0</td>
-      <td>0.143</td>
-      <td>...</td>
-      <td>23.5</td>
-      <td>430.548</td>
-      <td>6.65</td>
-      <td>2.9</td>
-      <td>23.1</td>
-      <td>22.863</td>
-      <td>0.70</td>
-      <td>64.00</td>
-      <td>0.510</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>49417</th>
-      <td>IND</td>
-      <td>Asia</td>
-      <td>India</td>
-      <td>2021-08-30</td>
-      <td>32768880.0</td>
-      <td>30941.0</td>
-      <td>42015.286</td>
-      <td>438560.0</td>
-      <td>350.0</td>
-      <td>492.857</td>
-      <td>...</td>
-      <td>21.2</td>
-      <td>282.280</td>
-      <td>10.39</td>
-      <td>1.9</td>
-      <td>20.6</td>
-      <td>59.550</td>
-      <td>0.53</td>
-      <td>69.66</td>
-      <td>0.645</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>53723</th>
-      <td>ITA</td>
-      <td>Europe</td>
-      <td>Italy</td>
-      <td>2021-08-30</td>
-      <td>4534499.0</td>
-      <td>4253.0</td>
-      <td>6531.429</td>
-      <td>129146.0</td>
-      <td>53.0</td>
-      <td>50.143</td>
-      <td>...</td>
-      <td>2.0</td>
-      <td>113.151</td>
-      <td>4.78</td>
-      <td>19.8</td>
-      <td>27.8</td>
-      <td>NaN</td>
-      <td>3.18</td>
-      <td>83.51</td>
-      <td>0.892</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>54890</th>
-      <td>JPN</td>
-      <td>Asia</td>
-      <td>Japan</td>
-      <td>2021-08-30</td>
-      <td>1473847.0</td>
-      <td>13625.0</td>
-      <td>21526.143</td>
-      <td>16016.0</td>
-      <td>47.0</td>
-      <td>47.857</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>79.370</td>
-      <td>5.72</td>
-      <td>11.2</td>
-      <td>33.7</td>
-      <td>NaN</td>
-      <td>13.05</td>
-      <td>84.63</td>
-      <td>0.919</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>65524</th>
-      <td>MYS</td>
-      <td>Asia</td>
-      <td>Malaysia</td>
-      <td>2021-08-30</td>
-      <td>1725357.0</td>
-      <td>19268.0</td>
-      <td>21798.857</td>
-      <td>16382.0</td>
-      <td>295.0</td>
-      <td>291.429</td>
-      <td>...</td>
-      <td>0.1</td>
-      <td>260.942</td>
-      <td>16.74</td>
-      <td>1.0</td>
-      <td>42.4</td>
-      <td>NaN</td>
-      <td>1.90</td>
-      <td>76.16</td>
-      <td>0.810</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>69289</th>
-      <td>MEX</td>
-      <td>North America</td>
-      <td>Mexico</td>
-      <td>2021-08-30</td>
-      <td>3341264.0</td>
-      <td>5564.0</td>
-      <td>15664.000</td>
-      <td>258491.0</td>
-      <td>326.0</td>
-      <td>709.286</td>
-      <td>...</td>
-      <td>2.5</td>
-      <td>152.783</td>
-      <td>13.06</td>
-      <td>6.9</td>
-      <td>21.4</td>
-      <td>87.847</td>
-      <td>1.38</td>
-      <td>75.05</td>
-      <td>0.779</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>75561</th>
-      <td>NLD</td>
-      <td>Europe</td>
-      <td>Netherlands</td>
-      <td>2021-08-30</td>
-      <td>1973984.0</td>
-      <td>2271.0</td>
-      <td>2660.143</td>
-      <td>18348.0</td>
-      <td>6.0</td>
-      <td>9.571</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>109.361</td>
-      <td>5.29</td>
-      <td>24.4</td>
-      <td>27.3</td>
-      <td>NaN</td>
-      <td>3.32</td>
-      <td>82.28</td>
-      <td>0.944</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>99373</th>
-      <td>KOR</td>
-      <td>Asia</td>
-      <td>South Korea</td>
-      <td>2021-08-30</td>
-      <td>251421.0</td>
-      <td>1370.0</td>
-      <td>1733.429</td>
-      <td>2285.0</td>
-      <td>1.0</td>
-      <td>8.143</td>
-      <td>...</td>
-      <td>0.2</td>
-      <td>85.998</td>
-      <td>6.80</td>
-      <td>6.2</td>
-      <td>40.9</td>
-      <td>NaN</td>
-      <td>12.27</td>
-      <td>83.03</td>
-      <td>0.916</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>100505</th>
-      <td>ESP</td>
-      <td>Europe</td>
-      <td>Spain</td>
-      <td>2021-08-30</td>
-      <td>4847298.0</td>
-      <td>15489.0</td>
-      <td>7563.714</td>
-      <td>84146.0</td>
-      <td>146.0</td>
-      <td>115.571</td>
-      <td>...</td>
-      <td>1.0</td>
-      <td>99.403</td>
-      <td>7.17</td>
-      <td>27.4</td>
-      <td>31.4</td>
-      <td>NaN</td>
-      <td>2.97</td>
-      <td>83.56</td>
-      <td>0.904</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>104556</th>
-      <td>TWN</td>
-      <td>Asia</td>
-      <td>Taiwan</td>
-      <td>2021-08-30</td>
-      <td>15991.0</td>
-      <td>8.0</td>
-      <td>8.429</td>
-      <td>834.0</td>
-      <td>0.0</td>
-      <td>0.857</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>103.957</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>80.46</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>109230</th>
-      <td>TUR</td>
-      <td>Asia</td>
-      <td>Turkey</td>
-      <td>2021-08-30</td>
-      <td>6366408.0</td>
-      <td>19557.0</td>
-      <td>18845.429</td>
-      <td>56458.0</td>
-      <td>245.0</td>
-      <td>241.857</td>
-      <td>...</td>
-      <td>0.2</td>
-      <td>171.285</td>
-      <td>12.13</td>
-      <td>14.1</td>
-      <td>41.1</td>
-      <td>NaN</td>
-      <td>2.81</td>
-      <td>77.69</td>
-      <td>0.820</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>111935</th>
-      <td>GBR</td>
-      <td>Europe</td>
-      <td>United Kingdom</td>
-      <td>2021-08-30</td>
-      <td>6789189.0</td>
-      <td>26285.0</td>
-      <td>33395.714</td>
-      <td>132808.0</td>
-      <td>48.0</td>
-      <td>115.429</td>
-      <td>...</td>
-      <td>0.2</td>
-      <td>122.137</td>
-      <td>4.28</td>
-      <td>20.0</td>
-      <td>24.7</td>
-      <td>NaN</td>
-      <td>2.54</td>
-      <td>81.32</td>
-      <td>0.932</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>112543</th>
-      <td>USA</td>
-      <td>North America</td>
-      <td>United States</td>
-      <td>2021-08-30</td>
-      <td>39150680.0</td>
-      <td>259936.0</td>
-      <td>159486.000</td>
-      <td>639737.0</td>
-      <td>1772.0</td>
-      <td>1354.714</td>
-      <td>...</td>
-      <td>1.2</td>
-      <td>151.089</td>
-      <td>10.79</td>
-      <td>19.1</td>
-      <td>24.6</td>
-      <td>NaN</td>
-      <td>2.77</td>
-      <td>78.86</td>
-      <td>0.926</td>
-      <td>NaN</td>
-    </tr>
   </tbody>
 </table>
-<p>18 rows × 62 columns</p>
+<p>5 rows × 62 columns</p>
 </div>
 </div>
 
@@ -15323,103 +15011,6 @@ memory usage: 55.9+ MB
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>0 iso_code
-1 continent
-2 location
-3 date
-4 total_cases
-5 new_cases
-6 new_cases_smoothed
-7 total_deaths
-8 new_deaths
-9 new_deaths_smoothed
-10 total_cases_per_million
-11 new_cases_per_million
-12 new_cases_smoothed_per_million
-13 total_deaths_per_million
-14 new_deaths_per_million
-15 new_deaths_smoothed_per_million
-16 reproduction_rate
-17 icu_patients
-18 icu_patients_per_million
-19 hosp_patients
-20 hosp_patients_per_million
-21 weekly_icu_admissions
-22 weekly_icu_admissions_per_million
-23 weekly_hosp_admissions
-24 weekly_hosp_admissions_per_million
-25 new_tests
-26 total_tests
-27 total_tests_per_thousand
-28 new_tests_per_thousand
-29 new_tests_smoothed
-30 new_tests_smoothed_per_thousand
-31 positive_rate
-32 tests_per_case
-33 tests_units
-34 total_vaccinations
-35 people_vaccinated
-36 people_fully_vaccinated
-37 total_boosters
-38 new_vaccinations
-39 new_vaccinations_smoothed
-40 total_vaccinations_per_hundred
-41 people_vaccinated_per_hundred
-42 people_fully_vaccinated_per_hundred
-43 total_boosters_per_hundred
-44 new_vaccinations_smoothed_per_million
-45 stringency_index
-46 population
-47 population_density
-48 median_age
-49 aged_65_older
-50 aged_70_older
-51 gdp_per_capita
-52 extreme_poverty
-53 cardiovasc_death_rate
-54 diabetes_prevalence
-55 female_smokers
-56 male_smokers
-57 handwashing_facilities
-58 hospital_beds_per_thousand
-59 life_expectancy
-60 human_development_index
-61 excess_mortality
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Sorting in alphabetical order by continent.</span>
 
 <span class="n">data</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;continent&#39;</span><span class="p">)</span>
@@ -15438,7 +15029,7 @@ memory usage: 55.9+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 
 
 
@@ -15722,7 +15313,7 @@ memory usage: 55.9+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Filling in NaN values manually with the most recent info. on that datapoint online.</span>
@@ -15747,7 +15338,7 @@ memory usage: 55.9+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 
 
 
