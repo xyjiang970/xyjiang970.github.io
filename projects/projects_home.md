@@ -11,7 +11,7 @@ A collection of projects to help familiarizing myself with everyday tasks of dat
 
 <br>
 
-• [COVID-19 Analysis](../projects/covid_19_analysis/Covid-data-analysis.md)
+• [COVID-19 Analysis](../projects/covid_19_analysis/Covid-data-analysis.html)
 
 • [Where it Pays to Attend College](#)
 
