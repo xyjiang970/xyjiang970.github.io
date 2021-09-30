@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Projects
-permalink: /projects/
-description: A collection of personal projects to familiarize myself with everyday tasks of data analysts.
+title: Covid-data-analysis
 ---
 <html>
 <head><meta charset="utf-8" />
