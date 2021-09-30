@@ -52,6 +52,7 @@ minima:
 header_pages:
  - projects/projects_home.md
 #  - blog_link.md
+ - jason_resume.pdf
 
 # Build settings
 theme: minima
