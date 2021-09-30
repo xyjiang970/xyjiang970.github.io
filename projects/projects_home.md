@@ -12,6 +12,7 @@ A collection of projects to help familiarizing myself with everyday tasks of dat
 <br>
 
 • <a href="https://nbviewer.jupyter.org/github/xyjiang970/_notebooks/blob/main/Covid-data-analysis.ipynb" target="_blank">COVID-19 Analysis</a>
+(Summary | View Notebook Online | Download .ipynb file)
 
 • [Where it Pays to Attend College](#)
 
