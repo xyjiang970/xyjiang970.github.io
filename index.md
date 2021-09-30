@@ -13,4 +13,4 @@ Hi, I’m Jason. I collect, manage, and convert raw data into usable information
 
 <br>
 
-Check out my **[recent projects](/projects/)**.
+Check out my [recent projects](/projects/).
