@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Projects
+permalink: /projects/
+description: A collection of personal projects to familiarize myself with everyday tasks of data analysts.
+---
 <html>
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
