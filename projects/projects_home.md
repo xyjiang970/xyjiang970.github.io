@@ -17,7 +17,7 @@ A collection of projects to help familiarizing myself with everyday tasks of dat
 <br>
 
 ## • Where it Pays to Attend College  
-(<a href="#"><u>Summary</u></a> \| <a href="#"><u>View notebook</u></a> \| <a href="#"><u>Download .ipynb file</u></a>)
+(<a href="#"><u>Summary</u></a> \| <a href="#" target="_blank"><u>View notebook</u></a> \| <a href="#"><u>Download .ipynb file</u></a>)
 
 <br>
 
