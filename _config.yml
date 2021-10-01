@@ -53,7 +53,7 @@ header_pages:
  - projects/projects_home.md
 #  - blog_link.md
 #  - resume_link.md
- - [Resume](/resume_link.md){:target="_blank"}
+ - resume_link.md{:target="_blank"}
 
 # Build settings
 theme: minima
