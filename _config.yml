@@ -27,8 +27,8 @@ minima:
     linkedin: xyjiang
     # pinterest: jekyll
     # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
+    # youtube_channel: UC8CXR1-6J70i1pfPg1PME1g
+    # youtube_channel_name: jekYLL
     # telegram: jekyll
     # microdotblog: jekyll
     # keybase: jekyll
@@ -53,7 +53,7 @@ header_pages:
  - projects/projects_home.md
 #  - blog_link.md
 #  - resume_link.md
- - <a href="{{resume_link.md}}" target="_blank">{{Resume}}</a>
+ - <a href="resume_link.md" target="_blank">Resume</a>
 
 # Build settings
 theme: minima
