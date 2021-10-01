@@ -52,7 +52,7 @@ minima:
 header_pages:
  - projects/projects_home.md
 #  - blog_link.md
- - resume_link.md target="blank"
+ - resume_link.md
 
 # Build settings
 theme: minima
