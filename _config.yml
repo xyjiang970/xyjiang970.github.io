@@ -52,7 +52,8 @@ minima:
 header_pages:
  - projects/projects_home.md
 #  - blog_link.md
- - resume_link.md
+#  - resume_link.md
+ - <a href="{{ nav.resume_link.md }}" target="_blank">{{ nav.Resume }}</a>
 
 # Build settings
 theme: minima
