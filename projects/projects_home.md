@@ -12,12 +12,12 @@ A collection of projects to help familiarizing myself with everyday tasks of dat
 <br>
 
 ## • COVID-19 Analysis  
-([Summary](#) \| <a href="https://nbviewer.jupyter.org/github/xyjiang970/_notebooks/blob/main/Covid-data-analysis.ipynb" target="_blank">View Notebook Online</a> \| <a href="https://xyjiang970.github.io/_notebooks/Covid-data-analysis.ipynb" target="_blank">Download .ipynb file</a>)
+(<a href="#"><u>Summary</u></a> \| <a href="https://nbviewer.jupyter.org/github/xyjiang970/_notebooks/blob/main/Covid-data-analysis.ipynb" target="_blank"><u>View notebook</u></a> \| <a href="https://xyjiang970.github.io/_notebooks/Covid-data-analysis.ipynb">Download .ipynb file</a>)
 
 <br>
 
 ## • Where it Pays to Attend College  
-([Summary](#) \| [View Notebook Online](#) \| [Download .ipynb file](#))
+(<a href="#"><u>Summary</u></a> \| <a href="#"><u>View notebook</u></a> \| <a href="#"><u>Download .ipynb file</u></a>)
 
 <br>
 
