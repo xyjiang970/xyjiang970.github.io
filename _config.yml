@@ -52,7 +52,8 @@ minima:
 header_pages:
  - projects/projects_home.md
 #  - blog_link.md
- - resume_link.md
+#  - resume_link.md
+ - [Mishacreatrix Website](https://mishacreatrix.com/){:target="_blank"}
 
 # Build settings
 theme: minima
