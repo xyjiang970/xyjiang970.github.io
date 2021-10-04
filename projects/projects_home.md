@@ -7,8 +7,6 @@ description:
 **[Home](../)** >> Projects
 # Projects
 
-A collection of projects to help familiarizing myself with everyday tasks of data analysts.
-
 <br>
 
 ## • Backtesting Investment Strategies (US Stocks)
