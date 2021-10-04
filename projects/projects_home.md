@@ -21,6 +21,11 @@ A collection of projects to help familiarizing myself with everyday tasks of dat
 
 <br>
 
+## • Backtesting Investment Strategies (US Stocks)
+(<a href="#"><u>Summary</u></a> \| <a href="#" target="_blank"><u>View notebook</u></a> \| <a href="#"><u>Download .ipynb file</u></a>)
+
+<br>
+
 ## • Popular US Baby Names Over the Years
 (<a href="#"><u>Summary</u></a> \| <a href="#" target="_blank"><u>View notebook</u></a> \| <a href="#"><u>Download .ipynb file</u></a>)
 
