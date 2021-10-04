@@ -21,4 +21,9 @@ A collection of projects to help familiarizing myself with everyday tasks of dat
 
 <br>
 
+## • Popular US Baby Names Over the Years
+(<a href="#"><u>Summary</u></a> \| <a href="#" target="_blank"><u>View notebook</u></a> \| <a href="#"><u>Download .ipynb file</u></a>)
+
+<br>
+
 <img src="/projects/projects_page_image.png" alt="projects_page_image" width="400">
