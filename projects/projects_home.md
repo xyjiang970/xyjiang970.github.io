@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 permalink: /projects/
-description: A collection of personal projects to familiarize myself with everyday tasks of data analysts.
+description: 
 ---
 **[Home](../)** >> Projects
 # Projects
