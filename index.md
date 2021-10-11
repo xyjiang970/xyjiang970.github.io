@@ -5,7 +5,7 @@ description: Welcome to my portfolio website!
 ---
 
 <!-- <img src="/images/homepage_img.jpg" alt="homepage_img" width="200" style="border-radius:50%;  filter:brightness(1.1);"> -->
-<img src="/images/me.jpg" alt="homepage_img" width="200" style="border-radius:50%;  filter:brightness(1.1);"> 
+<img src="/images/jason.jpg" alt="homepage_img" width="200" style="border-radius:50%;  filter:brightness(1.1);"> 
 
 <br>
 
