@@ -10,7 +10,7 @@ description:
 <br>
 
 ## • Index Tracking Portfolio 
-(<a href="#" target="_blank"><u>View notebook</u></a> \| <a href="#"><u>Download .ipynb file</u></a>)
+(<a href="popular_us_baby_names.html" target="_blank"><u>View notebook</u></a> \| <a href="#"><u>Download .ipynb file</u></a>)
 
 <br>
 
