@@ -13115,6 +13115,9 @@ The data (name, year of birth, sex, and number) are from a 100 percent sample of
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 
 <span class="n">peek</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;names/yob1880.txt&#39;</span><span class="p">)</span>
 <span class="n">peek</span>
@@ -13631,7 +13634,7 @@ and drop the inner index level and reset the index.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span> <span class="c1"># Looking at the summary</span>
@@ -13706,143 +13709,6 @@ memory usage: 61.7+ MB
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;us_baby_names_1880_to_2020.csv&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[8]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Year</th>
-      <th>Name</th>
-      <th>Gender</th>
-      <th>Count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1880</td>
-      <td>Mary</td>
-      <td>F</td>
-      <td>7065</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1880</td>
-      <td>Anna</td>
-      <td>F</td>
-      <td>2604</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>1880</td>
-      <td>Emma</td>
-      <td>F</td>
-      <td>2003</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>1880</td>
-      <td>Elizabeth</td>
-      <td>F</td>
-      <td>1939</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>1880</td>
-      <td>Minnie</td>
-      <td>F</td>
-      <td>1746</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>2020858</th>
-      <td>2020</td>
-      <td>Zykell</td>
-      <td>M</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>2020859</th>
-      <td>2020</td>
-      <td>Zylus</td>
-      <td>M</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>2020860</th>
-      <td>2020</td>
-      <td>Zymari</td>
-      <td>M</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>2020861</th>
-      <td>2020</td>
-      <td>Zyn</td>
-      <td>M</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>2020862</th>
-      <td>2020</td>
-      <td>Zyran</td>
-      <td>M</td>
-      <td>5</td>
-    </tr>
-  </tbody>
-</table>
-<p>2020863 rows × 4 columns</p>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13879,10 +13745,10 @@ memory usage: 61.7+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">float_format</span> <span class="o">=</span> <span class="s1">&#39;{:,2f}&#39;</span><span class="o">.</span><span class="n">format</span> <span class="c1"># To 2 decimal places</span>
 </pre></div>
 
     </div>
@@ -13892,13 +13758,1815 @@ memory usage: 61.7+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;us_baby_names_1880_to_2020.csv&#39;</span><span class="p">)</span>
+
+<span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span> <span class="c1"># Checking number of unique values in the columns </span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 2020863 entries, 0 to 2020862
+Data columns (total 4 columns):
+ #   Column  Dtype 
+---  ------  ----- 
+ 0   Year    int64 
+ 1   Name    object
+ 2   Gender  object
+ 3   Count   int64 
+dtypes: int64(2), object(2)
+memory usage: 61.7+ MB
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[10]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>Year         141
+Name      100364
+Gender         2
+Count      13813
+dtype: int64</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Because "Gender" column only has 2 unique values, we can convert the data type from "object" to "category". This allows us to save some memory usage. More info. regarding categories here: <a href="https://pbpython.com/pandas_dtypes_cat.html">https://pbpython.com/pandas_dtypes_cat.html</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">Gender</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Gender</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s2">&quot;category&quot;</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 2020863 entries, 0 to 2020862
+Data columns (total 4 columns):
+ #   Column  Dtype   
+---  ------  -----   
+ 0   Year    int64   
+ 1   Name    object  
+ 2   Gender  category
+ 3   Count   int64   
+dtypes: category(1), int64(2), object(1)
+memory usage: 48.2+ MB
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Notice how we saved ~13.5mb of memory here.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">names_1964</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Year</span> <span class="o">==</span> <span class="mi">1964</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span> <span class="c1"># Only interested in names from 1964</span>
+<span class="n">names_1964</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[12]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>621117</th>
+      <td>1964</td>
+      <td>Lisa</td>
+      <td>F</td>
+      <td>54272</td>
+    </tr>
+    <tr>
+      <th>621118</th>
+      <td>1964</td>
+      <td>Mary</td>
+      <td>F</td>
+      <td>40985</td>
+    </tr>
+    <tr>
+      <th>621119</th>
+      <td>1964</td>
+      <td>Susan</td>
+      <td>F</td>
+      <td>31516</td>
+    </tr>
+    <tr>
+      <th>621120</th>
+      <td>1964</td>
+      <td>Karen</td>
+      <td>F</td>
+      <td>30247</td>
+    </tr>
+    <tr>
+      <th>621121</th>
+      <td>1964</td>
+      <td>Patricia</td>
+      <td>F</td>
+      <td>26086</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>633511</th>
+      <td>1964</td>
+      <td>Zac</td>
+      <td>M</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>633512</th>
+      <td>1964</td>
+      <td>Zalman</td>
+      <td>M</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>633513</th>
+      <td>1964</td>
+      <td>Zedric</td>
+      <td>M</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>633514</th>
+      <td>1964</td>
+      <td>Zeno</td>
+      <td>M</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>633515</th>
+      <td>1964</td>
+      <td>Zina</td>
+      <td>M</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+<p>12399 rows × 4 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Most popular Female names in 1964:</span>
+
+<span class="n">names_1964</span><span class="p">[</span><span class="n">names_1964</span><span class="o">.</span><span class="n">Gender</span> <span class="o">==</span><span class="s1">&#39;F&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[13]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>621117</th>
+      <td>1964</td>
+      <td>Lisa</td>
+      <td>F</td>
+      <td>54272</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Most popular Male names in 1964:</span>
+
+<span class="n">names_1964</span><span class="p">[</span><span class="n">names_1964</span><span class="o">.</span><span class="n">Gender</span> <span class="o">==</span> <span class="s1">&#39;M&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[14]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>628922</th>
+      <td>1964</td>
+      <td>Michael</td>
+      <td>M</td>
+      <td>82642</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We see that the most popular name for Females in 1964 is "<i>Lisa</i>" and for Males it's "<i>Michael</i>". While we're at it let's create a function that grabs the top "n" most popular names by gender of <b>any year</b>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">most_pop_names</span><span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="n">gender</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">Year</span> <span class="o">==</span> <span class="n">year</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Gender</span> <span class="o">==</span> <span class="n">gender</span><span class="p">)]</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">most_pop_names</span><span class="p">(</span><span class="mi">2020</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span> <span class="c1"># Top 5 Female names in 2020</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[16]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1989592</th>
+      <td>2020</td>
+      <td>Olivia</td>
+      <td>F</td>
+      <td>17535</td>
+    </tr>
+    <tr>
+      <th>1989593</th>
+      <td>2020</td>
+      <td>Emma</td>
+      <td>F</td>
+      <td>15581</td>
+    </tr>
+    <tr>
+      <th>1989594</th>
+      <td>2020</td>
+      <td>Ava</td>
+      <td>F</td>
+      <td>13084</td>
+    </tr>
+    <tr>
+      <th>1989595</th>
+      <td>2020</td>
+      <td>Charlotte</td>
+      <td>F</td>
+      <td>13003</td>
+    </tr>
+    <tr>
+      <th>1989596</th>
+      <td>2020</td>
+      <td>Sophia</td>
+      <td>F</td>
+      <td>12976</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">most_pop_names</span><span class="p">(</span><span class="mi">2020</span><span class="p">,</span> <span class="s1">&#39;M&#39;</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span> <span class="c1"># Top 5 Male names in 2020</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[17]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2006952</th>
+      <td>2020</td>
+      <td>Liam</td>
+      <td>M</td>
+      <td>19659</td>
+    </tr>
+    <tr>
+      <th>2006953</th>
+      <td>2020</td>
+      <td>Noah</td>
+      <td>M</td>
+      <td>18252</td>
+    </tr>
+    <tr>
+      <th>2006954</th>
+      <td>2020</td>
+      <td>Oliver</td>
+      <td>M</td>
+      <td>14147</td>
+    </tr>
+    <tr>
+      <th>2006955</th>
+      <td>2020</td>
+      <td>Elijah</td>
+      <td>M</td>
+      <td>13034</td>
+    </tr>
+    <tr>
+      <th>2006956</th>
+      <td>2020</td>
+      <td>William</td>
+      <td>M</td>
+      <td>12541</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Names-that-Lasted-over-the-Past-140+-Years-(Evergreen-Names)">Names that Lasted over the Past 140+ Years (Evergreen Names)<a class="anchor-link" href="#Names-that-Lasted-over-the-Past-140+-Years-(Evergreen-Names)">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Before we start digging into the data, we should defind what a "popular" name is. To keep things simple, let's just say any in the top 15 positions can be considered as popular. We will take a look at both genders.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">f_1880</span> <span class="o">=</span> <span class="n">most_pop_names</span><span class="p">(</span><span class="mi">1880</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span> <span class="c1"># Top 15 Female names in 1880</span>
+<span class="n">f_2020</span> <span class="o">=</span> <span class="n">most_pop_names</span><span class="p">(</span><span class="mi">2020</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span> <span class="c1"># Top 15 Famale names in 2020</span>
+
+<span class="n">m_1880</span> <span class="o">=</span> <span class="n">most_pop_names</span><span class="p">(</span><span class="mi">1880</span><span class="p">,</span> <span class="s1">&#39;M&#39;</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span> <span class="c1"># Top 15 Male names in 1880</span>
+<span class="n">m_2020</span> <span class="o">=</span> <span class="n">most_pop_names</span><span class="p">(</span><span class="mi">1880</span><span class="p">,</span> <span class="s1">&#39;M&#39;</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span> <span class="c1"># Top 15 Male names in 2020</span>
+
+<span class="c1"># Merging 2020 data with 1880 data to get one overall data frame</span>
+<span class="n">f_2020</span><span class="p">[[</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">f_1880</span><span class="p">[[</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">]],</span> <span class="n">how</span> <span class="o">=</span> <span class="s2">&quot;inner&quot;</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="s2">&quot;Name&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[18]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Count_x</th>
+      <th>Count_y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Emma</td>
+      <td>15581</td>
+      <td>2003</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Ella</td>
+      <td>7303</td>
+      <td>1156</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Do the same for Male names</span>
+<span class="n">m_2020</span><span class="p">[[</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">m_1880</span><span class="p">[[</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">]],</span> <span class="n">how</span> <span class="o">=</span> <span class="s2">&quot;inner&quot;</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="s2">&quot;Name&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[19]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Count_x</th>
+      <th>Count_y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>John</td>
+      <td>9655</td>
+      <td>9655</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>William</td>
+      <td>9532</td>
+      <td>9532</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>James</td>
+      <td>5927</td>
+      <td>5927</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Charles</td>
+      <td>5348</td>
+      <td>5348</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>George</td>
+      <td>5126</td>
+      <td>5126</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Frank</td>
+      <td>3242</td>
+      <td>3242</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Joseph</td>
+      <td>2632</td>
+      <td>2632</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Thomas</td>
+      <td>2534</td>
+      <td>2534</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Henry</td>
+      <td>2444</td>
+      <td>2444</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Robert</td>
+      <td>2415</td>
+      <td>2415</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Edward</td>
+      <td>2364</td>
+      <td>2364</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Harry</td>
+      <td>2152</td>
+      <td>2152</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Walter</td>
+      <td>1755</td>
+      <td>1755</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Arthur</td>
+      <td>1599</td>
+      <td>1599</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Fred</td>
+      <td>1569</td>
+      <td>1569</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># &quot;Count_x&quot; and &quot;Count_y&quot; here for the two tables are unclear, we need to label our data frames better</span>
+<span class="c1"># We can do this by editing the suffixes when we merge:</span>
+<span class="n">f_evergreen_names</span> <span class="o">=</span> <span class="n">f_2020</span><span class="p">[[</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">f_1880</span><span class="p">[[</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">]],</span> 
+                                                    <span class="n">how</span> <span class="o">=</span> <span class="s2">&quot;inner&quot;</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="s2">&quot;Name&quot;</span><span class="p">,</span>
+                                                   <span class="n">suffixes</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;_2020&quot;</span><span class="p">,</span> <span class="s2">&quot;_1880&quot;</span><span class="p">))</span>
+
+<span class="n">m_evergreen_names</span> <span class="o">=</span> <span class="n">m_2020</span><span class="p">[[</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">m_1880</span><span class="p">[[</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">]],</span>
+                                                   <span class="n">how</span> <span class="o">=</span> <span class="s2">&quot;inner&quot;</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="s2">&quot;Name&quot;</span><span class="p">,</span>
+                                                   <span class="n">suffixes</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;_2020&quot;</span><span class="p">,</span> <span class="s2">&quot;_1880&quot;</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">f_evergreen_names</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[21]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Count_2020</th>
+      <th>Count_1880</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Emma</td>
+      <td>15581</td>
+      <td>2003</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Ella</td>
+      <td>7303</td>
+      <td>1156</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">m_evergreen_names</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[22]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Count_2020</th>
+      <th>Count_1880</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>John</td>
+      <td>9655</td>
+      <td>9655</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>William</td>
+      <td>9532</td>
+      <td>9532</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>James</td>
+      <td>5927</td>
+      <td>5927</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Charles</td>
+      <td>5348</td>
+      <td>5348</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>George</td>
+      <td>5126</td>
+      <td>5126</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Frank</td>
+      <td>3242</td>
+      <td>3242</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Joseph</td>
+      <td>2632</td>
+      <td>2632</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Thomas</td>
+      <td>2534</td>
+      <td>2534</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Henry</td>
+      <td>2444</td>
+      <td>2444</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Robert</td>
+      <td>2415</td>
+      <td>2415</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Edward</td>
+      <td>2364</td>
+      <td>2364</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Harry</td>
+      <td>2152</td>
+      <td>2152</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Walter</td>
+      <td>1755</td>
+      <td>1755</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Arthur</td>
+      <td>1599</td>
+      <td>1599</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Fred</td>
+      <td>1569</td>
+      <td>1569</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Looking at the top names we see that the most popular Female names in 1880 that are still used in 2020 are: "<i>Emma</i>" and "<i>Ella</i>" while for Males, the top 3 are: "<i>John</i>", "<i>William</i>", and "<i>James</i>"</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Aggregating-Data">Aggregating Data<a class="anchor-link" href="#Aggregating-Data">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>What if we want to get the total count for all names from 1880 to 2020?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;us_baby_names_1880_to_2020.csv&#39;</span><span class="p">)</span>
+
+<span class="c1"># Group our data frame by name and gender (some names are unisex - we are considering all combinations)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Gender&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">Count</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[32]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>Name     Gender
+Aaban    M         120
+Aabha    F          46
+Aabid    M          16
+Aabidah  F           5
+Aabir    M          10
+                  ... 
+Zyvion   M           5
+Zyvon    M           7
+Zyyanna  F           6
+Zyyon    M           6
+Zzyzx    M          10
+Name: Count, Length: 111472, dtype: int64</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Here we get a pandas series with a multi index on the left side with all combinations of name and gender.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Removing multi index and converting the inner index level &quot;Gender&quot; into an ordinary column</span>
+<span class="c1"># We can do this by resetting the index at column position 1</span>
+
+<span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Gender&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">Count</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">level</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[41]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Gender</th>
+      <th>Count</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Aaban</th>
+      <td>M</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <th>Aabha</th>
+      <td>F</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <th>Aabid</th>
+      <td>M</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>Aabidah</th>
+      <td>F</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Aabir</th>
+      <td>M</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>Zyvion</th>
+      <td>M</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Zyvon</th>
+      <td>M</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Zyyanna</th>
+      <td>F</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Zyyon</th>
+      <td>M</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Zzyzx</th>
+      <td>M</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+<p>111472 rows × 2 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Aggregating the data using the .agg method by name and gender</span>
+
+<span class="c1"># Total = total occurances of that name</span>
+<span class="c1"># First_Appearance = first year the name appeared</span>
+<span class="c1"># Last_Appearance = last year the name appeared</span>
+<span class="c1"># Num_Years_Appeared = number of appearances made from 1880-2020 (last year appeared - first year appeared)</span>
+<span class="c1"># Max_Count = the maximum number of times the name has shown up for a given year</span>
+
+<span class="n">agg_names</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Gender&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="n">Total</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;Count&quot;</span><span class="p">,</span> <span class="s2">&quot;sum&quot;</span><span class="p">),</span>
+                                               <span class="n">First_Appearance</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;Year&quot;</span><span class="p">,</span><span class="s2">&quot;min&quot;</span><span class="p">),</span>
+                                               <span class="n">Last_Appearance</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;Year&quot;</span><span class="p">,</span> <span class="s2">&quot;max&quot;</span><span class="p">),</span>
+                                               <span class="n">Num_Years_Appeared</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;Count&quot;</span><span class="p">,</span> <span class="s2">&quot;count&quot;</span><span class="p">),</span>
+                                               <span class="n">Max_Count</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;Count&quot;</span><span class="p">,</span> <span class="s2">&quot;max&quot;</span><span class="p">))</span>
+
+<span class="n">agg_names</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[51]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>Total</th>
+      <th>First_Appearance</th>
+      <th>Last_Appearance</th>
+      <th>Num_Years_Appeared</th>
+      <th>Max_Count</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Gender</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Aaban</th>
+      <th>M</th>
+      <td>120</td>
+      <td>2007</td>
+      <td>2019</td>
+      <td>12</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>Aabha</th>
+      <th>F</th>
+      <td>46</td>
+      <td>2011</td>
+      <td>2020</td>
+      <td>7</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>Aabid</th>
+      <th>M</th>
+      <td>16</td>
+      <td>2003</td>
+      <td>2018</td>
+      <td>3</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Aabidah</th>
+      <th>F</th>
+      <td>5</td>
+      <td>2018</td>
+      <td>2018</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Aabir</th>
+      <th>M</th>
+      <td>10</td>
+      <td>2016</td>
+      <td>2018</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>Zyvion</th>
+      <th>M</th>
+      <td>5</td>
+      <td>2009</td>
+      <td>2009</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Zyvon</th>
+      <th>M</th>
+      <td>7</td>
+      <td>2015</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Zyyanna</th>
+      <th>F</th>
+      <td>6</td>
+      <td>2010</td>
+      <td>2010</td>
+      <td>1</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Zyyon</th>
+      <th>M</th>
+      <td>6</td>
+      <td>2014</td>
+      <td>2014</td>
+      <td>1</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Zzyzx</th>
+      <th>M</th>
+      <td>10</td>
+      <td>2010</td>
+      <td>2018</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+<p>111472 rows × 5 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Taking the name "Aaban" (Male) for example, it has a total count of 120. The name first appeared in 2007 and last appeared in 2019, making it appear for 12 years straight. The maximum number of times it appeared for a year from 1880-2020 is 16.</p>
+<p>We will now add a column to the data frame to determine exactly what year it was when the name showed up the most (which year is responsible for the Max_Count?)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># For each and every combination of name and gender we get,</span>
+<span class="c1"># get the Year of the row with the largest number in the count column</span>
+
+<span class="k">def</span> <span class="nf">max_count_year</span><span class="p">(</span><span class="n">group</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">group</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">Year</span>
+
+<span class="c1"># Documentation for .nlargest: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.nlargest.html </span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">name_max_count_year</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Gender&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">max_count_year</span><span class="p">)</span>
+<span class="n">name_max_count_year</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[54]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>Name     Gender         
+Aaban    M       1817991    2014
+Aabha    F       1804244    2014
+Aabid    M       1954228    2018
+Aabidah  F       1941027    2018
+Aabir    M       1890732    2016
+                            ... 
+Zyvion   M       1658235    2009
+Zyvon    M       1856308    2015
+Zyyanna  F       1675211    2010
+Zyyon    M       1824606    2014
+Zzyzx    M       1692320    2010
+Name: Year, Length: 111472, dtype: int64</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We see that for the the male name "Aaban", the most occurances of the name was in the year 2014. What we have here is a pandas series with a multi index (3 index levels). We also have a row label of the particular combination in the original data frame (df) that we can just drop.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">name_max_count_year</span><span class="o">.</span><span class="n">droplevel</span><span class="p">(</span><span class="n">level</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[62]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>Name     Gender
+Aaban    M         2014
+Aabha    F         2014
+Aabid    M         2018
+Aabidah  F         2018
+Aabir    M         2016
+                   ... 
+Zyvion   M         2009
+Zyvon    M         2015
+Zyyanna  F         2010
+Zyyon    M         2014
+Zzyzx    M         2010
+Name: Year, Length: 111472, dtype: int64</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Adding the year of max_count back to the aggregated data frame</span>
+
+<span class="n">agg_names</span><span class="p">[</span><span class="s2">&quot;Max_Count_Year&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">name_max_count_year</span><span class="o">.</span><span class="n">droplevel</span><span class="p">(</span><span class="n">level</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">agg_names</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[69]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>Total</th>
+      <th>First_Appearance</th>
+      <th>Last_Appearance</th>
+      <th>Num_Years_Appeared</th>
+      <th>Max_Count</th>
+      <th>Max_Count_Year</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Gender</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Aaban</th>
+      <th>M</th>
+      <td>120</td>
+      <td>2007</td>
+      <td>2019</td>
+      <td>12</td>
+      <td>16</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <th>Aabha</th>
+      <th>F</th>
+      <td>46</td>
+      <td>2011</td>
+      <td>2020</td>
+      <td>7</td>
+      <td>9</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <th>Aabid</th>
+      <th>M</th>
+      <td>16</td>
+      <td>2003</td>
+      <td>2018</td>
+      <td>3</td>
+      <td>6</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <th>Aabidah</th>
+      <th>F</th>
+      <td>5</td>
+      <td>2018</td>
+      <td>2018</td>
+      <td>1</td>
+      <td>5</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <th>Aabir</th>
+      <th>M</th>
+      <td>10</td>
+      <td>2016</td>
+      <td>2018</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>Zyvion</th>
+      <th>M</th>
+      <td>5</td>
+      <td>2009</td>
+      <td>2009</td>
+      <td>1</td>
+      <td>5</td>
+      <td>2009</td>
+    </tr>
+    <tr>
+      <th>Zyvon</th>
+      <th>M</th>
+      <td>7</td>
+      <td>2015</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>7</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>Zyyanna</th>
+      <th>F</th>
+      <td>6</td>
+      <td>2010</td>
+      <td>2010</td>
+      <td>1</td>
+      <td>6</td>
+      <td>2010</td>
+    </tr>
+    <tr>
+      <th>Zyyon</th>
+      <th>M</th>
+      <td>6</td>
+      <td>2014</td>
+      <td>2014</td>
+      <td>1</td>
+      <td>6</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <th>Zzyzx</th>
+      <th>M</th>
+      <td>10</td>
+      <td>2010</td>
+      <td>2018</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2010</td>
+    </tr>
+  </tbody>
+</table>
+<p>111472 rows × 6 columns</p>
+</div>
+</div>
+
+</div>
+
 </div>
 </div>
 
