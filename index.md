@@ -13,4 +13,4 @@ Hi, I’m Jason. I collect, manage, and convert raw data into usable information
 
 <br>
 
-Check out my <a href="/projects/"><u>recent projects</u></a>.
+<!-- Check out my <a href="/projects/"><u>recent projects</u></a>. -->
