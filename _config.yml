@@ -51,8 +51,8 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
 # - projects/projects_home.md
-#  - blog_link.md
-#  - photography_link.md
+ - blog_link.md
+ - photography_link.md
  - resume_link.md
 
 # Build settings
