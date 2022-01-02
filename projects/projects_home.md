@@ -28,7 +28,7 @@ description:
 <br>
 
 <H2>• <a href="https://nbviewer.org/github/xyjiang970/_notebooks/blob/main/Popular%20US%20Baby%20Names.ipynb" target="_blank">
-<u>Popular US Baby Names Over the Years</u>
+<u>Popular US Baby Names</u>
 </a></H2>
 
 <br>
