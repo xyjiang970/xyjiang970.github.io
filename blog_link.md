@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog Site
-permalink: /blog/
-description: Interesting reads
+title: Travel Blog
+permalink: /travel/
+<!-- description: Interesting reads -->
 ---
