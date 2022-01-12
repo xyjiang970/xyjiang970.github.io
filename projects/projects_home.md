@@ -15,19 +15,16 @@ description:
 <u>Exploratory Data Analysis of a South German Bank</u>
 </a></H3>
 
-<br>
 
 <H3>• <a href="https://nbviewer.org/github/xyjiang970/_notebooks/blob/main/Index%20Tracking%20Portfolio.ipynb" target="_blank">
 <u>Index Tracking Portfolio</u>
 </a></H3>
 
-<br>
 
 <H3>• <a href="https://nbviewer.org/github/xyjiang970/_notebooks/blob/main/Backtesting%20Investment%20Strategies.ipynb" target="_blank">
 <u>Backtesting Investment Strategies</u>
 </a></H3>
 
-<br>
 
 <H3>• <a href="https://nbviewer.org/github/xyjiang970/_notebooks/blob/main/Popular%20US%20Baby%20Names.ipynb" target="_blank">
 <u>Popular US Baby Names</u>
