@@ -9,7 +9,16 @@ description:
 
 <br>
 
-<H2>2021</H2>
+<H2><b>2022</b></H2>
+
+<H3>• <a href="https://share.streamlit.io/xyjiang970/covid_dashboard/main" target="_blank">
+<u>Simple Covid Dashboard</u>
+</a></H3>
+
+<br>
+<br>
+
+<H2><b>2021</b></H2>
 
 <H3>• <a href="https://nbviewer.org/github/xyjiang970/_notebooks/blob/main/Exploratory%20Data%20Analysis%20of%20a%20South%20German%20Bank.ipynb" target="_blank">
 <u>Exploratory Data Analysis of a South German Bank</u>
