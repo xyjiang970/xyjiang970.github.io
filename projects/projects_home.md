@@ -14,7 +14,7 @@ description:
 <H3>• <a href="https://share.streamlit.io/xyjiang970/covid_dashboard/main" target="_blank">
 <u>Simple Covid Dashboard</u>
 </a> (In progress)</H3>
-Recommended to view dashboard on laptop/ desktop devices.
+Recommended viewing on laptop/ desktop devices.
 
 <br>
 <br>
