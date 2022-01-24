@@ -12,7 +12,7 @@ description:
 <H2><b>2022</b></H2>
 
 <H3>• <a href="https://share.streamlit.io/xyjiang970/covid_dashboard/main" target="_blank">
-<u>Simple Covid Dashboard</u>
+<u>Covid Dashboard</u>
 </a> (In progress)</H3>
 Recommended viewing on laptop/ desktop devices.
 
