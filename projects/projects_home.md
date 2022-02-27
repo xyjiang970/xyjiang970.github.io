@@ -13,7 +13,7 @@ description:
 
 <H3>• <a href="https://share.streamlit.io/xyjiang970/covid_dashboard/main" target="_blank">
 <u>Covid Dashboard</u>
-</a> (In progress)</H3>
+</a></H3>
 Recommended viewing on laptop/ desktop devices.
 
 <br>
