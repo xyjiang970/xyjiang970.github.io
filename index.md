@@ -9,7 +9,9 @@ description: Welcome to my portfolio website!
 
 <br>
 
-Hi, I’m Jason. I collect, manage, and convert data into usable information that informs business decisions and save costs. By transforming data into formats that can be easily analyzed - I work to effectively turn business questions into data analysis, helping teams provide meaningful recommendations on strategy. You can find my most recent resume <a href="jason_resume.pdf" target="_blank"><u>here</u></a>.
+Hi, I’m Jason. I collect, manage, and convert data into usable information that informs business decisions and save costs. By transforming data into formats that can be easily analyzed - I work to effectively turn business questions into data analysis, helping teams provide meaningful recommendations on strategy. 
+
+<!-- You can find my most recent resume <a href="jason_resume.pdf" target="_blank"><u>here</u></a>. -->
 
 <br>
 
