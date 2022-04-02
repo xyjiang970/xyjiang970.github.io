@@ -12,7 +12,7 @@ description:
 <H2><b>2022</b></H2>
 
 <H3>• <a href="#">
-<u>AWS Introduction to Opensearch and Kibana</u>
+<u>AWS: Introduction to Opensearch and Kibana</u>
 </a></H3>
 
 
