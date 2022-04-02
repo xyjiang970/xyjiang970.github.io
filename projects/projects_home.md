@@ -11,6 +11,11 @@ description:
 
 <H2><b>2022</b></H2>
 
+<H3>• <a href="#">
+<u>AWS Introduction to Opensearch and Kibana</u>
+</a></H3>
+
+
 <H3>• <a href="https://share.streamlit.io/xyjiang970/covid_dashboard/main" target="_blank">
 <u>Covid Dashboard</u>
 </a></H3>
