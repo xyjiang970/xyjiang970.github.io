@@ -16,10 +16,10 @@ description:
 </a></H3>
 
 
-<H3>• <a href="https://share.streamlit.io/xyjiang970/covid_dashboard/main" target="_blank">
+<H3 style="margin-bottom:0;">• <a href="https://share.streamlit.io/xyjiang970/covid_dashboard/main" target="_blank">
 <u>Covid Dashboard</u>
 </a></H3>
-<p style="margin:0; padding-top:0;">&emsp;Recommended viewing on laptop/ desktop devices.</p>
+<p>&emsp;Recommended viewing on laptop/ desktop devices.</p>
 
 <br>
 <br>
