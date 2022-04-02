@@ -19,7 +19,7 @@ description:
 <H3>• <a href="https://share.streamlit.io/xyjiang970/covid_dashboard/main" target="_blank">
 <u>Covid Dashboard</u>
 </a></H3>
-<p>&emsp;Recommended viewing on laptop/ desktop devices.</p>
+<p style="margin:0; padding-top:0;">&emsp;Recommended viewing on laptop/ desktop devices.</p>
 
 <br>
 <br>
