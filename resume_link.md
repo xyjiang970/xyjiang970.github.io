@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Resume
-permalink: /jason_resume.pdf
+permalink: /Jason_Resume.pdf
 description: resume
 ---
