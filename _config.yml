@@ -50,7 +50,7 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-#  - resume_link.md
+ - resume_link.md
  - projects/projects_home.md
 # - photography_link.md
 #  - TravelBlog_link.md
