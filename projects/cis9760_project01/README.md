@@ -1,6 +1,6 @@
 # CIS 9760 Big Data Technologies: Project 1 - OpenSearch & Kibana
 
-This project is an an introduction to using Amazon Web Services' [OpenSearch](https://aws.amazon.com/opensearch-service/the-elk-stack/what-is-opensearch/) and visualizations were made using [Kibana](https://aws.amazon.com/opensearch-service/the-elk-stack/kibana/).
+This project is an an introduction to using Amazon Web Services' [OpenSearch](https://aws.amazon.com/opensearch-service/the-elk-stack/what-is-opensearch/) software and visualizations were made using [Kibana](https://aws.amazon.com/opensearch-service/the-elk-stack/kibana/).
 
 The goal is to fetch and upload between 300K-500K rows of data from NYC Open Data's [Open Parking and Camera Violations dataset](https://data.cityofnewyork.us/City-Government/Open-Parking-and-Camera-Violations/nc67-uf89) and explore the data using Kibana to help answer the following four questions:
 
