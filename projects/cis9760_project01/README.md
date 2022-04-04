@@ -10,5 +10,3 @@ The goal is to fetch and upload between 300K-500K rows of data from NYC Open Dat
   <li>Which year had the most violations?</li>
   <li>How many of the violations from the data is actually not guilty?</li>
 </ol>
-
-You can read more about the process in [my blog post](#). 
