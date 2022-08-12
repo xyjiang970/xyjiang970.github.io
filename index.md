@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jason Jiang
+title: Xin Yu (Jason) Jiang
 description: Welcome to my portfolio website!
 ---
 
