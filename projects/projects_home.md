@@ -23,7 +23,7 @@ description:
 <H3 style="margin-bottom:0;">• <a href="https://github.com/xyjiang970/covid_dashboard" target="_blank">
 <u>Covid Dashboard</u>
 </a></H3>
-<p>&emsp;Recommended viewing on laptop/ desktop devices.</p>
+<!-- <p>&emsp;Recommended viewing on laptop/ desktop devices.</p> -->
 
 <br>
 <br>
