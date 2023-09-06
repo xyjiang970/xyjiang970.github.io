@@ -4,3 +4,5 @@ title: Blog
 permalink: /blog/
 description:
 ---
+
+Coming soon!
