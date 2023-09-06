@@ -53,7 +53,7 @@ header_pages:
 # - resume_link.md
  - projects/projects_home.md
 # - photography_link.md
-#  - TravelBlog_link.md
+ - blog/blog_home.md
 
 
 # Build settings
