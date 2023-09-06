@@ -4,5 +4,7 @@ title: Blog
 permalink: /blog/
 description:
 ---
-
-Coming soon!
+**[Home](../)** >> Blog
+# Blog
+<br>
+Coming soon! 
