@@ -4,9 +4,7 @@ title: Projects
 permalink: /projects/
 description:
 ---
-**[Home](../)** >> Projects
 # Projects
-
 <br>
 
 <H2><b>2023 — Present</b></H2>
