@@ -52,8 +52,7 @@ minima:
 header_pages:
 # - resume_link.md
  - projects/projects_home.md
-# - photography_link.md
- - blog/blog_home.md
+# - blog/blog_home.md
 
 
 # Build settings
