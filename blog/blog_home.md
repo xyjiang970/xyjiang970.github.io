@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 description:
 ---
-# Projects
+# Blog
 <br>
 
 <H2><u><b>2023</b></u></H2>
