@@ -15,6 +15,4 @@ Hi, I’m Jason. I'm a Data Analyst with over three years of experience collecti
 </p>
 <!-- You can find my most recent resume <a href="jason_resume.pdf" target="_blank"><u>here</u></a>. -->
 
-<br>
-
 <!-- Check out my <a href="/projects/"><u>recent projects</u></a>. -->
