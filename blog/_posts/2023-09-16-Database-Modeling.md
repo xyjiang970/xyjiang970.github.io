@@ -6,7 +6,7 @@ author:
 permalink: 
 ---
 
-[Home](../../../../) >> [Blog]((../../../)) >>
+[Home](../../../../) >> [Blog](../../../) >> 
 
 <h2 id="Contents">Contents</h2>
 
