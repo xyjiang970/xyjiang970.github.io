@@ -12,13 +12,13 @@ description:
 
 <H2><u><b>2023 — Present</b></u></H2>
 
-<H3 style="margin-bottom:0;">• <a href="https://github.com/xyjiang970/games" target="_blank">Python Games</a></H3>
+<H3>• <a href="https://github.com/xyjiang970/games" target="_blank">Python Games</a></H3>
 
 <br>
 
 <H2><u><b>2022</b></u></H2>
 
-<H3 style="margin-bottom:0;">• <a href="https://github.com/xyjiang970/covid_dashboard" target="_blank">Covid Dashboard</a></H3>
+<H3>• <a href="https://github.com/xyjiang970/covid_dashboard" target="_blank">Covid Dashboard</a></H3>
 
 <br>
 
