@@ -5,6 +5,9 @@ permalink: /projects/
 description:
 ---
 # Projects
+
+[Home](../) >> Projects
+
 <br>
 
 <H2><u><b>2023 — Present</b></u></H2>
@@ -35,6 +38,7 @@ description:
 <H3>• <a href="https://nbviewer.org/github/xyjiang970/_notebooks/blob/main/Popular%20US%20Baby%20Names.ipynb" target="_blank">Popular US Baby Names</a></H3>
 
 <br>
+
 <br>
 
 <img src="/projects/projects_page_image.png" alt="projects_page_image" width="400">
