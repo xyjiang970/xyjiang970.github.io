@@ -52,8 +52,12 @@ ER Modeling is used to establish the baseline operational data model, while dime
 <hr>
 
 <h2 id="Dimensional Modeling"><u><b>Dimensional Modeling</b></u></h2>
+Dimensional Data Modeling is one of the data modeling techniques in data warehouse design. The concept of Dimensional Modeling was developed by <a href="https://en.wikipedia.org/wiki/Ralph_Kimball" target="_blank">Ralph Kimball</a>. 
+
 The data model used to store data in the **denormalized** form is called "Dimensional Modeling".
 > In normalized form, data is stored in multiple tables, reducing data redundancy and inconsistency, thus achieving data integrity. In the denormalized form, data is stored in a limited number of tables (maybe a single table) to reduce querying time.
+
+The main goal of dimensional data modeling is to improve the data retrieval (optimized for SELECT operations). The advantage of using this model is to store data in such a way that it is easier to store and retrieve from the data warehouse. The dimensional model is used by many OLAP systems.
 
 The core concept of dimensional modeling is the creation of a star schema. It is called so as the tables are arranged in the form of a star. Dimensional modeling includes facts and dimensions.
 
