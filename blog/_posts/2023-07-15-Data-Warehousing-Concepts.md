@@ -50,7 +50,7 @@ Typically, businesses use a combination of a database, a data lake, and a data w
 
 As the volume and variety of data increases, it's advantageous to follow one or more common patterns for working with data across your database, data lake, and data warehouse.
 
-![Data Lake to Data Warehouse to Reporting](https://d1.awsstatic.com/diagrams/product-page-diagrams/database-seo-1.270cb06b819915c5f763a0b9f88255e044c4dac5.png)*Land data in a database of datalake, prepare the data, move selected data into a data warehouse, and then perform reporting.*
+![Data Lake to Data Warehouse to Reporting](https://d1.awsstatic.com/diagrams/product-page-diagrams/database-seo-1.270cb06b819915c5f763a0b9f88255e044c4dac5.png)*Land data in a database of data lake, prepare the data, move selected data into a data warehouse, and then perform reporting.*
 
 ![Data Warehouse to Analysis and ML](https://d1.awsstatic.com/diagrams/product-page-diagrams/product-page-diagram_Data-Warehousing_Use-Case-2.ab2ec085dd9c5f03b1d6a0732ec31d487c4f3e8f.png)*Land data in a data warehouse, analyze the data, then share data to use with other analytics and machine learning services.*
 

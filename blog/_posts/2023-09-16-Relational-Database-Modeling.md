@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Database Modeling"
+title: "Relational Database Modeling"
 author:
 - Jason Jiang
 permalink: 
 ---
 
-[Home](../../../../) >> [Blog](../../../) >> 
+[Home](../../../../) >> [Blog](../../../) >> Relational Database Modeling
 
 <h2 id="Contents">Contents</h2>
 
