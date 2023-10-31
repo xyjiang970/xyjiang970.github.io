@@ -12,6 +12,7 @@ description:
 
 <H2><u><b>2023</b></u></H2>
 <!-- Example of using hardpath below: -->
+<H3>• <a href="./2023/09/16/Relational-Database-Modeling">Relational Database Modeling</a></H3>
 <H3>• <a href="./2023/05/13/Dimensional-Data-Modeling">Dimensional Data Modeling</a></H3>
 <H3>• <a href="./2023/03/18/Data-Warehousing-Concepts">Data Warehousing Concepts</a></H3>
 
