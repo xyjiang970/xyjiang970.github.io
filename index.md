@@ -11,7 +11,17 @@ description: Welcome to my portfolio website!
 
 <br>
 <p style="text-align:center;">
-Hi, I’m Jason. I'm a Data Analyst with over three years of experience collecting and converting data into usable information that guides business decisions and saves costs. By transforming data into formats that can be easily analyzed - I work to effectively turn business questions into data analysis, helping teams provide meaningful recommendations on strategy. 
+Hi, I’m Jason. 
+
+<br>
+<br>
+
+I'm a Data Analyst with 3+ years of experience collecting and transforming data into easily digestible, usable information that guides business decisions and saves costs.
+
+<br>
+<br>
+
+Currently, I work at NYC Department of Finance within the Tax Policy and Data Analytics Division. My team focuses on Business Income taxes and utilizes SAS and SQL to select non-filers and under-reporters as candidates for audit, identifying potential tax fraud.
 </p>
 <!-- You can find my most recent resume <a href="jason_resume.pdf" target="_blank"><u>here</u></a>. -->
 

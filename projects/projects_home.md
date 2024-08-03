@@ -10,7 +10,7 @@ description:
 
 <br>
 
-Under construction! 🚧
+Under construction 🚧. New projects coming soon!
 
 <!--
 
