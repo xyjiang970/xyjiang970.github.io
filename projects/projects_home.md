@@ -10,6 +10,10 @@ description:
 
 <br>
 
+Under construction! 🚧
+
+<!--
+
 <H2><u><b>2023 — Present</b></u></H2>
 
 <H3>• <a href="https://github.com/xyjiang970/games" target="_blank">Python Games</a></H3>
@@ -40,3 +44,6 @@ description:
 <br>
 
 <img src="/projects/projects_page_image.png" alt="projects_page_image" width="400">
+
+-->
+
