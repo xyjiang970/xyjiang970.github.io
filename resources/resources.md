@@ -47,7 +47,3 @@ description:
 
 <br>
 
-<br>
-
-<img src="/images/pretty.png" alt="blog_page_image" width="600">
-

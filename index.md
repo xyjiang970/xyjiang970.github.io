@@ -7,7 +7,7 @@ description: Welcome to my portfolio website!
 <br>
 
 <!-- <img src="/images/me.jpg" alt="homepage_img" width="200" style="border-radius:50%; filter:brightness(1.1); z-index:0">  -->
-<img src="/images/astronaut.gif" alt="homepage_img" width="200" style="border-radius:50%; filter:brightness(1.1); z-index:0"> 
+<img src="/images/jason.jpeg" alt="homepage_img" width="200" style="border-radius:50%; filter:brightness(1.1); z-index:0"> 
 
 <br>
 <p style="text-align:center;">
