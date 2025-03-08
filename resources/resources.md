@@ -4,7 +4,8 @@ title: Resources
 permalink: /resources/
 description:
 ---
-# Blog
+
+# Resources
 
 [Home](../) >> Resources
 
@@ -46,4 +47,3 @@ description:
 </H4>
 
 <br>
-
