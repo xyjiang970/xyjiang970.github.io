@@ -1,13 +1,38 @@
-{% comment %}
-  Placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons:
-
-  1. Head over to https://realfavicongenerator.net/ to add your own favicons.
-  2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
-{% endcomment %}
+{% comment %} Placeholder to allow defining custom head, in principle, you can
+add anything here, e.g. favicons: 1. Head over to
+https://realfavicongenerator.net/ to add your own favicons. 2. Customize default
+_includes/custom-head.html in your source directory and insert the given code
+snippet. {% endcomment %}
 
 <!-- <link rel="icon" type="image/x-icon" href="../images/favicon.svg"> -->
 <!-- <link rel="icon" type="image/x-icon" href="../images/favicon-32x32.png"> -->
 <!-- <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png"> -->
-<link rel="icon" type="image/x-icon" href="/images/jason-favicon-32x32.png">
-<meta property="og:image" type="image/jpeg" content="../images/social-preview_img.jpg"/>
-<meta name="robots" content="nofollow, noarchive">
+<link rel="icon" type="image/x-icon" href="/images/jason-favicon-32x32.png" />
+<meta
+  property="og:image"
+  type="image/jpeg"
+  content="../images/social-preview_img.jpg"
+/>
+<meta name="robots" content="nofollow, noarchive" />
+
+<script type="text/javascript">
+  MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"],
+      ],
+      displayMath: [["\\[", "\\]"]],
+      processEscapes: true,
+    },
+    svg: {
+      fontCache: "global",
+    },
+  };
+</script>
+<script
+  type="text/javascript"
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
