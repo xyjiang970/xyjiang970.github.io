@@ -12,11 +12,15 @@ description:
 <br>
 
 <H2>
-• <a href="./calculus/calc2notes">Calculus 2 Notes</a>
+• <a href="./linear_algebra/linear-algebra/">Linear Algebra</a>
 </H2>
 
 <H2>
-• <a href="./calculus/calc1notes">Calculus 1 Notes</a>
+• <a href="./calculus/calc2notes">Calculus 2</a>
+</H2>
+
+<H2>
+• <a href="./calculus/calc1notes">Calculus 1</a>
 </H2>
 
 <br>
