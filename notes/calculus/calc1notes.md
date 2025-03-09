@@ -26,11 +26,17 @@ description:
   - [Product Rule](#product-rule)
   - [Quotient Rule](#quotient-rule)
   - [Chain Rule](#chain-rule)
+  - [Derivatives of Inverse Functions](#derivatives-of-inverse-functions)
   - [Derivatives of Trigonometric Functions](#derivatives-of-trigonometric-functions)
+  - [Other Derivatives to Remember](#other-derivatives-to-remember)
 - [Applications of Derivatives](#applications-of-derivatives)
   - [Critical Points and Extrema](#critical-points-and-extrema)
-  - [Related Rates](#related-rates)
+    - [Tests for Classifying Critical Points](#tests-for-classifying-critical-points)
   - [Implicit Differentiation](#implicit-differentiation)
+  - [Related Rates](#related-rates)
+  - [Optimization in Machine Learning](#optimization-in-machine-learning)
+
+<br>
 
 <H2 id="limits"> Limits </H2>
 
@@ -51,44 +57,65 @@ $$
 $$
 
 <H3 id="sum-difference-product-and-quotient-rules"><u>Sum, Difference, Product, and Quotient Rules</u></H3>
-
-1. **Sum Rule**: The limit of a sum is the sum of the limits:
+<ul>
+<li>
+<b>Sum Rule:</b> The limit of a sum is the sum of the limits:
 
 $$
 \lim_{x \to a} [f(x) + g(x)] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x)
 $$
 
-2. **Difference Rule**: The limit of a difference is the difference of the limits:
+</li>
+
+<li>
+<b>Difference Rule:</b> The limit of a difference is the difference of the limits:
 
 $$
 \lim_{x \to a} [f(x) - g(x)] = \lim_{x \to a} f(x) - \lim_{x \to a} g(x)
 $$
 
-3. **Product Rule**: The limit of a product is the product of the limits:
+</li>
+
+<li>
+<b>Product Rule:</b> The limit of a product is the product of the limits:
 
 $$
 \lim_{x \to a} [f(x) \cdot g(x)] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)
 $$
 
-4. **Quotient Rule**: The limit of a quotient is the quotient of the limits, as long as the denominator does not approach zero:
+</li>
+
+<li>
+<b>Quotient Rule:</b> The limit of a quotient is the quotient of the limits, as long as the denominator does not approach zero:
 
 $$
 \lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}, \quad \text{if } \lim_{x \to a} g(x) \neq 0
 $$
 
-<H3 id="special-limits"><u>Special Limits</u></H3>
+</li>
 
-1. **Sine Limit**: One of the most important special limits is:
+</ul>
+
+<H3 id="special-limits"><u>Special Limits</u></H3>
+<ul>
+<li>
+<b>Sine Limit</b>: One of the most important special limits is:
 
 $$
 \lim_{x \to 0} \frac{\sin x}{x} = 1
 $$
 
-2. **Exponential Limit**: Another crucial limit is:
+</li>
+
+<li>
+<b>Exponential Limit:</b> Another crucial limit is:
 
 $$
 \lim_{x \to 0} (1 + x)^{1/x} = e
 $$
+
+</li>
+</ul>
 
 <H3 id="lhôpitals-rule"><u>L'Hôpital's Rule</u></H3>
 
@@ -97,6 +124,8 @@ L'Hôpital's Rule is used to evaluate indeterminate limits of the form $\frac{0}
 $$
 \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)} \quad \text{if } \lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0 \text{ or } \pm \infty
 $$
+
+<br>
 
 <H2 id="derivatives"> Derivatives </H2>
 
@@ -133,18 +162,25 @@ $$
 $$
 
 <H3 id="sum-and-difference-rules"><u>Sum and Difference Rules</u></H3>
-
-1. **Sum Rule**: The derivative of the sum of two functions is the sum of the derivatives:
+<ul>
+<li>
+<b>Sum Rule</b>: The derivative of the sum of two functions is the sum of the derivatives:
 
 $$
 \frac{d}{dx} [f(x) + g(x)] = f'(x) + g'(x)
 $$
 
-2. **Difference Rule**: The derivative of the difference of two functions is the difference of the derivatives:
+</li>
+
+<li>
+<b>Difference Rule</b>: The derivative of the difference of two functions is the difference of the derivatives:
 
 $$
 \frac{d}{dx} [f(x) - g(x)] = f'(x) - g'(x)
 $$
+
+</li>
+</ul>
 
 <H3 id="product-rule"><u>Product Rule</u></H3>
 
@@ -170,93 +206,327 @@ $$
 \frac{d}{dx} f(g(x)) = f'(g(x)) g'(x)
 $$
 
+<H3 id="derivatives-of-inverse-functions"><u>Derivatives of Inverse Functions</u></H3>
+
+$$
+(f^-1)'(x) = \frac{1}{f'(f^-1(x))}
+$$
+
+The formula tells us that the derivative of the inverse function at a point is the reciprocal of the derivative of the original function at the corresponding point.
+
+If $y = f^{-1}(x)$, then $f(y) = x$, and differentiating both sides implicitly gives:
+
+$$
+f'(y) \cdot \frac{dy}{dx} = 1
+$$
+
+Solving for $\frac{dy}{dx}$, we obtain:
+
+$$
+\frac{dy}{dx} = \frac{1}{f'(y)}
+$$
+
+Since $y = f^{-1}(x)$, we rewrite it as:
+
+$$
+\left( f^{-1} \right)' (x) = \frac{1}{f'(f^{-1}(x))}
+$$
+
+### **Example 1: Inverse of $f(x) = x^3 + 2$**
+
+Find $\left( f^{-1} \right)' (9)$ if $f(x) = x^3 + 2$.
+
+1. **Step 1: Solve for $f^{-1}(9)$**  
+   We need to find $x$ such that:
+
+   $$
+   x^3 + 2 = 9
+   $$
+
+   $$
+   x^3 = 7 \quad \Rightarrow \quad x = \sqrt[3]{7}
+   $$
+
+   So, $f^{-1}(9) = \sqrt[3]{7}$.
+
+2. **Step 2: Compute $f'(x)$**
+
+   $$
+   f'(x) = 3x^2
+   $$
+
+   Evaluating at $x = \sqrt[3]{7}$:
+
+   $$
+   f'(\sqrt[3]{7}) = 3(\sqrt[3]{7})^2
+   $$
+
+3. **Step 3: Use the Formula**
+
+   $$
+   \left( f^{-1} \right)' (9) = \frac{1}{f'(\sqrt[3]{7})} = \frac{1}{3(\sqrt[3]{7})^2}
+   $$
+
+### **Example 2: Inverse of $f(x) = e^x$**
+
+Find $\left( f^{-1} \right)' (3)$ if $f(x) = e^x$.
+
+1. The inverse function is $f^{-1}(x) = \ln(x)$, so we need:
+
+   $$
+   \left( \ln x \right)' = \frac{1}{x}
+   $$
+
+2. Since $f^{-1}(3) = \ln 3$, we apply the formula:
+
+   $$
+   \left( f^{-1} \right)' (3) = \frac{1}{e^{\ln 3}} = \frac{1}{3}
+   $$
+
+### **Example 3: Inverse of $f(x) = \sin x$**
+
+Find $\frac{d}{dx} \left[ \sin^{-1} (x) \right]$.
+
+1. Since $y = \sin^{-1} (x)$, we have:
+
+   $$
+   \sin y = x
+   $$
+
+2. Differentiating both sides implicitly:
+
+   $$
+   \cos y \cdot \frac{dy}{dx} = 1
+   $$
+
+3. Solving for $\frac{dy}{dx}$:
+
+   $$
+   \frac{dy}{dx} = \frac{1}{\cos y}
+   $$
+
+4. Using $cos y = \sqrt{1 - x^2}$ (from the Pythagorean identity),
+
+   $$
+   \frac{d}{dx} \left( \sin^{-1} x \right) = \frac{1}{\sqrt{1 - x^2}}
+   $$
+
+Similarly,
+
+$$
+\frac{d}{dx} \left( \cos^{-1} x \right) = -\frac{1}{\sqrt{1 - x^2}}
+$$
+
+$$
+\frac{d}{dx} \left( \tan^{-1} x \right) = \frac{1}{1 + x^2}
+$$
+
 <H3 id="derivatives-of-trigonometric-functions"><u>Derivatives of Trigonometric Functions</u></H3>
 
 Here are the derivatives of the basic trigonometric functions:
 
+Here are the derivatives of the basic trigonometric functions:
+
 $$
-\frac{d}{dx} \sin x = \cos x
+\frac{d}{dx} \sin(x) = \cos(x)
 $$
 
 $$
-\frac{d}{dx} \cos x = -\sin x
+\frac{d}{dx} \cos(x) = -\sin(x)
 $$
 
 $$
-\frac{d}{dx} \tan x = \sec^2 x
+\frac{d}{dx} \tan(x) = \sec^2(x)
+$$
+
+Note $tan(x) = \frac{sin(x)}{cos(x)}$
+
+Cosecant ($csc(x) = \frac{1}{sin(x)}$):
+
+$$
+\frac{d}{dx} \csc(x) = -\csc(x) \cot(x)
+$$
+
+Secant ($sec(x) = \frac{1}{cos(x)}$):
+
+$$
+\frac{d}{dx} \sec(x) = \sec(x) \tan(x)
+$$
+
+Cotangent ($cot(x) = \frac{1}{tan(x)} = \frac{cos(x)}{sin(x)}$):
+
+$$
+\frac{d}{dx} \cot(x) = -\csc^2(x)
+$$
+
+Additionally, here are the derivatives of **inverse** trigonometric functions:
+
+$$
+\frac{d}{dx} \arcsin(x) = \frac{1}{\sqrt{1 - x^2}}
 $$
 
 $$
-\frac{d}{dx} \cot x = -\csc^2 x
+\frac{d}{dx} \arccos(x) = -\frac{1}{\sqrt{1 - x^2}}
 $$
 
 $$
-\frac{d}{dx} \sec x = \sec x \tan x
+\frac{d}{dx} \arctan(x) = \frac{1}{1 + x^2}
+$$
+
+Arc cosecant (arccsc):
+Where $csc(x) = \frac{1}{sin(x)}$
+
+$$
+\frac{d}{dx} \csc^{-1}(x) = -\frac{1}{|x|\sqrt{x^2 - 1}}
+$$
+
+Arc secant (arcsec):
+Where $sec(x) = \frac{1}{cos(x)}$
+
+$$
+\frac{d}{dx} \sec^{-1}(x) = \frac{1}{|x|\sqrt{x^2 - 1}}
+$$
+
+Arc cotangent (arccot):
+Where $cot(x) = \frac{1}{tan(x)} = \frac{cos(x)}{sin(x)}$
+
+$$
+\frac{d}{dx} \cot^{-1}(x) = -\frac{1}{1 + x^2}
+$$
+
+<H3 id="other-derivatives-to-remember"><u>Other Derivatives to Remember</u></H3>
+
+$$
+\frac{d}{dx}e^x = e^x
 $$
 
 $$
-\frac{d}{dx} \csc x = -\csc x \cot x
+\frac{d}{dx}ln(x) = \frac{1}{x}
 $$
+
+<br>
 
 <H2 id="applications-of-derivatives"> Applications of Derivatives </H2>
 
 <H3 id="critical-points-and-extrema"><u>Critical Points and Extrema</u></H3>
 
-Critical points occur where the derivative is zero or undefined. These points are used to find local maxima and minima, which can be determined using:
+Critical points occur where the derivative is zero **or** undefined.
 
-- The **First Derivative Test**: Analyze the sign of the derivative before and after the critical point.
-- The **Second Derivative Test**: If $f''(x) > 0$, the function is concave up, and if $f''(x) < 0$, the function is concave down at the critical point.
+A critical point of a function $f(x)$ occurs at $x = c$ if either:
 
-<H3 id="related-rates"><u>Related Rates</u></H3>
+- $f'(c) = 0$ (the derivative equals zero), or
+- $f'(c)$ is undefined (the derivative doesn't exist at that point)
 
-Related rates problems involve determining how the rate of change of one quantity is related to the rates of change of other quantities. These problems typically require implicit differentiation with respect to time.
+Critical points are crucial because they are candidates for **local** extrema (maxima and minima) of the function.
 
-The general approach for solving related rates problems:
+Types of Critical Points:
 
-1. Identify all variables and their rates of change
-2. Find an equation that relates the variables
-3. Implicitly differentiate the entire equation with respect to time
-4. Substitute known values and solve for the unknown rate
+- Local Maximum: A point where $f(c) ≥ f(x)$ for all $x$ in some open interval containing $c$.
+- Local Minimum: A point where $f(c) ≤ f(x)$ for all $x$ in some open interval containing $c$.
+- Inflection Point: A point where the concavity of the function changes (though not all inflection points are critical points).
+- Saddle Point: A critical point that is neither a local maximum nor a local minimum.
 
-For example, if we have a relationship between variables $x$ and $y$ such as:
+<!-- #### Tests for Classifying Critical Points: -->
+<H4 id="tests-for-classifying-critical-points"><u>Tests for Classifying Critical Points:</u></H4>
 
-$$
-x^2 + y^2 = 25
-$$
+- The <u>First Derivative Test</u>:
 
-To find how $y$ changes when $x$ changes at a certain rate, we implicitly differentiate with respect to time $t$:
+  1. Find all critical points by solving $f'(x) = 0$ or identifying where $f'(x)$ is undefined.
+  2. Examine the sign of $f'(x)$ on intervals before and after each critical point.
+  3. Classify each critical point based on the sign changes:
+     - If $f'(x)$ changes from positive to negative at $x = c$, then $f(c)$ is a local maximum.
+     - If $f'(x)$ changes from negative to positive at $x = c$, then $f(c)$ is a local minimum.
+     - If $f'(x)$ doesn't change sign at $x = c$ (e.g., positive on both sides or negative on both sides), then $x = c$ is not an extremum (possibly a saddle point).
 
-$$
-\frac{d}{dt}(x^2 + y^2) = \frac{d}{dt}(25)
-$$
+  Example: For $f(x) = x^3 - 3x + 1$, we have $f'(x) = 3x^2 - 3 = 3(x^2 - 1) = 3(x-1)(x+1)$. Critical points appear at $x=-1$ and $x=1$.
 
-$$
-2x \cdot \frac{dx}{dt} + 2y \cdot \frac{dy}{dt} = 0
-$$
+  - For $x < -1$: $f'(x) < 0$ (derivative is negative)
+  - For $-1 < x < 1$: $f'(x) > 0$ (derivative is positive)
+  - For $x > 1$: $f'(x) < 0$ (derivative is negative)
 
-Solving for $\frac{dy}{dt}$:
+  Therefore:
 
-$$
-\frac{dy}{dt} = -\frac{x}{y} \cdot \frac{dx}{dt}
-$$
+  - $x = -1$ is a local minimum (derivative changes from negative to positive)
+  - $x = 1$ is a local maximum (derivative changes from positive to negative)
 
-Another common example involves related rates with volume and radius:
+<br>
 
-$$
-V = \frac{4}{3}\pi r^3
-$$
+- The <u>Second Derivative Test</u>: The Second Derivative Test is often more convenient when the second derivative is easy to compute.
 
-Differentiating with respect to time:
+  1. Find critical points where $f'(c) = 0$.
+  2. Evaluate the second derivative $f″(c)$ at each critical point:
 
-$$
-\frac{dV}{dt} = 4\pi r^2 \cdot \frac{dr}{dt}
-$$
+  - If $f″(c) > 0$, then $f(c)$ is a local minimum (function is concave up).
+  - If $f″(c) < 0$, then $f(c)$ is a local maximum (function is concave down).
+  - If $f″(c) = 0$, the test is inconclusive (use the First Derivative Test instead).
 
-This shows that if we know how quickly the radius is changing ($\frac{dr}{dt}$), we can find how quickly the volume is changing ($\frac{dV}{dt}$), and vice versa.
+  Example: For $f(x) = x^3 - 3x + 1$, we have:
+
+  - $f'(x) = 3x^2 - 3$
+  - $f″(x) = 6x$
+
+  At the critical points:
+
+  - At $x = -1$: $f″(-1) = 6(-1) = -6 < 0$, so this is a local maximum.
+  - At $x = 1$: $f″(1) = 6(1) = 6 > 0$, so this is a local minimum.
+
+**Inflection Points:**
+An inflection point occurs where the concavity of the function changes:
+
+- Concave up: $f″(x) > 0$
+- Concave down: $f″(x) < 0$
+
+To find inflection points:
+
+1. Compute $f″(x)$
+2. Find the values of $x$ where $f″(x) = 0$ or $f″(x)$ is undefined
+3. Check if the sign of $f″(x)$ changes at these points
+
+Example:
+For $f(x) = x^3$, we have:
+
+- $f'(x) = 3x^2$
+- $f″(x) = 6x$
+
+Setting $f″(x) = 0$, we get $x = 0$.
+Checking the sign of $f″(x)$:
+
+- For $x < 0$: $f″(x) < 0$ (concave down)
+- For $x > 0$: $f″(x) > 0$ (concave up)
+
+Therefore, $(0, 0)$ is an inflection point where the concavity changes.
+
+**Global Extrema on Closed Intervals:**
+To find the absolute (global) maximum and minimum values of a continuous function $f(x)$ on a closed interval $[a, b]$:
+
+1. Find all critical points of $f(x)$ within the interval $(a, b)$.
+2. Evaluate $f(x)$ at each critical point and at the endpoints $a$ and $b$.
+3. The largest of these values is the absolute maximum, and the smallest is the absolute minimum.
+
+Example: Fine the global extrema of $f(x) = x^3 - 3x + 1$ on $[-2, 2]$.
+Critical points: $x = -1$ and $x = 1$.
+
+Evaluate:
+
+- $f(-2) = (-2)^3 - 3(-2) + 1 = -8 + 6 + 1 = -1$
+- $f(-1) = (-1)^3 - 3(-1) + 1 = -1 + 3 + 1 = 3$
+- $f(1) = (1)^3 - 3(1) + 1 = 1 - 3 + 1 = -1$
+- $f(2) = (2)^3 - 3(2) + 1 = 8 - 6 + 1 = 3$
+
+Therefore:
+
+- Global maximum: $f(-1) = f(2) = 3$ (occurs at two points)
+- Global minimum: $f(1) = f(-2) = -1$ (occurs at two points)
 
 <H3 id="implicit-differentiation"><u>Implicit Differentiation</u></H3>
 
 Implicit differentiation is a technique used to find the derivative of a function that is not explicitly solved for one variable. Instead of having $y = f(x)$, we have an equation relating $x$ and $y$, such as $F(x,y) = 0$.
+
+Implicit differentiation is particularly useful for complicated relationships between variables and for curves that cannot be easily expressed as explicit functions.
+
+Sometimes, solving explicitly for one variable is impossible of very difficult. Implicit differentiation lets us find derivatives **without solving explicitly**.
+
+For example, consider the equation: $x^3 + y^3 = 6xy$. Solving explicitly for $y$ in terms of $x$ is complicated. Instead we can differentiate both sides to get $\frac{dy}{dx}$ directly.
 
 To perform implicit differentiation:
 
@@ -378,7 +648,171 @@ $$
 \frac{dy}{dx} = \frac{e^x - y}{x + \frac{1}{y}}
 $$
 
-Implicit differentiation is particularly useful for complicated relationships between variables and for curves that cannot be easily expressed as explicit functions.
+**Key Takeaway:**
+
+- Explicit formulas are useful for direct calculations, evaluations, and visualization.
+- **When Do we WANT an Explicit Formula:**
+
+  - Direct Computation:
+    - If we have $z=f(x,y)$, we can directly compute derivatives like $\frac{\partial z}{\partial x}$ and $\frac{\partial z}{\partial y}$.
+    - Example: If $z=\sqrt{1 - x^2 - y^2}$, we can easily differentiate it without needing implicit differentiation.
+  - Plugging into Other Equations:
+    - An explicit formula makes it easier to substitute and analyze function values.
+  - Graphing & Visualization:
+    - If we explicitly express a variable, we can plot it as a function of others.
+  - Solving for Specific Values: - If we want to evaluate a function at a specific point, having an explicit equation makes it easier.
+
+<br>
+
+- Implicit differentiation is a powerful alternative when explicit solutions are too hard or unnecessary.
+- **When Do we NOT Need an Explicit Formula:**
+  - When Working with Level Curves or Surfaces
+    - If we only care about relationships (like gradients or tangent planes), we don't need an explicit formula.
+  - In Multi-variable Calculus
+    - When defining constraints (e.g. $x^2 + y^2 + z^2 = 1$), explicit formulas are often unnecessary.
+  - In Optimization (Lagrange Multipliers)
+    - We use constraints implicitly instead of solving for one variable explicitly.
+
+<H3 id="related-rates"><u>Related Rates</u></H3>
+
+Related rates problems involve determining how the rate of change of one quantity is related to the rates of change of other quantities. These problems typically require implicit differentiation with respect to time.
+
+The general approach for solving related rates problems:
+
+1. Identify all variables and their rates of change
+2. Find an equation that relates the variables
+3. Implicitly differentiate the entire equation with respect to time
+4. Substitute known values and solve for the unknown rate
+
+For example, if we have a relationship between variables $x$ and $y$ such as:
+
+$$
+x^2 + y^2 = 25
+$$
+
+To find how $y$ changes when $x$ changes at a certain rate, we implicitly differentiate with respect to time $t$:
+
+$$
+\frac{d}{dt}(x^2 + y^2) = \frac{d}{dt}(25)
+$$
+
+$$
+2x \cdot \frac{dx}{dt} + 2y \cdot \frac{dy}{dt} = 0
+$$
+
+Solving for $\frac{dy}{dt}$:
+
+$$
+\frac{dy}{dt} = -\frac{x}{y} \cdot \frac{dx}{dt}
+$$
+
+Another common example involves related rates with volume and radius:
+
+$$
+V = \frac{4}{3}\pi r^3
+$$
+
+Differentiating with respect to time:
+
+$$
+\frac{dV}{dt} = 4\pi r^2 \cdot \frac{dr}{dt}
+$$
+
+This shows that if we know how quickly the radius is changing ($\frac{dr}{dt}$), we can find how quickly the volume is changing ($\frac{dV}{dt}$), and vice versa.
+
+<H3 id="optimization-in-machine-learning"><u>Optimization in Machine Learning</u></H3>
+Machine learning is a practical application of optimization techniques. While advanced machine learning involves complex mathematics, the core principles connect directly to the calculus concepts we've already covered.
+
+**The Basic Idea**
+In machine learning, we try to find the "best" model that explains our data. This involves:
+
+1. Defining a cost function (or "loss function") that measures how wrong our model is
+2. Finding the model parameters that minimize this cost function
+
+This is fundamentally an optimization problem!
+
+**Simple Example: Linear Regression**
+Consider a simple linear model: $y = mx + b$, where we want to find the values of $m$ and $b$ that best fit our data points.
+
+1. We define our cost function as the sum of squared errors:
+
+   $$
+   J(m,b) = \frac{1}{n}\sum_{i=1}^{n}(y_i - (mx_i + b))^2
+   $$
+
+2. To find the optimal $m$ and $b$, we take partial derivatives and set them to zero:
+
+   $$
+   \frac{\partial J}{\partial m} = 0
+   $$
+
+   $$
+   \frac{\partial J}{\partial b} = 0
+   $$
+
+3. These equations can be solved directly to find the optimal line.
+
+**Gradient Descent: When Direct Solutions Aren't Practical**
+
+For more complex models, we can't always solve directly for the optimum. Instead, we use an iterative approach called gradient descent:
+
+1. Start with an initial guess for the parameters.
+2. Calculate the gradient (direction of steepest increase).
+3. Take a small step in the opposite direction of the gradient.
+4. Repeat until we reach a minimum.
+
+The gradient (derivative of the loss function) tells you the direction to move in order to reduce the loss. The critical points in machine learning correspond to the **global minimum** (best solution) or **local minima** of the loss function. The gradient is essentially the slope of the function at a point, guiding how much the parameters need to be adjusted.
+
+Mathematically, we update parameters using:
+$$\theta_{new} = \theta_{old} - \alpha \frac{\partial J}{\partial \theta}$$
+
+Where $\alpha$ is a small number called the "learning rate."
+
+The above describes the update rule for gradient descent (where $J$ is the loss function).
+
+1. Parameters ($\theta$):
+
+   - $\theta_{old}$: represents the current values of the model parameters (weights or coefficients) before the update.
+   - $\theta_{new}$: updated value of the parameters after one step of gradient descent.
+   - In the context of ML, these parameters could be the weights in a neural network or the coefficients in a regression model.)
+
+2. Gradient of the Loss Function ($\frac{\partial J}{\partial \theta}$):
+
+   - $\frac{\partial J}{\partial \theta}$ is the gradient of the loss function $J(\theta)$ with respect to the parameters $\theta$.
+   - This gradient tells you the direction in which the loss function increases the most (direction of steepest ascent).
+   - To minimize the loss, we want to move in the **opposite** direction of the gradient (steepest descent).
+
+3. Learning Rate ($\alpha$):
+
+   - $\alpha$: small positive number called the learning rate.
+   - Determines the step size we take in the direction opposite to the gradient.
+   - If $\alpha$ is too large, we might overshoot the optimal values and miss the minimum.
+   - If $\alpha$ is too small, the optimization process can become very slow.
+
+**Convexity vs. Non-Convexity**
+
+In most machine learning algorithms, the goal is to find a convex function (like a convex loss function) because convex functions guarantee that the critical point we find is a global minimum, not just a local one.
+
+- For convex loss functions, gradient descent is likely to converge to the global minimum.
+- For non-convex loss functions (like neural networks), we may end up stuck in a local minima or saddle points, and optimization becomes more challenging.
+
+**Constraints in Optimization (Lagrange Multipliers)**
+
+In certain optimization problems, we have constraints. For example, you might want to minimize a cost function subject to a constraint on one or more variables. The method for this in calculus is often done using Lagrange multipliers, which introduce additional variables to incorporate the constraints into the optimization process.
+
+- In ML, regularization methods like L1 (Lasso) and L2 (Ridge) regularization are examples of optimization with constraints. The regularization terms prevent overfitting by penalizing the size of the coefficients (weights) of the model.
+- Support Vector Machines (SVM) also use constraints in optimization, where the goal is to find the hyperplane that maximizes the margin between classes, subject to the constrains of correctly classifying the data points.
+
+<u>Connection to Calculus Concepts</u>
+
+Machine learning optimization connects to calculus in several ways:
+
+- **Derivatives** tell us the direction to adjust our parameters
+- **Critical points** are potential solutions to our optimization problems
+- **Local vs. global minima** affect whether we find the best possible model
+- **Multivariable calculus** extends these ideas to functions with many parameters
+
+Even the most advanced machine learning algorithms (like neural networks) rely on these fundamental calculus principles, just applied to functions with thousands or millions of parameters instead of just one or two.
 
 <br>
 
