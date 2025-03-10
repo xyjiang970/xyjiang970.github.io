@@ -307,7 +307,107 @@ x_3 - x_2
 \end{bmatrix}
 $$
 
-equals the sum $x_1\mathbf{u} + x_2\mathbf{v} + x_3\mathbf{w} = \mathbf{b}$. The product of a matrix and a vector is a combination of the columns of the matrix.
+equals the sum $x_1\mathbf{u} + x_2\mathbf{v} + x_3\mathbf{w} = \mathbf{b}$. The product of a matrix and a vector is a combination of the columns of the matrix. Note this particular matrix $A$ is a _difference matrix_ because the components of $A\mathbf{x}$ are differences of the components of that vector.
+
+A deeper question is to start with a vector $\vec{b}$ and ask "_for what vectors $\vec{x}$ does $A\mathbf{x} = b$?_" In our example, this means solving three equations in three unknowns. Solving:
+
+$$
+\begin{bmatrix}
+\begin{array}{r}
+x_1 \\
+x_2 - x_1 \\
+x_3 - x_2
+\end{array}
+\end{bmatrix} =
+\begin{bmatrix}
+b_1 \\
+b_2 \\
+b_3
+\end{bmatrix}
+$$
+
+Since we see that $x_1 = b_1$, then:
+
+$$
+\begin{bmatrix}
+\begin{array}{r}
+x_1 \\
+x_2 - x_1 \\
+x_3 - x_2
+\end{array}
+\end{bmatrix} =
+\begin{bmatrix}
+b_1 \\
+b_2 \\
+b_3
+\end{bmatrix} =
+\begin{pmatrix}
+\begin{bmatrix}
+b_1 \\
+0 \\
+0
+\end{bmatrix} +
+\begin{bmatrix}
+0 \\
+b_2 \\
+0
+\end{bmatrix} +
+\begin{bmatrix}
+0 \\
+0 \\
+b_3
+\end{bmatrix}
+\end{pmatrix}
+$$
+
+and in vector form:
+
+$$
+\begin{bmatrix}
+x_1 \\
+x_2 \\
+x_3
+\end{bmatrix}=
+\begin{bmatrix}
+\begin{array}{r}
+b_1 \\
+b_1 + b_2 \\
+b_1 + b_2 + b_3
+\end{array}
+\end{bmatrix}
+$$
+
+Note that:
+
+- $x_1$ is just $b_1$, so the first row of the matrix will have a 1 in the first column, and 0's elsewhere. This reflects that only $b_1$ contributes to $x_1$.
+- $x_2$ is $b_1 + b_2$, so the second row will have a 1 in the first and second columns, reflecting the contributions of both $b_1$ and $b_2$ to $x_2$.
+- $x_3$ is $b_1 + b_2 + b_3$, so the third row will have a 1 in the first, second, and third columns, reflecting the contributions of $b_1$, $b_2$, and $b_3$ to $x_3$.
+
+So, rewriting it for $\vec{x}$:
+
+$$
+\vec{x} =
+\begin{bmatrix}
+1 & 0 & 0 \\
+1 & 1 & 0 \\
+1 & 1 & 1
+\end{bmatrix}
+\begin{bmatrix}
+b_1 \\
+b_2 \\
+b_3
+\end{bmatrix}
+$$
+
+$$
+\begin{array}{c|c c c}
+  & b_1 & b_2 & b_3 \\
+\hline
+x_1 & 1 & 0 & 0 \\
+x_2 & 1 & 1 & 0 \\
+x_3 & 1 & 1 & 1
+\end{array}
+$$
 
 <br>
 
