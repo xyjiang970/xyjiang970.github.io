@@ -323,10 +323,6 @@ $$
 
 <H3 id="derivatives-of-trigonometric-functions"><u>Derivatives of Trigonometric Functions</u></H3>
 
-Here are the derivatives of the basic trigonometric functions:
-
-Here are the derivatives of the basic trigonometric functions:
-
 $$
 \frac{d}{dx} \sin(x) = \cos(x)
 $$
@@ -336,10 +332,8 @@ $$
 $$
 
 $$
-\frac{d}{dx} \tan(x) = \sec^2(x)
+\frac{d}{dx} \tan(x) = \sec^2(x), \quad \text{Note that: }tan(x) = \frac{sin(x)}{cos(x)}
 $$
-
-Note $tan(x) = \frac{sin(x)}{cos(x)}$
 
 Cosecant ($csc(x) = \frac{1}{sin(x)}$):
 
@@ -396,12 +390,24 @@ $$
 
 <H3 id="other-derivatives-to-remember"><u>Other Derivatives to Remember</u></H3>
 
+#### Derivatives of Exponential Functions:
+
 $$
 \frac{d}{dx}e^x = e^x
 $$
 
 $$
+\frac{d}{dx} a^x = a^x \ln(a), \; \text{where } a \text{ is a constant > 0}
+$$
+
+#### Derivatives of Logarithmic Functions:
+
+$$
 \frac{d}{dx}ln(x) = \frac{1}{x}
+$$
+
+$$
+\frac{d}{dx}\log_a x = \frac{1}{x \ln(a)}
 $$
 
 <br>

@@ -11,14 +11,15 @@ description:
 
 # Table of Contents
 
-- [Scalars, Vectors, Matrices](#scalars-vectors-matrices)
+- [Unit I: Ax = b and the Four Subspaces](#unit-1)
   - [Matrix Multiplication](#matrix-multiplication)
-- [Overview of Key Ideas](#overview-of-key-ideas)
+  - [Overview of Key Ideas](#overview-of-key-ideas)
+  - [Elimination and Permutation Matrix](#elimination-permutation)
+  - [Inverses](#inverses)
 
 <br>
 
-<H2 id="scalars-vectors-matrices"><a href="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/" target="_blank">Scalars, Vectors, Matrices</a></H2>
-<a href="https://www.youtube.com/watch?v=My5w4MXWBew" target="_blank">Geometry of Linear Algebra Recitation Video</a>
+<H2 id="unit-1"><a href="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/" target="_blank">Unit I: Ax = b and the Four Subspaces</a></H2>
 
 The fundamental problem of linear algebra is to solve $n$ linear equations in $n$ unknowns; for example:
 
@@ -106,7 +107,7 @@ $$
 1 \\
 2
 \end{bmatrix}
-= \boldsymbol{?}
+= \;  \boldsymbol{?}
 $$
 
 One method is to think of the entries of $\vec{x}$ as the coefficients of a linear combination of the column vectors of the matrix:
@@ -193,9 +194,31 @@ $$
 \end{bmatrix}
 $$
 
+**Row times column multiplication:**
+
+If $A$ is an $m \times n$ matrix and $B$ is an $n \times p$ matrix, then $C$ is an $m \times p$ matrix. We use $c_{ij}$ to denote the entry row $i$ and column $j$ of matrix $C$:
+
+$$
+C_{ij} = \sum_{k=1}^{n} A_{ik} \cdot B_{kj}
+$$
+
+**Column times row multiplication:**
+
+$$
+AB = \sum_{k=1}^{n}
+\begin{bmatrix}
+a_{1k} \\
+\vdots \\
+a_{mk}
+\end{bmatrix}
+\begin{bmatrix}
+b_{k1} & \cdots & b_{kn}
+\end{bmatrix}
+$$
+
 <br>
 
-<H2 id="overview-of-key-ideas"><a href="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/ax-b-and-the-four-subspaces/an-overview-of-key-ideas/" target="_blank">Overview of Key Ideas</a></H2>
+<H3 id="overview-of-key-ideas"><a href="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/ax-b-and-the-four-subspaces/an-overview-of-key-ideas/" target="_blank"><u>Overview of Key Ideas</u></a></H3>
 Linear algebra progresses from vectors to matrices to subspaces.
 
 **Vectors:**
@@ -209,12 +232,14 @@ $$
 -1 \\
 0
 \end{bmatrix},
+\;
 \vec{v} =
 \begin{bmatrix}
 0 \\
 1 \\
 -1
 \end{bmatrix},
+\;
 \vec{w} =
 \begin{bmatrix}
 0 \\
@@ -256,6 +281,12 @@ $$
 
 The collection of all multiples of $\mathbf{u}$ forms a line through the origin. The collection of all multiples of $\mathbf{v}$ forms another line. The collection of all combinations of $\mathbf{u}$ and $\mathbf{v}$ forms a plane. Taking all combinations of some vectors creates a _subspace_. We could continue like this, or we can use a matrix to add in all multiples of $\mathbf{w}$.
 
+We can also write vectors as:
+
+$$
+\vec{u}=\langle 1, -1, 0 \rangle, \;  \vec{v}=\langle 0, 1, -1 \rangle, \;  \vec{w}=\langle 0, 0, 1 \rangle
+$$
+
 **Matrices:**
 
 Create a matrix $A$ with vectors $\vec{u}$, $\vec{v}$, $\vec{w}$ in its columns:
@@ -282,8 +313,11 @@ A\mathbf{x} =
 x_1 \\
 x_2 \\
 x_3
-\end{bmatrix} =
-\begin{bmatrix}
+\end{bmatrix}
+$$
+
+$$
+= \begin{bmatrix}
 (1 \cdot x_1) + (0 \cdot x_2) + (0 \cdot x_3) \\
 (-1 \cdot x_1) + (1 \cdot x_2) + (0 \cdot x_3) \\
 (0 \cdot x_3) + (-1 \cdot x_2) + (1 \cdot x_3)
@@ -407,6 +441,145 @@ x_1 & 1 & 0 & 0 \\
 x_2 & 1 & 1 & 0 \\
 x_3 & 1 & 1 & 1
 \end{array}
+$$
+
+<br>
+
+<H3 id="elimination-permutation"><u>Elimination and Permutation Matrix</u></H3>
+
+**Elimination Matrix:**
+
+Elimination matrix (also called an elementary matrix) is a matrix that represents a single elementary row operation. It's obtained by applying that operation to the identity matrix $I$
+
+$$
+I = \begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+$$
+
+Identity matrices are square matrices ($n \times n$) with ones on the diagonal and zeros everywhere else. For example, a $2 \times 2$ identity matrix is just:
+$$\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$$.
+
+There are three types of elimination matrices, corresponding to the three types of elementary row operations:
+
+1. Row Swap: Exchanges rows
+2. Row Scaling: Multiplies a row by a non-zero scalar
+3. Row Replacement: Adds a multiple of one row to another
+
+For example, if we want to add -3 times the first row to the second row of some matrix, the corresponding elimination matrix would be:
+
+$$
+\begin{bmatrix}
+1 & 0 & 0 \\
+-3 & 1 & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+$$
+
+Elimination matrix, $E$ are usually multiplied on the left side of the matrix you want to perform the elimination on $A$:
+
+$$
+E \times A =
+\begin{bmatrix}
+1 & 0 & 0 \\
+-3 & 1 & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+1 & 2 & 1 \\
+3 & 8 & 1 \\
+0 & 4 & 1
+\end{bmatrix}
+$$
+
+$$
+= \begin{bmatrix}
+1 & 2 & 1 \\
+(3+(-3*1)) & (8+(-3*2)) & (1+(-3*1)) \\
+0 & 4 & 1
+\end{bmatrix}
+$$
+
+$$
+= \begin{bmatrix}
+1 & 2 & 1 \\
+0 & 2 & -2 \\
+0 & 4 & 1
+\end{bmatrix}
+$$
+
+**Permutation Matrix:**
+
+A permutation matrix is a special type of elimination matrix that only performs row swaps. It's a matrix obtained by rearranging the rows of an identity matrix.
+
+Key properties of permutation matrices:
+
+- They contain exactly one $1$ in each row and column, with all other entries being $0$.
+- They are orthogonal matrices $P^T = p^{-1}$
+- Multiplying by a permutation matrix on the right reorders _columns_ instead of _rows_. Example:
+
+$$
+P = \begin{bmatrix}
+0 & 1 & 0 \\
+1 & 0 & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+
+\text{This swaps the first and second rows.}
+$$
+
+$$
+P = \begin{bmatrix}
+0 & 0 & 1 \\
+0 & 1 & 0 \\
+1 & 0 & 0
+\end{bmatrix}
+
+\text{This reverses the order of rows of matrix } A.
+$$
+
+$$
+PA =
+\begin{bmatrix}
+0 & 0 & 1 \\
+0 & 1 & 0 \\
+1 & 0 & 0
+\end{bmatrix}
+\begin{bmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{bmatrix}
+= \begin{bmatrix}
+7 & 8 & 9 \\
+4 & 5 & 6 \\
+1 & 2 & 3
+\end{bmatrix}
+$$
+
+<br>
+
+<H3 id="inverses"><a href="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/ax-b-and-the-four-subspaces/multiplication-and-inverse-matrices/" target="_blank"><u>Inverses</u></a></H3>
+
+If $A$ is a square matrix, the most important question you can ask about it is whether it has an inverse $A^{-1}$. If it does, then $A^{-1}A = I = AA^{-1}$ and we say that A is _invertible_ or _nonsingular_.
+
+If $A$ is _singular_, that means $A$ does not have an inverse - and its determinant is zero. We can then find some non-zero vector $\vec{x}$ for which $A\mathbf{x} = 0$. For example:
+
+$$
+\begin{bmatrix}
+1 & 3 \\
+2 & 6
+\end{bmatrix}
+\begin{bmatrix}
+3 \\
+-1
+\end{bmatrix} =
+\begin{bmatrix}
+0 \\
+0
+\end{bmatrix}
 $$
 
 <br>
