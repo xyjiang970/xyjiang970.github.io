@@ -236,7 +236,8 @@ $$
 
 Find $\left( f^{-1} \right)' (9)$ if $f(x) = x^3 + 2$.
 
-1. **Step 1: Solve for $f^{-1}(9)$**  
+1. **Step 1: Solve for $f^{-1}(9)$**
+
    We need to find $x$ such that:
 
    $$
@@ -477,6 +478,7 @@ Types of Critical Points:
   - At $x = 1$: $f″(1) = 6(1) = 6 > 0$, so this is a local minimum.
 
 **Inflection Points:**
+
 An inflection point occurs where the concavity of the function changes:
 
 - Concave up: $f″(x) > 0$
@@ -503,6 +505,7 @@ Checking the sign of $f″(x)$:
 Therefore, $(0, 0)$ is an inflection point where the concavity changes.
 
 **Global Extrema on Closed Intervals:**
+
 To find the absolute (global) maximum and minimum values of a continuous function $f(x)$ on a closed interval $[a, b]$:
 
 1. Find all critical points of $f(x)$ within the interval $(a, b)$.
@@ -730,6 +733,7 @@ This shows that if we know how quickly the radius is changing ($\frac{dr}{dt}$),
 Machine learning is a practical application of optimization techniques. While advanced machine learning involves complex mathematics, the core principles connect directly to the calculus concepts we've already covered.
 
 **The Basic Idea**
+
 In machine learning, we try to find the "best" model that explains our data. This involves:
 
 1. Defining a cost function (or "loss function") that measures how wrong our model is
@@ -738,6 +742,7 @@ In machine learning, we try to find the "best" model that explains our data. Thi
 This is fundamentally an optimization problem!
 
 **Simple Example: Linear Regression**
+
 Consider a simple linear model: $y = mx + b$, where we want to find the values of $m$ and $b$ that best fit our data points.
 
 1. We define our cost function as the sum of squared errors:
