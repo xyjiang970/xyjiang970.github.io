@@ -1,4 +1,11 @@
-# Multivariable Calculus for Machine Learning: A Comprehensive Guide
+---
+layout: default
+title: Multivariable Calculus for Machine Learning
+permalink: /notes/calculus/calc3forML/
+description:
+---
+
+# Multivariable Calculus for Machine Learning
 
 ## Table of Contents
 
@@ -166,9 +173,11 @@ Critical points occur where $\nabla_{\mathbf{x}} L = \mathbf{0}$ and $\nabla_{\l
 
 ### 5.1 The Least Squares Method
 
-For an overdetermined system of equations represented as $\mathbf{Ax} = \mathbf{b}$, the least squares solution minimizes $||\mathbf{Ax} - \mathbf{b}||^2$ and is given by:
+For an overdetermined system of equations represented as $ \mathbf{Ax} = \mathbf{b} $, the least squares solution minimizes $ ||\mathbf{Ax} - \mathbf{b}||^2 $ and is given by:
 
-$$\mathbf{x} = (\mathbf{A}^T\mathbf{A})^{-1}\mathbf{A}^T\mathbf{b}$$
+$$
+\mathbf{x} = (\mathbf{A}^T\mathbf{A})^{-1}\mathbf{A}^T\mathbf{b}
+$$
 
 **Machine Learning Applications:**
 
