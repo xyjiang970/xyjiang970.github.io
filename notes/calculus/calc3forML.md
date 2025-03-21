@@ -7,6 +7,8 @@ description:
 
 # Multivariable Calculus for Machine Learning
 
+[Home](../../../) >> [Notes](../../) >> Multivariable Calculus for Machine Learning
+
 ## Table of Contents
 
 - [1. Introduction](#1-introduction)
@@ -173,7 +175,7 @@ Critical points occur where $\nabla_{\mathbf{x}} L = \mathbf{0}$ and $\nabla_{\l
 
 ### 5.1 The Least Squares Method
 
-For an overdetermined system of equations represented as $ \mathbf{Ax} = \mathbf{b} $, the least squares solution minimizes $ ||\mathbf{Ax} - \mathbf{b}||^2 $ and is given by:
+For an overdetermined system of equations represented as $ \mathbf{Ax} = \mathbf{b} $, the least squares solution minimizes $ \Vert\mathbf{Ax} - \mathbf{b}\Vert^2 $ and is given by:
 
 $$
 \mathbf{x} = (\mathbf{A}^T\mathbf{A})^{-1}\mathbf{A}^T\mathbf{b}
@@ -325,3 +327,10 @@ Standard gradient descent ignores the geometry of parameter space. Natural gradi
 $$\theta_{t+1} = \theta_t - \alpha F^{-1}\nabla_\theta L(\theta_t)$$
 
 **Application:** More efficient optimization for models with implicit parametrization constraints, particularly in probabilistic models.
+
+<br>
+
+<!-- Link to Table of Contents -->
+<a href="#table-of-contents" style="display: inline-block; text-align: center; margin-top: 20px; font-size: 16px; padding: 10px; text-decoration: none; background-color: #007bff; color: white; border-radius: 5px;">
+  Go to Table of Contents
+</a>
