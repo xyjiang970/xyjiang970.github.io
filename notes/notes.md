@@ -12,6 +12,10 @@ description:
 <br>
 
 <H2>
+• <a href="./calculus/calc3forML">Calculus 3 for ML</a>
+</H2>
+
+<H2>
 • <a href="./linear_algebra/linear-algebra/">Linear Algebra</a>
 </H2>
 
