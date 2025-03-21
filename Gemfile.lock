@@ -82,9 +82,10 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  arm64-darwin-24
   universal-darwin-20
-  x64-mingw-ucrt
   x64-mingw32
+  x64-unknown
   x86_64-darwin-22
   x86_64-linux
 
@@ -94,4 +95,4 @@ DEPENDENCIES
   minima!
 
 BUNDLED WITH
-   2.2.25
+   2.4.19

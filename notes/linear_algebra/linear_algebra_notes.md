@@ -12,6 +12,7 @@ description:
 # Table of Contents
 
 - [Unit I: Ax = b and the Four Subspaces](#unit-1)
+  - [Vector Dot Product](#vector-dot-product)
   - [Matrix Multiplication](#matrix-multiplication)
   - [Overview of Key Ideas](#overview-of-key-ideas)
   - [Elimination and Permutation Matrix](#elimination-permutation)
@@ -20,6 +21,24 @@ description:
 <br>
 
 <H2 id="unit-1"><a href="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/" target="_blank">Unit I: Ax = b and the Four Subspaces</a></H2>
+
+<H3 id="vector-dot-product"><u>Vector Dot Product:</u></H3>
+
+$$
+\mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\| \times \|\mathbf{v}\| \times \cos(\theta)
+$$
+
+The dot product calculation gives a scalar value that reveals:
+
+1. How parallel the vectors are to each other:
+
+- If the dot product is positive, the vectors point in roughly the same direction ($\theta < 90^{\circ}$).
+- If the dot product is _zero_, the vectors are perpendicular ($\theta = 90^{\circ}$).
+- If the dot product is negative, the vectors point in roughly opposite directions ($\theta > 90^{\circ}$).
+
+2. A measure of how much one vector projects onto another (how much one vector _extends_ in the direction of the other).
+
+<br>
 
 The fundamental problem of linear algebra is to solve $n$ linear equations in $n$ unknowns; for example:
 
