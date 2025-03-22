@@ -15,7 +15,7 @@ description:
     <li><H2>CS/ Programming</H2></li>
         <ul>
             <li><a href="./Data Structures and Algorithms in Python.pdf" target="_blank">DS&A Python</a></li>
-            <li><a href="./ISL_Python.md" target="_blank">Introduction to Statistical Learning with Applications in Python</a></li>
+            <li><a href="./isl_python" target="_blank">Introduction to Statistical Learning with Applications in Python</a></li>
         </ul>
     <li><H2><a href="#">Machine Learning</a></H2></li>
         <ul>
