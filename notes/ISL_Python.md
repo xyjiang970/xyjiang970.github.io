@@ -9,7 +9,7 @@ description:
 
 [Home](../../) >> [Notes](../) >> Introduction to Statistical Learning with Applications in Python
 
-<a href="https://xyjiang970.github.io/ISL_Python/ISLP_Python%20_Book.pdf">Textbook Link</a>
+<a href="https://xyjiang970.github.io/ISL_Python/ISLP_Python%20_Book.pdf" target="_blank">Textbook Link</a>
 
 <h2>Chapter 1</h2>
 <ul>
