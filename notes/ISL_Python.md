@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction to Statistical Learning with Applications in Python
-permalink: /isl_python/
+permalink: notes/isl_python/
 description:
 ---
 
