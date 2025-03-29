@@ -20,7 +20,8 @@ description:
     <li><H2><a href="#">Machine Learning</a></H2></li>
         <ul>
             <li><a href="./Stanford ML Notes.pdf" target="_blank">CS229 ML Notes (2023)</a></li>
-            <li><a href="https://stanford.edu/~shervine/teaching/cs-229/" target="_blank">Cheatsheets</a></li>
+            <li><a href="https://stanford.edu/~shervine/teaching/cs-229/" target="_blank">Cheatsheet 1</a></li>
+            <li><a href="./ML Cheatsheet 2.pdf" target="_blank">Cheatsheet 2</a></li>
         </ul>
     <li><H2><a href="#">Probability and Statistics</a></H2></li>
         <ul>
