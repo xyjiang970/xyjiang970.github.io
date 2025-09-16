@@ -45,6 +45,7 @@ description:
             <li><a href="./JoYo LA Notes 2013.pdf" target="_blank">JoYo Linear Algebra Notes (2013)</a></li>
             <li><a href="./Stanford LA 2015 Review and Reference.pdf" target="_blank">Stanford LA Review and Reference (2015)</a></li>
             <li><a href="./GriffinY CS229 LA PPT 2021.pdf" target="_blank">CS229 Linear Algebra PPT Slides</a></li>
+            <li><a href="./No Bullshit Guide to Linear Algebra 2021.pdf" target="_blank">No Bullshit Guide to Linear Algebra 2021</a></li>
         </ul>
     <li><H2><a href="./calculus/calc2notes">Calculus 2</a></H2></li>
     <li><H2><a href="./calculus/calc1notes">Calculus 1</a></H2></li>
