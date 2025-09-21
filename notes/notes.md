@@ -12,10 +12,29 @@ description:
 <br>
 
 <ul>
-    <li><H2>CS/ Programming</H2></li>
+    <li><H2>Programming</H2></li>
         <ul>
-            <li><a href="./Data Structures and Algorithms in Python.pdf" target="_blank">DS&A Python</a></li>
-            <li><a href="./isl_python" target="_blank">Introduction to Statistical Learning with Applications in Python</a></li>
+            <li>Data Structures and Algorithms
+                <ul>
+                    <li>Elements of Programming Interviews in Python (2016)</li>
+                    <li><a href="./DSA in C++ - Mark Allen Weiss.pdf" target="_blank">Data Structures and Algorithms Analysis in C++ 4th Ed., Mark Allen Weiss (2014)</a></li>
+                    <li><a href="./Grokking Algorithms, Second Edition.pdf" target="_blank">grokking algorithms 2nd Ed., Aditya Y. Bhargava (2024)</a></li>
+                    <li><a href="./grokking algorithms 1st edition.pdf" target="_blank">grokking algorithms 1st  Ed., Aditya Y. Bhargava (2016)</a></li>
+                    <li><a href="#" target="_blank">CLRS 4th Ed. (2022)</a></li>
+                    <li><a href="./Data Structures and Algorithms in Python.pdf" target="_blank">Data Structures & Algorithms Python (2013)</a></li>
+                    <li><a href="./Data Structures Using C++ 2nd Edition - Malik.pdf" target="_blank">Data Structures in C++ 2nd Ed., D.S. Malik (2010)</a></li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>System Design</li>
+                <ul>
+                    <li>System Design Interview Volume 2, Alex Xu (2022)</li>
+                    <li><a href="./System Design Interview Volume 1 2nd Ed. - Alex Xu.pdf" target="_blank">System Design Interview Volume 1, Alex Xu (2020)</a></li>
+                    <li>Designing Data-Intensive Applications 2nd Ed., Martin Kleppmann (2025)</li>
+                    <li><a href="./designing data intensive applications.pdf" target="_blank">Designing Data-Intensive Applications 1st Ed., Martin Kleppmann (2017)</a></li>
+                </ul>
         </ul>
     <li><H2><a href="#">Machine Learning</a></H2></li>
         <ul>
@@ -31,6 +50,7 @@ description:
         </ul>
     <li><H2><a href="#">Probability and Statistics</a></H2></li>
         <ul>
+            <li><a href="./isl_python" target="_blank">Introduction to Statistical Learning with Applications in Python</a></li>
             <li><a href="./Probability for Statistics and Machine Learning.pdf" target="_blank">Probability for Stats. and ML (Springer 2011)</a></li>
         </ul>
     <li><H2><a href="./calculus/calc3forML">Calculus 3 for ML</a></H2></li>
@@ -40,12 +60,12 @@ description:
         </ul>
     <li><H2><a href="./linear_algebra/linear-algebra/">Linear Algebra</a></H2></li>
         <ul>
+            <li><a href="./No Bullshit Guide to Linear Algebra 2021.pdf" target="_blank">No Bullshit Guide to Linear Algebra 2021</a></li>
             <li><a href="./Linear Algebra Overview.pdf" target="_blank">Linear Algebra High Level Overview</a></li>
             <li><a href="./Linear Algebra MIT Notes.pdf" target="_blank">MIT Linear Algebra Lecture Notes</a></li>
             <li><a href="./JoYo LA Notes 2013.pdf" target="_blank">JoYo Linear Algebra Notes (2013)</a></li>
             <li><a href="./Stanford LA 2015 Review and Reference.pdf" target="_blank">Stanford LA Review and Reference (2015)</a></li>
             <li><a href="./GriffinY CS229 LA PPT 2021.pdf" target="_blank">CS229 Linear Algebra PPT Slides</a></li>
-            <li><a href="./No Bullshit Guide to Linear Algebra 2021.pdf" target="_blank">No Bullshit Guide to Linear Algebra 2021</a></li>
         </ul>
     <li><H2><a href="./calculus/calc2notes">Calculus 2</a></H2></li>
     <li><H2><a href="./calculus/calc1notes">Calculus 1</a></H2></li>
