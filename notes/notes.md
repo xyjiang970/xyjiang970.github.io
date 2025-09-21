@@ -36,6 +36,13 @@ description:
                     <li><a href="./designing data intensive applications.pdf" target="_blank">Designing Data-Intensive Applications 1st Ed., Martin Kleppmann (2017)</a></li>
                 </ul>
         </ul>
+        <br>
+        <ul>
+            <li>Other</li>
+                <ul>
+                    <li><a href="./Competitive Programmer’s Handbook (2019).pdf" target="_blank">Competitive Programmer’s Handbook, Antti Laaksonen (2019)</a></li>
+                </ul>
+        </ul>
     <li><H2><a href="#">Machine Learning</a></H2></li>
         <ul>
             <li><a href="./Stanford ML Notes.pdf" target="_blank">CS229 ML Notes (2023)</a></li>
@@ -72,3 +79,4 @@ description:
 </ul>
 
 <br>
+
