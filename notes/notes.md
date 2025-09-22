@@ -14,21 +14,20 @@ description:
 <ul>
     <li><H2>Programming</H2></li>
         <ul>
-            <li>Data Structures and Algorithms
+            <li><u>Data Structures and Algorithms</u></li>
                 <ul>
                     <li>Elements of Programming Interviews in Python (2016)</li>
                     <li><a href="./DSA in C++ - Mark Allen Weiss.pdf" target="_blank">Data Structures and Algorithms Analysis in C++ 4th Ed., Mark Allen Weiss (2014)</a></li>
                     <li><a href="./Grokking Algorithms, Second Edition.pdf" target="_blank">grokking algorithms 2nd Ed., Aditya Y. Bhargava (2024)</a></li>
                     <li><a href="./grokking algorithms 1st edition.pdf" target="_blank">grokking algorithms 1st  Ed., Aditya Y. Bhargava (2016)</a></li>
-                    <li><a href="#" target="_blank">CLRS 4th Ed. (2022)</a></li>
+                    <li><a href="./CLRS 4th Edition.pdf" target="_blank">CLRS 4th Ed. (2022)</a></li>
                     <li><a href="./Data Structures and Algorithms in Python.pdf" target="_blank">Data Structures & Algorithms Python (2013)</a></li>
                     <li><a href="./Data Structures Using C++ 2nd Edition - Malik.pdf" target="_blank">Data Structures in C++ 2nd Ed., D.S. Malik (2010)</a></li>
                 </ul>
-            </li>
         </ul>
         <br>
         <ul>
-            <li>System Design</li>
+            <li><u>System Design</u></li>
                 <ul>
                     <li>System Design Interview Volume 2, Alex Xu (2022)</li>
                     <li><a href="./System Design Interview Volume 1 2nd Ed. - Alex Xu.pdf" target="_blank">System Design Interview Volume 1, Alex Xu (2020)</a></li>
@@ -38,12 +37,14 @@ description:
         </ul>
         <br>
         <ul>
-            <li>Other</li>
+            <li><u>Others</u></li>
                 <ul>
+                    <li><a href="./compilers-principles-techniques-tools-2nd.pdf" target="_blank">Compilers: Principle, Techniques, and Tools, Updated 2nd Ed. (2023)</a></li>
+                    <li><a href="./Operating Systems_ Three Easy Pieces.pdf" target="_blank">Operating Systems: Three Easy Pieces v1.10 (2023)</a></li>
                     <li><a href="./Competitive Programmer’s Handbook (2019).pdf" target="_blank">Competitive Programmer’s Handbook, Antti Laaksonen (2019)</a></li>
                 </ul>
         </ul>
-    <li><H2><a href="#">Machine Learning</a></H2></li>
+    <li><H2>Machine Learning</H2></li>
         <ul>
             <li><a href="./Stanford ML Notes.pdf" target="_blank">CS229 ML Notes (2023)</a></li>
             <li><a href="./Mathematics for Machine Learning.pdf" target="_blank">Mathematics for Machine Learning</a></li>
@@ -55,7 +56,7 @@ description:
             <li><a href="./ML Cheatsheet 2.pdf" target="_blank">Cheatsheet 2</a></li>
             <li><a href="./The Matrix Calculus You Need for Deep Learning.pdf" target="_blank">The Matrix Calculus You Need for Deep Learning</a></li>
         </ul>
-    <li><H2><a href="#">Probability and Statistics</a></H2></li>
+    <li><H2>Probability and Statistics</H2></li>
         <ul>
             <li><a href="./isl_python" target="_blank">Introduction to Statistical Learning with Applications in Python</a></li>
             <li><a href="./Probability for Statistics and Machine Learning.pdf" target="_blank">Probability for Stats. and ML (Springer 2011)</a></li>
@@ -79,4 +80,3 @@ description:
 </ul>
 
 <br>
-
