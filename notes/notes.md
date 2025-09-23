@@ -19,7 +19,6 @@ description:
                     <li>Elements of Programming Interviews in Python (2016)</li>
                     <li><a href="./DSA in C++ - Mark Allen Weiss.pdf" target="_blank">Data Structures and Algorithms Analysis in C++ 4th Ed., Mark Allen Weiss (2014)</a></li>
                     <li><a href="./Grokking Algorithms, Second Edition.pdf" target="_blank">grokking algorithms 2nd Ed., Aditya Y. Bhargava (2024)</a></li>
-                    <li><a href="./grokking algorithms 1st edition.pdf" target="_blank">grokking algorithms 1st  Ed., Aditya Y. Bhargava (2016)</a></li>
                     <li><a href="./CLRS 4th Edition.pdf" target="_blank">CLRS 4th Ed. (2022)</a></li>
                     <li><a href="./Data Structures and Algorithms in Python.pdf" target="_blank">Data Structures & Algorithms Python (2013)</a></li>
                     <li><a href="./Data Structures Using C++ 2nd Edition - Malik.pdf" target="_blank">Data Structures in C++ 2nd Ed., D.S. Malik (2010)</a></li>
