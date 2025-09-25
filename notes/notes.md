@@ -43,12 +43,15 @@ description:
                     <li><a href="./Competitive Programmer’s Handbook (2019).pdf" target="_blank">Competitive Programmer’s Handbook, Antti Laaksonen (2019)</a></li>
                 </ul>
         </ul>
-    <li><H2>Machine Learning</H2></li>
+    <li><H2>Machine Learning Related</H2></li>
         <ul>
+            <li>Practical Deep Learning 2nd Ed., Ronald T. Kneusel (2025)</li>
+            <li>Deep Learning with Python 3rd Ed., François Chollet (2025)</li>
             <li><a href="./Math for Deep Learning, Ronald T. Kneusel.pdf" target="_blank">Math for Deep Learning, Ronald T. Kneusel (2021)</a></li>
             <li><a href="./grokking Deep Reinforcement Learning, Miguel Morales (2020).pdf" target="_blank">grokking Deep Reinforcement Learning, Miguel Morales (2020)</a></li>
             <li><a href="./grokking Deep Learning, Andrew W. Trask (2019).pdf" target="_blank">grokking Deep Learning, Andrew W. Trask (2019)</a></li>
             <li><a href="./Machine Learning System Design, Valerii Babushkin, Arseny Kravchenko (2025).pdf" target="_blank">Machine Learning System Design, Valerii Babushkin, Arseny Kravchenko (2025)</a></li>
+            <li>grokking Artificial Intelligence Algorithms, Rishal Hurbans (2020)</li>
             <li><a href="./Grokking Machine Learning, Luis G. Serrano (2021).pdf" target="_blank">grokking Machine Learning, Luis G. Serrano (2021)</a></li>
             <li><a href="./Stanford ML Notes.pdf" target="_blank">CS229 ML Notes (2023)</a></li>
             <li><a href="./Mathematics for Machine Learning.pdf" target="_blank">Mathematics for Machine Learning</a></li>
@@ -64,6 +67,11 @@ description:
         <ul>
             <li><a href="./isl_python" target="_blank">Introduction to Statistical Learning with Applications in Python</a></li>
             <li><a href="./Probability for Statistics and Machine Learning.pdf" target="_blank">Probability for Stats. and ML (Springer 2011)</a></li>
+            <li><a href="./Probability and Statistics for Engineering and the Sciences 9th Ed., Jay L. Devore (2016).pdf" target="_blank">Probability and Statistics for Engineering and the Sciences 9th Ed., Jay L. Devore (2016)</a>
+                <ul>
+                    <li><a href="./Devore Solutions Ed9.pdf" target="_blank">Solutions Manual to PSES 9th Ed.</a></li>
+                </ul>
+            </li>
         </ul>
     <li><H2><a href="./calculus/calc3forML">Calculus 3 for ML</a></H2></li>
         <ul>
@@ -75,9 +83,9 @@ description:
             <li><a href="./No Bullshit Guide to Linear Algebra 2021.pdf" target="_blank">No Bullshit Guide to Linear Algebra 2021</a></li>
             <li><a href="./Linear Algebra Overview.pdf" target="_blank">Linear Algebra High Level Overview</a></li>
             <li><a href="./Linear Algebra MIT Notes.pdf" target="_blank">MIT Linear Algebra Lecture Notes (18.06SC)</a></li>
-            <li><a href="./JoYo LA Notes 2013.pdf" target="_blank">JoYo Linear Algebra Notes (2013)</a></li>
-            <li><a href="./Stanford LA 2015 Review and Reference.pdf" target="_blank">Stanford LA Review and Reference (2015)</a></li>
-            <li><a href="./GriffinY CS229 LA PPT 2021.pdf" target="_blank">CS229 Linear Algebra PPT Slides</a></li>
+            <li><a href="./JoYo LA Notes 2013.pdf" target="_blank">[Stanford] JoYo Linear Algebra Notes (2013)</a></li>
+            <li><a href="./Stanford LA 2015 Review and Reference.pdf" target="_blank">[Stanford] L.A. Review and Reference (2015)</a></li>
+            <li><a href="./GriffinY CS229 LA PPT 2021.pdf" target="_blank">[Stanford] CS229 Linear Algebra PPT Slides</a></li>
         </ul>
     <li><H2><a href="./calculus/calc2notes">Calculus 2</a></H2></li>
     <li><H2><a href="./calculus/calc1notes">Calculus 1</a></H2></li>
