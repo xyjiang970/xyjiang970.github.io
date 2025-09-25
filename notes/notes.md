@@ -9,19 +9,50 @@ description:
 
 [Home](../) >> Notes
 
-<br>
+<style>
+    #link-element {
+        font-size: 16px;
+        transition: font-size 0.3s ease;
+    }
+
+    #link-element:hover {
+        font-size: 18px;
+    }
+</style>
 
 <ul>
     <li><H2>Programming</H2></li>
         <ul>
             <li><u>Data Structures and Algorithms</u></li>
                 <ul>
-                    <li>Elements of Programming Interviews in Python (2016)</li>
-                    <li><a href="./DSA in C++ - Mark Allen Weiss.pdf" target="_blank">Data Structures and Algorithms Analysis in C++ 4th Ed., Mark Allen Weiss (2014)</a></li>
-                    <li><a href="./Grokking Algorithms, Second Edition.pdf" target="_blank">grokking algorithms 2nd Ed., Aditya Y. Bhargava (2024)</a></li>
-                    <li><a href="./CLRS 4th Edition.pdf" target="_blank">CLRS 4th Ed. (2022)</a></li>
-                    <li><a href="./Data Structures and Algorithms in Python.pdf" target="_blank">Data Structures & Algorithms Python (2013)</a></li>
-                    <li><a href="./Data Structures Using C++ 2nd Edition - Malik.pdf" target="_blank">Data Structures in C++ 2nd Ed., D.S. Malik (2010)</a></li>
+                    <li id="link-element">
+                        Elements of Programming Interviews in Python (2016)
+                    </li>
+                    <li id="link-element">
+                        <a href="./DSA in C++ - Mark Allen Weiss.pdf" target="_blank">
+                            Data Structures and Algorithms Analysis in C++ 4th Ed., Mark Allen Weiss (2014)
+                        </a>
+                    </li>
+                    <li id="link-element">
+                        <a href="./Grokking Algorithms, Second Edition.pdf" target="_blank">
+                            grokking algorithms 2nd Ed., Aditya Y. Bhargava (2024)
+                        </a> <b><u style="color: red;">Phase 0</u></b>
+                    </li>
+                    <li id="link-element">
+                        <a href="./CLRS 4th Edition.pdf" target="_blank">
+                            CLRS 4th Ed. (2022)
+                        </a>
+                    </li>
+                    <li id="link-element">
+                        <a href="./Data Structures and Algorithms in Python.pdf" target="_blank">
+                            Data Structures & Algorithms Python (2013)
+                        </a>
+                    </li>
+                    <li id="link-element">
+                        <a href="./Data Structures Using C++ 2nd Edition - Malik.pdf" target="_blank">
+                            Data Structures in C++ 2nd Ed., D.S. Malik (2010)
+                        </a>
+                    </li>
                 </ul>
         </ul>
         <br>
@@ -43,7 +74,7 @@ description:
                     <li><a href="./Competitive Programmer’s Handbook (2019).pdf" target="_blank">Competitive Programmer’s Handbook, Antti Laaksonen (2019)</a></li>
                 </ul>
         </ul>
-    <li><H2>Machine Learning Related</H2></li>
+    <li><H2>Machine Learning/ Deep Learning Related</H2></li>
         <ul>
             <li>Practical Deep Learning 2nd Ed., Ronald T. Kneusel (2025)</li>
             <li>Deep Learning with Python 3rd Ed., François Chollet (2025)</li>
@@ -51,8 +82,11 @@ description:
             <li><a href="./grokking Deep Reinforcement Learning, Miguel Morales (2020).pdf" target="_blank">grokking Deep Reinforcement Learning, Miguel Morales (2020)</a></li>
             <li><a href="./grokking Deep Learning, Andrew W. Trask (2019).pdf" target="_blank">grokking Deep Learning, Andrew W. Trask (2019)</a></li>
             <li><a href="./Machine Learning System Design, Valerii Babushkin, Arseny Kravchenko (2025).pdf" target="_blank">Machine Learning System Design, Valerii Babushkin, Arseny Kravchenko (2025)</a></li>
-            <li>grokking Artificial Intelligence Algorithms, Rishal Hurbans (2020)</li>
-            <li><a href="./Grokking Machine Learning, Luis G. Serrano (2021).pdf" target="_blank">grokking Machine Learning, Luis G. Serrano (2021)</a></li>
+            <li>Artificial Intelligence: A Modern Approach (AIMA) 4th Ed., Stuart Russell & Peter Norvig (2020)</li> <b><u style="color: purple;">Phase 2</u></b>
+            <li><a href="./Understanding Machine Learning From Theory to Algorithms, Shai Shalev-Shwartz & Shai Ben-David (2014).pdf" target="_blank">Understanding Machine Learning From Theory to Algorithms, Shai Shalev-Shwartz & Shai Ben-David (2014) <b><u style="color: purple;">Phase 2</u></b></li>
+            <li><a href="./Pattern Recognition and Machine Learning, Christopher M. Bishop (2006).pdf" target="_blank">Pattern Recognition and Machine Learning, Christopher M. Bishop (2006) <b><u style="color: purple;">Phase 2</u></b></li>
+            <li>grokking Artificial Intelligence Algorithms, Rishal Hurbans (2020) <b><u style="color: orange;">Phase 1</u></b></li>
+            <li><a href="./Grokking Machine Learning, Luis G. Serrano (2021).pdf" target="_blank">grokking Machine Learning, Luis G. Serrano (2021)</a> <b><u style="color: orange;">Phase 1</u></b></li>
             <li><a href="./Stanford ML Notes.pdf" target="_blank">CS229 ML Notes (2023)</a></li>
             <li><a href="./Mathematics for Machine Learning.pdf" target="_blank">Mathematics for Machine Learning</a></li>
             <li><a href="./MIT Matrix Calculus for Machine Learning and Beyond.pdf" target="_blank">MIT Matrix Calculus for Machine Learning and Beyond</a></li>
@@ -67,7 +101,7 @@ description:
         <ul>
             <li><a href="./isl_python" target="_blank">Introduction to Statistical Learning with Applications in Python</a></li>
             <li><a href="./Probability for Statistics and Machine Learning.pdf" target="_blank">Probability for Stats. and ML (Springer 2011)</a></li>
-            <li><a href="./Probability and Statistics for Engineering and the Sciences 9th Ed., Jay L. Devore (2016).pdf" target="_blank">Probability and Statistics for Engineering and the Sciences 9th Ed., Jay L. Devore (2016)</a>
+            <li><a href="./Probability and Statistics for Engineering and the Sciences 9th Ed., Jay L. Devore (2016).pdf" target="_blank">Probability and Statistics for Engineering and the Sciences 9th Ed., Jay L. Devore (2016)</a> <b><u style="color: red;">Phase 0</u></b>
                 <ul>
                     <li><a href="./Devore Solutions Ed9.pdf" target="_blank">Solutions Manual to PSES 9th Ed.</a></li>
                 </ul>
@@ -80,9 +114,9 @@ description:
         </ul>
     <li><H2><a href="./linear_algebra/linear-algebra/">Linear Algebra</a></H2></li>
         <ul>
-            <li><a href="./No Bullshit Guide to Linear Algebra 2021.pdf" target="_blank">No Bullshit Guide to Linear Algebra 2021</a></li>
+            <li><a href="./No Bullshit Guide to Linear Algebra 2021.pdf" target="_blank">No Bullshit Guide to Linear Algebra 2021</a> <b><u style="color: red;">Phase 0</u></b></li>
             <li><a href="./Linear Algebra Overview.pdf" target="_blank">Linear Algebra High Level Overview</a></li>
-            <li><a href="./Linear Algebra MIT Notes.pdf" target="_blank">MIT Linear Algebra Lecture Notes (18.06SC)</a></li>
+            <li><a href="./Linear Algebra MIT Notes.pdf" target="_blank">MIT Linear Algebra Lecture Notes (18.06SC)</a> <b><u style="color: red;">Phase 0</u></b></li>
             <li><a href="./JoYo LA Notes 2013.pdf" target="_blank">[Stanford] JoYo Linear Algebra Notes (2013)</a></li>
             <li><a href="./Stanford LA 2015 Review and Reference.pdf" target="_blank">[Stanford] L.A. Review and Reference (2015)</a></li>
             <li><a href="./GriffinY CS229 LA PPT 2021.pdf" target="_blank">[Stanford] CS229 Linear Algebra PPT Slides</a></li>
