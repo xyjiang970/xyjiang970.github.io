@@ -111,6 +111,11 @@ description:
                 </a> <b><u style="color: green;">Phase 4</u></b>
             </li>
             <li id="link-element">
+                <a href="./Advanced Intro. to ML, Laurent Younes (2025).pdf" target="_blank">
+                    ML Advanced Recap, Laurent Younes (2025)
+                </a> <b><u style="color: green;">Phase 4</u></b>
+            </li>
+            <li id="link-element">
                 Practical Deep Learning 2nd Ed., Ronald T. Kneusel (2025) <b><u style="color: violet;">Phase 3</u></b>
             </li> 
             <li id="link-element">
@@ -163,7 +168,7 @@ description:
             </li>
             <li id="link-element">
                 <a href="./Mathematics for Machine Learning.pdf" target="_blank">
-                    Mathematics for Machine Learning
+                    Mathematics for Machine Learning (2020)
                 </a> <b><u style="color: orange;">Phase 1</u></b>
             </li>
             <li id="link-element">
@@ -272,5 +277,3 @@ description:
         <H2><a href="./calculus/calc1notes">Calculus 1</a></H2>
     </li>
 </ul>
-
-<br>
