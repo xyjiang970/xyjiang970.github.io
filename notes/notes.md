@@ -209,7 +209,6 @@ description:
                         </a>
                     </li>
                 </ul>
-            </li>
         </ul>
     <li><H2><a href="./calculus/calc3forML">Calculus 3 for ML</a></H2></li>
         <ul>
