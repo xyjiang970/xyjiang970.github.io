@@ -27,7 +27,7 @@ description:
                 <ul>
                     <li id="link-element">
                         <a href="./Algorithms, DPV (2006).pdf" target="_blank">
-                            Intro to Grad. Algorithms (CS 6516): Algorithms, DPV (2006)
+                            Intro to Grad. Algorithms (CS 6515): Algorithms, DPV (2006)
                         </a>
                     </li>
                     <li id="link-element">
@@ -147,7 +147,9 @@ description:
                 </a> <b><u style="color: violet;">Phase 3</u></b>
             </li> 
             <li id="link-element">
-                (CS 74642) Reinforcement Learning 2nd Ed., Richard S. Sutton & Andrew G. Barto <b><u style="color: violet;">Phase 3</u></b>
+                <a href="./Reinforcement Learning 2nd Ed., Richard S. Sutton & Andrew G. Barto.pdf" target="_blank">
+                    (CS 74642) Reinforcement Learning 2nd Ed., Richard S. Sutton & Andrew G. Barto 
+                </a> <b><u style="color: violet;">Phase 3</u></b>
             </li> 
             <li id="link-element">
                 <a href="./grokking Deep Learning, Andrew W. Trask (2019).pdf" target="_blank">
