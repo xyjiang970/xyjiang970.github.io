@@ -26,6 +26,11 @@ description:
             <li><u>Data Structures and Algorithms</u></li>
                 <ul>
                     <li id="link-element">
+                        <a href="./Algorithms, DPV (2006).pdf" target="_blank">
+                            Intro to Grad. Algorithms (CS 6516): Algorithms, DPV (2006)
+                        </a>
+                    </li>
+                    <li id="link-element">
                         Elements of Programming Interviews in Python (2016)
                     </li>
                     <li id="link-element">
@@ -106,6 +111,11 @@ description:
                 </a>
             </li>
             <li id="link-element">
+                <a href="./Computer Vision Algorithms and Applications 2nd Ed., Richard Szeliski (2022).pdf" target="_blank">
+                    (CS 6476) Computer Vision Algorithms and Applications 2nd Ed., Richard Szeliski (2022)
+                </a> <b><u style="color: green;">Phase 4</u></b>
+            </li>
+            <li id="link-element">
                 <a href="./Machine Learning System Design, Valerii Babushkin, Arseny Kravchenko (2025).pdf" target="_blank">
                     Machine Learning System Design, Valerii Babushkin, Arseny Kravchenko (2025)
                 </a> <b><u style="color: green;">Phase 4</u></b>
@@ -132,13 +142,21 @@ description:
                 </a> <b><u style="color: violet;">Phase 3</u></b>
             </li>
             <li id="link-element">
+                <a href="https://www.deeplearningbook.org/" target="_blank">
+                    (CS 74643) Deep Learning, Ian Goodfellow & Yoshua Bengio & Aaron Courville (2016)
+                </a> <b><u style="color: violet;">Phase 3</u></b>
+            </li> 
+            <li id="link-element">
+                (CS 74642) Reinforcement Learning 2nd Ed., Richard S. Sutton & Andrew G. Barto <b><u style="color: violet;">Phase 3</u></b>
+            </li> 
+            <li id="link-element">
                 <a href="./grokking Deep Learning, Andrew W. Trask (2019).pdf" target="_blank">
                     grokking Deep Learning, Andrew W. Trask (2019)
                 </a> <b><u style="color: violet;">Phase 3</u></b>
             </li> 
             <li id="link-element">
                 <a href="./Artificial Intelligence A Modern approach 4th Ed., Stuart J. Russell, Peter Norvig (2020).pdf" target="_blank">
-                    Artificial Intelligence: A Modern Approach (AIMA) 4th Ed., Stuart Russell & Peter Norvig (2020) 
+                    (CS 6601): Artificial Intelligence A Modern Approach (AIMA) 4th Ed., Stuart Russell & Peter Norvig (2020) 
                 </a> <b><u style="color: purple;">Phase 2</u></b>
             </li>
             <li id="link-element">
@@ -149,6 +167,11 @@ description:
             <li id="link-element">
                 <a href="./Pattern Recognition and Machine Learning, Christopher M. Bishop (2006).pdf" target="_blank">
                     Pattern Recognition and Machine Learning, Christopher M. Bishop (2006)
+                </a> <b><u style="color: purple;">Phase 2</u></b>
+            </li>
+            <li id="link-element">
+                <a href="./Machine Learning, Tom M. Mitchell (1997).pdf" target="_blank">
+                    Machine Learning (CS 7641): ML by Tom M. Mitchell (1997) 
                 </a> <b><u style="color: purple;">Phase 2</u></b>
             </li>
             <li id="link-element">
