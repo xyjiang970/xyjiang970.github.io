@@ -59,7 +59,7 @@ description:
                         </a>
                     </li>
                     <li id="link-element">
-                        <a href="./Data Structures Using C++ 2nd Edition - Malik.pdf" target="_blank">
+                        <a href="./Data Structures Using C++ 2nd Ed., Malik (2010).pdf" target="_blank">
                             Data Structures in C++ 2nd Ed., D.S. Malik (2010)
                         </a>
                     </li>
