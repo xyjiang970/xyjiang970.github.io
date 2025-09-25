@@ -26,7 +26,7 @@ description:
             <li><u>Data Structures and Algorithms</u></li>
                 <ul>
                     <li id="link-element">
-                        <a href="./Algorithms, DPV (2006).pdf" target="_blank">
+                        <a href="./Algorithm Design, Jon Kleinberg & Eva Tardos (2005).pdf" target="_blank">
                             Intro to Grad. Algorithms (CS 6515): Algorithm Design, Jon Kleinberg & Eva Tardos (2005)
                         </a> <b><u style="color: orange;">Phase 1</u></b>
                     </li>
