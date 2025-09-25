@@ -108,7 +108,7 @@ description:
                     </li>
                 </ul>
         </ul>
-    <li><H2>Machine Learning/ Deep Learning Related</H2></li>
+    <li><H2>ML, RL, DL</H2></li>
         <ul>
             <li id="link-element">
                 <a href="./Deep Generative Modeling 2nd Ed., Jakub M. Tomczak (2024).pdf" target="_blank">
@@ -148,12 +148,12 @@ description:
             </li>
             <li id="link-element">
                 <a href="https://www.deeplearningbook.org/" target="_blank">
-                    (CS 74643) Deep Learning, Ian Goodfellow & Yoshua Bengio & Aaron Courville (2016)
+                    (CS 7643) Deep Learning, Ian Goodfellow & Yoshua Bengio & Aaron Courville (2016)
                 </a> <b><u style="color: green;">Phase 4</u></b>
             </li> 
             <li id="link-element">
                 <a href="./Reinforcement Learning 2nd Ed., Richard S. Sutton & Andrew G. Barto.pdf" target="_blank">
-                    (CS 74642) Reinforcement Learning 2nd Ed., Richard S. Sutton & Andrew G. Barto 
+                    (CS 7642) Reinforcement Learning 2nd Ed., Richard S. Sutton & Andrew G. Barto 
                 </a> <b><u style="color: green;">Phase 4</u></b>
             </li> 
             <li id="link-element">
