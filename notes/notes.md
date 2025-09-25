@@ -27,8 +27,13 @@ description:
                 <ul>
                     <li id="link-element">
                         <a href="./Algorithms, DPV (2006).pdf" target="_blank">
+                            Intro to Grad. Algorithms (CS 6515): Algorithm Design, Jon Kleinberg & Eva Tardos (2005)
+                        </a> <b><u style="color: orange;">Phase 1</u></b>
+                    </li>
+                    <li id="link-element">
+                        <a href="./Algorithms, DPV (2006).pdf" target="_blank">
                             Intro to Grad. Algorithms (CS 6515): Algorithms, DPV (2006)
-                        </a>
+                        </a> <b><u style="color: orange;">Phase 1</u></b>
                     </li>
                     <li id="link-element">
                         Elements of Programming Interviews in Python (2016)
@@ -144,12 +149,12 @@ description:
             <li id="link-element">
                 <a href="https://www.deeplearningbook.org/" target="_blank">
                     (CS 74643) Deep Learning, Ian Goodfellow & Yoshua Bengio & Aaron Courville (2016)
-                </a> <b><u style="color: violet;">Phase 3</u></b>
+                </a> <b><u style="color: green;">Phase 4</u></b>
             </li> 
             <li id="link-element">
                 <a href="./Reinforcement Learning 2nd Ed., Richard S. Sutton & Andrew G. Barto.pdf" target="_blank">
                     (CS 74642) Reinforcement Learning 2nd Ed., Richard S. Sutton & Andrew G. Barto 
-                </a> <b><u style="color: violet;">Phase 3</u></b>
+                </a> <b><u style="color: green;">Phase 4</u></b>
             </li> 
             <li id="link-element">
                 <a href="./grokking Deep Learning, Andrew W. Trask (2019).pdf" target="_blank">
