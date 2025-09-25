@@ -59,6 +59,11 @@ description:
                         </a>
                     </li>
                     <li id="link-element">
+                        <a href="./C++ Programming Program Design including Data Structures, D.S. Malik (2018).pdf" target="_blank">
+                            C++ Programming Program Design including Data Structures, D.S. Malik (2018) <b><u style="color: red;">Phase 0</u></b>
+                        </a>
+                    </li>
+                    <li id="link-element">
                         <a href="./Data Structures Using C++ 2nd Ed., Malik (2010).pdf" target="_blank">
                             Data Structures in C++ 2nd Ed., D.S. Malik (2010)
                         </a>
