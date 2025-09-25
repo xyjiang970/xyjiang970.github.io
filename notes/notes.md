@@ -133,7 +133,8 @@ description:
             </li> 
             <li id="link-element">
                 <a href="./Artificial Intelligence A Modern approach 4th Ed., Stuart J. Russell, Peter Norvig (2020).pdf" target="_blank">
-                    Artificial Intelligence: A Modern Approach (AIMA) 4th Ed., Stuart Russell & Peter Norvig (2020) <b><u style="color: purple;">Phase 2</u></b>
+                    Artificial Intelligence: A Modern Approach (AIMA) 4th Ed., Stuart Russell & Peter Norvig (2020) 
+                </a> <b><u style="color: purple;">Phase 2</u></b>
             </li>
             <li id="link-element">
                 <a href="./Understanding Machine Learning From Theory to Algorithms, Shai Shalev-Shwartz & Shai Ben-David (2014).pdf" target="_blank">
@@ -146,7 +147,9 @@ description:
                 </a> <b><u style="color: purple;">Phase 2</u></b>
             </li>
             <li id="link-element">
-                grokking Artificial Intelligence Algorithms, Rishal Hurbans (2020) <b><u style="color: orange;">Phase 1</u></b>
+                <a href="./Grokking Artificial Intelligence Algorithms 1st Ed., Rishal Hurbans (2020).pdf" target="_blank">
+                    grokking Artificial Intelligence Algorithms, Rishal Hurbans (2020) 
+                </a> <b><u style="color: orange;">Phase 1</u></b>
             </li>
             <li id="link-element">
                 <a href="./Grokking Machine Learning, Luis G. Serrano (2021).pdf" target="_blank">
